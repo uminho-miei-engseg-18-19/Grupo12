@@ -1,14 +1,28 @@
 # Aula TP - 11/Fev/2019 - Resolução
 
 #### Pergunta P1.1
+
+|                                                  | Tempo de Execução (ms) |
+|:------------------------------------------------:|:----------------------:|
+| head -c 32 /dev/random \| openssl enc -base64    |                     16 |
+| head -c 64 /dev/random \| openssl enc -base64    |                 2.00e4 |
+| head -c 1024 /dev/random \| openssl enc -base64  |                 3.72e5 |
+| head -c 1024 /dev/urandom \| openssl enc -base64 |                     19 |
+
 A primeira conclusão que podemos retirar da execução destes comandos é que, em `dev/random`, com o aumento do tamanho requerido de bytes aleatórios, existe também um aumento substancial do tempo necessário para que o mesmo seja gerado e apresentado. Esta conclusão baseia-se em dois factos:
-1. A própria experiência na execução dos comandos, que apresentam um tempo bem mais elevado de retorno nos casos de geração de 1024 bytes do que nos casos de geração de 32 e 64 bytes.
+1. A própria experiência na execução dos comandos, que apresentam um tempo bem mais elevado de retorno nos casos de geração de 1024 bytes, do que nos casos de geração de 32 e 64 bytes.
 2. O facto de ser conhecido que a utilização de `dev/random` requer o bloqueio da operação de pedido de um número aleatório até que o sistema tenha conseguido coletar a entropia necessária para que o mesmo seja gerado, com segurança criptográfica forte.
 
-A segunda conclusão que podemos retirar da execução do último comando é que, em `dev/urandom`, a geração do número pseudoaleatório, independentemente do tamanho, é feita de imediato, visto que o sistema não espera pela coleta da entropia necessária para gerar um número pseudoaleatório criptograficamente forte, o que implica que, apesar de ser um método mais veloz pode, por vezes, não ser seguro e, logo, ser teoricamente suscetível a ataques criptográficos.
+A segunda conclusão que podemos retirar da execução do último comando é que, em `dev/urandom`, a geração do número pseudoaleatório, independentemente do tamanho, é feita de imediato, visto que o sistema não espera pela coleta da entropia necessária para gerar uma sequência de bytes pseudoaleatórios criptograficamente forte. Isto implica que, apesar de ser um método mais eficiente em termos de desempemho, pode por vezes não ser seguro logo, ser teoricamente suscetível a ataques criptográficos.
 
 #### Pergunta P1.2
-Após a execução dos comandos apresentados, é possível concluir que, com o _daemon_ do **haveged** ligado, a coleta da entropia necessária para a geração de bytes aleatórios é bastante mais rápida pelo que, mesmo pedindo a geração dos mesmos através de `/dev/random`, esta é feita de forma imediata. Esta conclusão pode ser retirada de dois factos:
+
+|                                                  | Tempo de Execução (ms) |
+|:------------------------------------------------:|:----------------------:|
+| head -c 1024 /dev/random \| openssl enc -base64  |                     13 |
+| head -c 1024 /dev/urandom \| openssl enc -base64 |                      5 |
+
+Após a execução dos comandos apresentados, é possível concluir que, com o _daemon_ do **haveged** ativo, a coleta da entropia necessária para a geração de bytes aleatórios é bastante mais rápida pelo que, mesmo pedindo a geração dos mesmos através de `/dev/random`, esta é feita de forma imediata. Esta conclusão pode ser retirada de dois factos:
 1. O **haveged** é um _daemon_ que coleta entropia apartir de efeitos indiretos que ocorrem no sistema, ou seja, é capaz de coletar bastante mais entropia do que seria normalmente o caso, o que permite gerar mais rapidamente os bytes aleatórios.
 2. A realização de uma experiência feita pelo grupo, ao executar o comando `head -c 10000000 /dev/random | openssl enc -base64`, pedindo a geração de dez milhões de bytes aleatórios, que resultou apenas no tempo de geração dos número necessário de bytes e não uma espera excessiva pela coleta de entropia. Servindo como indicador, a execução completa deste comando, desde a geração do primeiro byte ao último demorou cerca de 6 segundos apenas, o que para números desta grandeza é compreensível.
 
@@ -28,3 +42,14 @@ Como é possível ver no segundo comando mostrado, é necessário indicar ao pro
 #### Pergunta P3.1
 
 #### Pergunta P4.1
+
+|                Entidade               |    Algoritmo   | Tamanho da Chave (bits) |
+|:-------------------------------------|:--------------:|:-----------------------:|
+| BankID Bankenes ID-tjeneste Bank CA 2 | sha256 com RSA |                    4096 |
+| Buypass Class 3 CA 3                  | sha256 com RSA |                    2048 |
+| BankID DnB NOR Bank CA 2              | sha256 com RSA |                    4096 |
+| CPN Person High SHA256 CLASS 3        | sha256 com RSA |                    2048 |
+| BankID Fokus Bank Bank CA 2           | sha256 com RSA |                    4096 |
+| BankID Terra Gruppen Bank CA 2        | sha256 com RSA |                    4096 |
+| BankID Nordea Bank CA 2               | sha256 com RSA |                    4096 |
+| BankID SpareBank 1 Bank CA 2          | sha256 com RSA |                    4096 |
