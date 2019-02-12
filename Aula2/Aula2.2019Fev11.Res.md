@@ -17,6 +17,13 @@ Após a execução dos comandos apresentados, é possível concluir que, com o _
 2. Para que o _output_ gerado também apresentasse outro tipo de caratéres, a função `generateSecret(length)` deveria ser alterada de forma a que codificasse os bytes aleatórios gerados em `base64`, tal como era feito na primeira e segunda perguntas deste enunciado.
 
 #### Pergunta P2.1
+1. Após a análise dos 3 ficheiros indicados e a necessária geração da chave privada e do seu certificado, gerados numa diretoria criada para o propósito com o nome de `key_p21`, foi necessário executar o seguinte comando de forma a dividir o segredo com as propriedades definidas no enunciado:
+`python2 createSharedSecret-app.py 8 5 g12 key_p21/mykey.pem`.
+De seguida, introduzimos a palavra-chave definida no ato da criação da chave privada e inserimos o segredo indicado no enunciado. Para reconstruir o segredo a partir de um quorum de 5 intervenientes, foi necessário executar o seguinte comando:
+`python2 recoverSecretFromComponents-app.py 5 g12 key_p21/mykey.crt`.
+Como é possível ver no segundo comando mostrado, é necessário indicar ao programa o número de intervenientes necessários (quorum) para que seja possível recuperar o segredo. O programa de seguida, pede a inserção de 5 componentes das 8 previamente geradas ao criar o segredo.
+
+2. A diferença entre os dois programas reside no facto de que um deles apenas precisa das componentes de um número de intervenientes definidos como o quorum (neste caso são 5) para conseguir recuperar o segredo (`recoverSecretFromComponents-app.py`), enquanto que o outro necessita das componentes de todos os intervenientes inicialmente definidos (neste caso são 8), para conseguir recuperar o segredo (`recoverSecretFromAllComponents-app.py`). **FALTA DIZER EM QUE SITUAÇÕES PODEREMOS PRECISAR DE UTILIZAR O RECOVER FROM ALL COMPONENTS**
 
 #### Pergunta P3.1
 
