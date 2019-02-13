@@ -1,5 +1,8 @@
 # Aula TP - 11/Fev/2019 - Resolução
 
+[tab:sha256]: imagens/keylength.256
+[tab:sha1]: imagens/keylength.160
+
 #### Pergunta P1.1
 
 |                                                  | Tempo de Execução (ms) |
@@ -43,13 +46,15 @@ Como é possível ver no segundo comando mostrado, é necessário indicar ao pro
 
 #### Pergunta P4.1
 
+Visto que somos o grupo 12 e recorrendo à [lista de entidades com serviços qualificados de confiança](https://webgate.ec.europa.eu/tl-browser/#/tl/NO), para o nosso caso, foi possível identificar o algoritmo e tamanho das chaves utilizados pelos seguintes serviços de emissão de certificados.
+
 |                Entidade               |    Algoritmo   | Tamanho da Chave (bits) |
 |:-------------------------------------|:--------------:|:-----------------------:|
-| BankID Bankenes ID-tjeneste Bank CA 2 | sha256 com RSA |                    4096 |
-| Buypass Class 3 CA 3                  | sha256 com RSA |                    2048 |
-| BankID DnB NOR Bank CA 2              | sha256 com RSA |                    4096 |
-| CPN Person High SHA256 CLASS 3        | sha256 com RSA |                    2048 |
-| BankID Fokus Bank Bank CA 2           | sha256 com RSA |                    4096 |
-| BankID Terra Gruppen Bank CA 2        | sha256 com RSA |                    4096 |
 | BankID Nordea Bank CA 2               | sha256 com RSA |                    4096 |
-| BankID SpareBank 1 Bank CA 2          | sha256 com RSA |                    4096 |
+| Statoil Root CA                       | sha1 com RSA   |                    4096 |
+
+![alt text][tab:sha256]
+
+![alt text][tab:sha1]
+
+De acordo com os métodos em cima, podemos concluir que o algoritmo *sha1*, se econtra desaconselhado para curto e longo prazo. Contudo, o algoritmo *sha256* continua a ser uma boa opção, para curtos e longos prazos.
