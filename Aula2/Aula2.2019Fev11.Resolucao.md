@@ -43,6 +43,45 @@ Como é possível ver no segundo comando mostrado, é necessário indicar ao pro
 2. A diferença entre os dois programas reside no facto de que um deles apenas precisa das componentes de um número de intervenientes definidos como o quorum (neste caso são 5) para conseguir recuperar o segredo (`recoverSecretFromComponents-app.py`), enquanto que o outro necessita das componentes de todos os intervenientes inicialmente definidos (neste caso são 8), para conseguir recuperar o segredo (`recoverSecretFromAllComponents-app.py`). **FALTA DIZER EM QUE SITUAÇÕES PODEREMOS PRECISAR DE UTILIZAR O RECOVER FROM ALL COMPONENTS**
 
 #### Pergunta P3.1
+Para responder corretamente a esta pergunta, é necessário primeiro definir exatamente os parâmetros e funções que terão que existir, além das fornecidas pela API para que o algoritmo esteja correcto, com o objetivo de garantir as propriedades de confidencialidade, integridade e autenticidade tanto na segredo como na etiqueta. Assim, devemos determinar que existem estas funções:
+- _todaysDate()_ , uma função que retorna o dia de hoje no formato "ano.mes.dia".
+- _getUserID()_ , uma função que retorna o identificador do utilizador no sistema.
+- _getKey(date)_ , uma função que recebe uma data no formato "ano.mes.dia" e retorna a chave a utilizar nesse dia.
+- _verifyAnnuity(userID)_ , uma função que, dado o identificador de um utilizador no sistema, verifica se o mesmo tem a anuidade em dia e, assim, pode decifrar segredos.
+
+Tendo estas funções em conta, bem como a própria API fornecida, podemos definir um algoritmo para a cifragem e outro para a decifragem dos conteúdos.
+O algoritmo de cifra pode ser definido da seguinte forma:
+1. Pedir ao utilizador o segredo que quer cifrar e a etiqueta que ficará anexada ao segredo.
+2. verificar se o utilizador tem a anuidade paga invocando a função `verifyAnnuity(getUserID())`.
+3. Em caso de resposta afirmativa prosseguir para o passo 4, caso contrário terminar a execução.
+4. Invocar a função da API `cifra(segredo)`, onde o parâmetro segredo deverá ser o segredo que o utilizador indicou no início.
+5. Invocar a função da API `cifra(etiqueta)`, onde o parâmetro etiqueta deverá ser a etiqueta indicada pelo utilizador para este segredo.
+5. Invocar a função da API `hmac(k,str)`, onde o parâmetro k é a chave a ser utilizada na operação do _hmac_ e o parâmetro str é o segredo cifrado.
+6. Invocar a função da API `hmac(k,str2)`, onde o parâmetro k é a chave a ser utilizada na operação do _hmac_ e o parâmetro str2 é a etiqueta cifrada.
+7. Invocar a função `todaysDate()`.
+8. Criar um objeto contendo 5 elementos como demonstrado em baixo e guardá-lo (A data tem que estar presente para que saibámos qual chave utilizar na decifragem).
+
+        {
+            "cryptogram": "...",
+            "cryptogram_auth": "...",
+            "tag": "...",
+            "tag_auth": "...",
+            "date": "..."
+        }
+
+O algoritmo de decifragem pode ser definido da seguinte forma:
+1. Ir buscar o objeto correspondente ao segredo que o cliente pretende decifrar (object).
+2. Verificar se o utilizador tem a anuidade paga invocando a função `verifyAnnuity(getUserID())`. Se sim, seguir para o passo 3, caso contrário, terminar execução.
+3. Questionar cliente se pretende decifrar só a etiqueta ou se pretende decifrar a etiqueta e o segredo e guardar resposta.
+4. Ir buscar a chave que deve ser utilizada neste segredo, invocando a função `getKey(object.date)`.
+5. Calcular o código de autenticação da etiqueta, invocando a função `hmac(k,object.tag)`. Comparar o código obtido com object.tag_auth. Se forem iguais , seguir para o passo 5, caso contrário, terminar processo de decifragem.
+6. Decifrar a etiqueta, invocando a função `decifra(object.tag,chave)`, onde o parâmetro chave é a chave que foi previamente obtida. Se o utilizador apenas escolheu decifrar a etiqueta, mostrar resultado e terminar execução, caso contrário, seguir para o passo 6.
+7. Calcular o código de autenticação do segredo, invocando a função `hmac(k,object.cryptogram)`. Comparar o código obtido com object.cryptogram_auth. Se forem iguais, seguir para o passo 7, caso contrário, terminar execução.
+8. Decifrar o segredo, invocando a função `decifra(object.cryptogram,chave)`, onde o parâmetro chave é a chave que foi previamente obtida.
+9. Apresentar ao utilizador a etiqueta e o segredo decifrados.
+
+        
+
 
 #### Pergunta P4.1
 
@@ -57,4 +96,4 @@ Visto que somos o grupo 12 e recorrendo à [lista de entidades com serviços qua
 
 ![alt text][tab:sha1]
 
-De acordo com os métodos em cima, podemos concluir que o algoritmo *sha1*, se econtra desaconselhado para curto e longo prazo. Contudo, o algoritmo *sha256* continua a ser uma boa opção, para curtos e longos prazos.
+De acordo com as imagens em cima (a primeira é referente ao sha256 e a segunda é referente ao sha1), podemos concluir que o algoritmo *sha1*, é desaconselhado para curto e longo prazo. Contudo, o algoritmo *sha256* continua a ser uma boa opção, para curtos e longos prazos, pelo que a entidade Statoil Root CA deveria alterar o seu algoritmo para sha256 com RSA.
