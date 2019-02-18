@@ -3,13 +3,15 @@ import sys
 from eVotUM.Cripto import eccblind
 
 def printUsage():
-    print("Usage: python generateBlindSignature-app.py private-key.pem")
+    print("Usage: python generateBlindSignature-app.py -key private-key.pem -bmsg blind_message")
 
 def parseArgs():
-    if (len(sys.argv) != 2):
+    if (len(sys.argv) != 5):
+        printUsage()
+    elif(sys.argv[1] != "-key" or sys.argv[3] != "-bmsg"):
         printUsage()
     else:
-        eccPrivateKeyPath = sys.argv[1]
+        eccPrivateKeyPath = sys.argv[2]
         main(eccPrivateKeyPath)
 
 def showResults(errorCode, blindSignature):
