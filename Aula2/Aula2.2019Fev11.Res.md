@@ -54,7 +54,9 @@ Visto que somos o grupo 12 e recorrendo à [lista de entidades com serviços qua
 | Statoil Root CA                       | sha1 com RSA   |                    4096 |
 
 ![alt text][tab:sha256]
+*Figura 1. https://www.keylength.com recomendações para sha256*
 
 ![alt text][tab:sha1]
+*Figura 2. https://www.keylength.com recomendações para sha1*
 
 De acordo com os métodos em cima, podemos concluir que o algoritmo *sha1*, se econtra desaconselhado para curto e longo prazo. Contudo, o algoritmo *sha256* continua a ser uma boa opção, para curtos e longos prazos.
