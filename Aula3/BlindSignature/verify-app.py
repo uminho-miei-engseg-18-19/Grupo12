@@ -3,13 +3,15 @@ from eVotUM.Cripto import eccblind
 from eVotUM.Cripto import utils
 
 def printUsage():
-    print("Usage: python verifySignature-app.py public-key.pem")
+    print("Usage: python verify-app.py -cert certificado -msg mensagem_original -sDash assinatura -f ficheiro_requerente")
 
 def parseArgs():
-    if (len(sys.argv) != 2):
+    if (len(sys.argv) != 9):
+        printUsage()
+    elif(sys.argv[1] != "-cert" or sys.argv[3] != "-msg" or sys.argv[5]!= "-sDash" or sys.argv[7] != "-f"):
         printUsage()
     else:
-        eccPublicKeyPath = sys.argv[1]
+        eccPublicKeyPath = sys.argv[2]
         main(eccPublicKeyPath)
 
 def showResults(errorCode, validSignature):
@@ -30,13 +32,23 @@ def showResults(errorCode, validSignature):
 
 def main(eccPublicKeyPath):
     pemPublicKey = utils.readFile(eccPublicKeyPath)
-    print("Input")
-    data = raw_input("Original data: ")
-    signature = raw_input("Signature: ")
-    blindComponents = raw_input("Blind components: ")
-    pRComponents = raw_input("pR components: ")
+    data = sys.argv[4]
+    signature = sys.argv[6]
+    components = getReqComponents(sys.argv[8])
+    blindComponents = components[0]
+    pRComponents = components[1]
+    #blindComponents = raw_input("Blind components: ")
+    #pRComponents = raw_input("pR components: ")
     errorCode, validSignature = eccblind.verifySignature(pemPublicKey, signature, blindComponents, pRComponents, data)
     showResults(errorCode, validSignature)
+
+def getReqComponents(path):
+    file = open(path,"r")
+    content = file.read()
+    components = content.split("\n")
+    components[0] = components[0].split(":")[1].strip()
+    components[1] = components[1].split(":")[1].strip()
+    return components
 
 if __name__ == "__main__":
     parseArgs()

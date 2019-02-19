@@ -3,7 +3,7 @@ import sys
 from eVotUM.Cripto import eccblind
 
 def printUsage():
-    print("Usage: python generateBlindSignature-app.py -key private-key.pem -bmsg blind_message")
+    print("Usage: python blindSignature-app.py -key private-key.pem -bmsg blind_message")
 
 def parseArgs():
     if (len(sys.argv) != 5):
@@ -27,12 +27,18 @@ def showResults(errorCode, blindSignature):
 
 def main(eccPrivateKeyPath):
     pemKey = utils.readFile(eccPrivateKeyPath)
-    print("Input")
-    passphrase = raw_input("Passphrase: ")
-    blindM = raw_input("Blind message: ")
-    initComponents = raw_input("Init components: ")
+    passphrase = raw_input("Input your passphrase: ")
+    blindM = sys.argv[4]
+    initComponents = getInitComponents()
     errorCode, blindSignature = eccblind.generateBlindSignature(pemKey, passphrase, blindM, initComponents)
     showResults(errorCode, blindSignature)
+
+def getInitComponents():
+    signers_file = open("signer_file","r")
+    components = signers_file.read()
+    initComponents_unnormalized = components.split("\n")
+    initComponents = initComponents_unnormalized[0].split(":")[1].strip()
+    return initComponents    
 
 if __name__ == "__main__":
     parseArgs()
