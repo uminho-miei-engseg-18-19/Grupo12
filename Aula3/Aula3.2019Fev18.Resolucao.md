@@ -88,6 +88,20 @@ Após todas estas alterações, a simplificação do processo de assinatura cega
 
 ### Pergunta P2.1
 
+Toda a informação coletada pelo SSL Server test sobre os seguintes domínios de empresas pode ser encontrada na diretoria _SSL Server Tests_.
+
+|     Nome     |             Site             |   |   |   |   |   |   |   |   |   |
+|:------------:|:----------------------------:|---|---|---|---|---|---|---|---|---|
+|     OTCex    |    https://otcexgroup.com    |   |   |   |   |   |   |   |   |   |
+|     Exane    |     https://www.exane.com    |   |   |   |   |   |   |   |   |   |### Pergunta P2.1
+| Flow Traders | https://www.flowtraders.com/ |   |   |   |   |   |   |   |   |   |
+
+Prosseguindo com a análise dos resultados obtidos, verificamos que apenas a empresa Exane apresenta um rating bastante negativo. Isto deve-se ao facto de o servidor encontrar-se vulnerável à [Return Of Bleichenbacher's Oracle Threat (ROBOT)](https://robotattack.org/). Não só, mas também este servidor suporta parâmetros de troca de chaves Diffie-Hellman fracos, o que limita o score para **B**, assim como a ausência de suporte para **_Forward Secrecy_**.
+
+Resta agora perceber de que é que se trata a informação **"ROBOT (vulnerability)"**, referida em cima, para compreender o impacto que esta vulnerabilidade possui na segurança do servidor, que torna o seu rating o pior.
+
+**_ROBOT_** significa o retorno de uma vulnerabilidade descoberta em 1998, por Daniel Bleichenbacher. Esta permitia que um atacante realizasse um ataque de texto cifrado escolhido, sobre as mensagens de erro emitidas pelo servidor _SSL_, relativamente ao padding _PKCS #1 v1.5_.
+
 ## Exercício 3
 
 ### Pergunta P3.1
