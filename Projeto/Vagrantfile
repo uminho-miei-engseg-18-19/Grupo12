@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
         wget https://ec.europa.eu/cefdigital/artifact/repository/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-demo-bundle/5.4/dss-demo-bundle-5.4.zip
         unzip dss-demo-bundle-*
         chmod +x dss-demo-bundle-*/apache-tomcat-*/bin/*.sh
-        ./dss-demo-bundle-*/apache-tomcat-*/bin/startup.sh
+        ./dss-demo-bundle-*/apache-tomcat-*/bin/startup.sh, run: 'always'
       SHELL
 
     config.vm.define "dss" do |dss|
