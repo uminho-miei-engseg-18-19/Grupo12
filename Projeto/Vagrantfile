@@ -1,0 +1,26 @@
+PUBLIC_KEY = File.read(File.expand_path('~/.ssh/id_rsa.pub')).strip
+
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "ubuntu/xenial64"
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "512"
+    vb.cpus = 1
+  end
+
+  config.vm.provision "shell", inline: <<-SHELL
+        echo "#{PUBLIC_KEY}" >> /home/ubuntu/.ssh/authorized_keys
+        apt-get -y update
+        apt-get -y upgrade
+        apt-get -y autoremove
+        apt-get install -y vim wget openjdk-8-jdk openjfx maven unzip
+        wget https://ec.europa.eu/cefdigital/artifact/repository/esignaturedss/eu/europa/ec/joinup/sd-dss/dss-demo-bundle/5.4/dss-demo-bundle-5.4.zip
+        unzip dss-demo-bundle-*
+        chmod +x dss-demo-bundle-*/apache-tomcat-*/bin/*.sh
+        ./dss-demo-bundle-*/apache-tomcat-*/bin/startup.sh
+      SHELL
+
+    config.vm.define "dss" do |dss|
+      dss.vm.network "private_network", ip: "10.0.0.101"
+    end
+end
