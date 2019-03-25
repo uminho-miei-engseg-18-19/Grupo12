@@ -17,7 +17,7 @@ class Block:
   
   def hash_block(self):
     sha = hasher.sha256()
-    sha.update(str(self.index) + str(self.timestamp) + str(self.data) + str(self.previous_hash))
+    sha.update(str(self.index).encode('utf8') + str(self.timestamp).encode('utf8') + str(self.data).encode('utf8') + str(self.previous_hash).encode('utf8'))
     return sha.hexdigest()
 
 # Generate genesis block
@@ -54,10 +54,10 @@ def transaction():
   this_nodes_transactions.append(new_txion)
   # Because the transaction was successfully
   # submitted, we log it to our console
-  print "New transaction"
-  print "FROM: {}".format(new_txion['from'].encode('ascii','replace'))
-  print "TO: {}".format(new_txion['to'].encode('ascii','replace'))
-  print "AMOUNT: {}\n".format(new_txion['amount'])
+  print("New transaction")
+  print("FROM: {}".format(new_txion['from'].encode('ascii','replace')))
+  print("TO: {}".format(new_txion['to'].encode('ascii','replace')))
+  print("AMOUNT: {}\n".format(new_txion['amount']))
   # Then we let the client know it worked out
   return "Transaction submission successful\n"
 
