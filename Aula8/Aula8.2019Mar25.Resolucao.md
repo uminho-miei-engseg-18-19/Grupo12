@@ -35,13 +35,14 @@ Ao testar a validade da cadeia, facilmemte se verifica que esta é válida, para
 
 #### Pergunta P2.1
 
-2 - 0.245s
-3 - 0.645s
-4 - 3.127s
-5 - 31.154s
+O gráfico seguinte mostra a variação do tempo necessário para minerar um bloco, em função da dificuldade do problema.
+
+![](tempos_execução.png)
+
+Tal como é possível verificar, à medida que a dificuldade do problema aumenta, torna-se cada vez mais trabalhoso computacionalmente, minerar um bloco.
 
 #### Pergunta P2.2
 
-1. O algoritmo de _proof of work_ consiste no incremento de uma variável dada pelo último _proof of work_ até que esta seja divisível por 9 e seja também divisível pelo último _proof of work_.
+1. O algoritmo de _proof of work_ implementado consiste no incremento de uma variável dada pelo último _proof of work_, até que esta seja divisível por 9 e pelo último _proof of work_.
 
-2. 
+2. Este algoritmo implementado para minerar é adequado, uma vez que o problema torna-se difícil de resolver, mas simples de validar. Não só, mas também como se tratam de problemas independentes, a resolução de um não altera a probabilidade de resolução dos próximos.
