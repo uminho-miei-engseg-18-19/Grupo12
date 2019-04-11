@@ -29,6 +29,8 @@ Tal como foi visto anteriormente, a propriedade **data** permite armazenar infor
 
 Ao testar a validade da cadeia, facilmemte se verifica que esta é válida, para todos os blocos adicionados.
 
+No código _javascript_ encontra-se um bloco contendo várias transacções no mesmo.
+
 ### 2\. Proof of Work Consensus Model
 
 
