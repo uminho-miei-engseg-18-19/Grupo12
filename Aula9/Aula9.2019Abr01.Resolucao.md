@@ -17,4 +17,20 @@ Tendo em conta que usualmente se utiliza a estimativa de que um software desenvo
 
 ## Pergunta P1.2
 
+Para as vulnerabilidades de projeto podemos apresentar, por exemplo:
+-
+-
+
+Para as vulnerabilidades de codificação podemos apresentar, por exemplo:
+-
+-
+
+Para as vulnerabilidades operacionais podemos apresentar, por exemplo:
+-
+-
+
+
+
 ## Pergunta P1.3
+
+A diferença entre estes dois tipos de vulnerabilidades reside no facto de que, enquanto que as vulnerabilidades de dia zero são vulnerabilidades conhecidas apenas em meio restrito, não sendo divulgadas para a comunidade que lida com segurança informática, as vulnerabilidades de codificação não dia-zero são vulnerabilidades que, normalmente, possuem um ciclo de vida, ou seja, são criadas através da codificação, são posteriormente descobertas e, finalmente, são corrigidas através de _patches_ fornecidos pela empresa que desenvolveu o código que possui a vulnerabilidade.
