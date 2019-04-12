@@ -18,16 +18,16 @@ Tendo em conta que usualmente se utiliza a estimativa de que um software desenvo
 ## Pergunta P1.2
 
 Para as vulnerabilidades de projeto podemos apresentar, por exemplo:
--
--
+- **Insufficient UI Warning of Dangerous Operations**, que acontece quando, na fase de _design_, se ignoram situações em que, avisos de operações perigosas devem ser postos, de uma forma clara, à atenção do utilizador, o que pode resultar numa quebra de segurança.
+- **Improperly Implemented Security Check For Standard**, que acontece quando, na fase de _design_, não se tem em conta que um _software_ não está a implementar completamente um algoritmo ou técnica standardizada, o que pode resultar numa quebra de segurança, visto que sem o passo em falta, existe a possibilidade desse algoritmo ou técnica ser vulnerável.
 
 Para as vulnerabilidades de codificação podemos apresentar, por exemplo:
--
--
+- **Improper Input Validation** , que acontece quando um programador nega o facto de que um atacante consegue modificar o _input_ de campos escondidos ou de _cookies_, quando recorre a _proxies_, por exemplo.
+- **Path traversal:'../filedir'**,  que acontece quando o _software_ usa _input_ externo para construir um nome de caminho para um ficheiro que devia estar dentro de uma diretoria restrita, mas que não neutraliza sequências de **'../'** que podem direccionar para diretorias fora da diretoria restrita.
 
 Para as vulnerabilidades operacionais podemos apresentar, por exemplo:
--
--
+- **ASP.NET Misconfiguration: Password in Configuration File**, que acontece quando, ao configurar um _software_, se guarda uma _password_ sem ser cifrada, num ficheiro de configuração, permitindo que qualquer pessoa que ganhe acesso a esse ficheiro consiga ler a mesma.
+- **ASP.NET Misconfiguration: Creating Debug Binary**, que acontece quando, após a fase de desenvolvimento e testes, são mantidas mensagens de debug detalhadas, o que é um risco de segurança para o _software_.
 
 
 
