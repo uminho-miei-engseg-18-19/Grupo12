@@ -23,8 +23,37 @@ Tendo tudo isto em conta, é fácil verificar que estas _guidelines_ fazem com q
 O _software_ construído deve, nesse sentido, ser capaz de produzir uma espécie de relatório de todos os dados pessoais de qualquer um dos sujeitos que são utilizadores do mesmo num formato que seja utilizável por outros controladores.
 Em suma, o desenvolvimento de um _software_ deve sempre ter em conta que os dados recolhidos de um dado sujeito devem sempre estar disponíveis e preparados para serem recolhidos e reunidos num formato que permita a transmissão dos mesmos para outro controlador, que poderá à partida, ter outro tipo de _software_, pelo que o formato utilizado deve ser um que é utilizado de forma comum.
 
-
 ## Pergunta P1.2
+
+No documento _Privacy and Data protection by design - from policy to engineering_ estão descritas e detalhadas 8 estratégias de _privacy design_ sendo que estas estão separadas em duas categorias, da forma que se segue:
+
+- Orientadas aos dados:
+    - MINIMISE
+    - HIDE
+    - SEPARATE
+    - AGGREGATE
+- Orientadas ao processo:
+    - INFORM
+    - CONTROL
+    - ENFORCE
+    - DEMONSTRATE
+
+A estratégia _MINIMISE_ estabelece que os dados pessoais que são processados devem ser limitados ao mínimo possível, ou seja, aos dados que são estritamente necessários para o funcionamento do serviço com o qual o utilizador interage. Para aplicar esta estratégia podemos aplicar um padrão de _design_, por exemplo, do tipo _select before collect_, ou seja, escolher o tipo de dados a processar antes de os coletar.
+
+A estratégia _HIDE_ estabelece que os dados pessoais e as relações entre os mesmos não devem estar imediatamente visíveis, ou seja, não deve ser fácil "abusar" dos dados mesmo que sejam visualizados na sua forma de armazenamento. Para aplicar esta estratégia podemos aplicar cifras aos dados, escondendo-os.
+
+A estratégia _SEPARATE_ estabelece que os dados pessoais devem ser ser processados de forma distribuída e compartimentada, sempre que possível, de forma a evitar a construção de um perfil do utilizador. A ideia principal é que, ao processar dados de um dado utilizador, de forma compartimentada, fica mais difícil coletar toda a informação sobre o mesmo.
+
+A estratégia _AGGREGATE_ estabelece que os dados pessoais devem ser processados num nível alto de agregação e com o mínimo possível de detalhe, ou seja, os dados devem ser agregados por grupos de atributo ou indivíduos, restringindo a quantidade de detalhe de informação pessoal de um único indivíduo. A aplicação desta estratégia funciona bem em casos de coleta da mesma informação ao longo do tempo (_aggregation over time_) ou em casos de coleta extensiva de localização do indivíduo (_dynamic location granularity_).
+
+A estratégia _INFORM_ estabelece que os sujeitos dos dados processados devem ser sempre informados sobre a informação que vai ser processada, para qual propósito vai ser processada e por que meios esse processamento vai ocorrer. Isto inclui a informação sobre os meios de protecção desses dados. Além disso, esta estratégia também estabelece que o utilizador deve ser notificado em qualquer situação de fuga de privacidade ou de alteração em formas de processamento.
+Esta estratégia pode ser aplicada recorrenda a, por exemplo, notificações de fugas de dados ou a plataformas de preferências de privacidade.
+
+A estratégia _CONTROL_ estabelece que a um indivíduo deve ser dada a capacidade de controlar qual informação sua é processada ou utilizada. Além disso, também lhe deve ser fornecida a capacidade de atualizar ou remover a sua informação, quando aplicável. Esta estratégia pode ser aplicada utilizando, por exemplo, uma gestão de identidade centrada no utilizador ou cifragem ponto-a-ponto nos dados escolhidos pelo indíviduo, ou até uma combinação das duas.
+
+A estratégia _ENFORCE_ estabelece que deve ser aplicada uma política de privacidade pelo controlador dos dados, que seja compatível com os requisitos legais. Além disso, esta estratégia define também que devem ser implementados mecanismos que previnam a violação dessa política de privacidade. Esta estratégia pode ser implementada recorrendo, por exemplo, a técnicas de controlo de acesso.
+
+A estratégia _DEMONSTRATE_ estabelece que um controlador de dados deve conseguir demonstrar que cumpre a política de privacidade e os requisitos legais, ou seja, o controlador de dados deve provar que tem, de facto, controlo dos dados. Este também deve conseguir determinar a gravidade de uma fuga de privacidade que ocorra, se aplicar esta estratégia. Esta estratégia pode ser implementada recorrendo a ferramentas de _logging_ e _auditing_, por exemplo.
 
 ## Pergunta P1.3
 
