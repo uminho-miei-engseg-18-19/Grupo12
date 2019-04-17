@@ -87,7 +87,7 @@ A estratégia _DEMONSTRATE_ estabelece que um controlador de dados deve consegui
     O DPIA deverá ser levado a cabo, sempre que pelo menos dois destes critérios, sejam encontrados.
 
 2. Um exemplo de um projeto que envolve a utilização de dados de risco elevado, sujeito a um DPIA, seria:
-Um centro comercial decide conduzir um estudo sobre os gostos e os interesses dos indivíduos que frequentam o estabelecimento, de modo a fornecer anúncios e publicidade, na infraestrutura, relevante para os consumidores. Para tal, era conduzida uma recolha sistemática de dados de navegação dos utilizadores que utilizassem a rede *wi-fi* pública do estabelecimento. Este projeto vai de encontro aos critérios de recolha sistemática de dados, provenientes de utilizadores que se encontram num local público, e em grande escala, assumindo que este é estabelecimento bastante populado diariamente.
+Um centro comercial decide conduzir um estudo sobre os gostos e os interesses dos indivíduos que frequentam o estabelecimento, de modo a fornecer anúncios e publicidade, na infraestrutura, relevante para os consumidores. Para tal, era conduzida uma recolha sistemática de dados de navegação dos utilizadores que utilizassem a rede *wi-fi* pública do estabelecimento. Este projeto vai de encontro aos critérios de recolha sistemática de dados, provenientes de utilizadores que se encontram num local público, e em grande escala assumindo que este é estabelecimento bastante populado diariamente.
 
 3.
 
@@ -103,29 +103,21 @@ Um centro comercial decide conduzir um estudo sobre os gostos e os interesses do
 
 ### 1º passo: Identificar a necessidade para um DPIA
 
-Explain broadly what project aims to achieve and what type of processing it
-involves. You may find it helpful to refer or link to other documents, such as a
-project proposal. Summarise why you identified the need for a DPIA.
+O objetivo deste projeto passa por tentar fornecer uma melhor experiência aos visitantes de um centro comercial, fornecendo-lhes conteúdo relevante, para uma maioria, com base nos seus gostos, beneficiando não só os consumidores, como os agentes lucrativos. Desta forma, seriam analisados os pacotes trocados na rede pública da infraestrutura, de modo a recolher informação sobre os gostos e preferências dos utilizadores.
+
+Por isso, torna-se necessário conduzir um DPIA, uma vez que é realizada uma coleta em grande escala de dados, num local público, sem que os indivíduos estejam, por vezes, completamente inconscientes da situação.
 
 ### 2º passo: Descrever o processamento
 
-Describe the nature of the processing: how will you collect, use, store and
-delete data? What is the source of the data? Will you be sharing data with anyone?
-You might find it useful to refer to a flow diagram or other way of describing data
-flows. What types of processing identified as likely high risk are involved?
+Desta forma, a recolha e processamento dos dados seria feita através da captura dos pacotes que são trocados, na rede pública. Uma vez capturados, seria possível determinar o domínio requisitado e, consequentemente, o tipo de conteúdo acedido. De seguida, isto será armazenado, de maneira a que seja possível criar um *dataset* adequado, para que a sua análise seja conclusiva.
 
-Describe the scope of the processing: what is the nature of the data, and does
-it include special category or criminal offence data? How much data will you be
-collecting and using? How often? How long will you keep it? How many individuals
-are affected? What geographical area does it cover?
+Contudo, uma vez que se trata de um projeto interno, ou seja, que não envolve nenhuma entidade exterior à organização da empresa, os dados recolhidos não serão partilhados com nenhum indivíduo do exterior.
 
-Describe the context of the processing: what is the nature of your relationship
-with the individuals? How much control will they have? Would they expect you to
-use their data in this way? Do they include children or other vulnerable groups? Are
-there prior concerns over this type of processing or security flaws? Is it novel in any
-way? What is the current state of technology in this area? Are there any current
-issues of public concern that you should factor in? Are you signed up to any
-approved code of conduct or certification scheme (once any have been approved)?
+Posto isto, é possível garantir que os dados recolhidos serão apenas relativos ao tipo de conteúdo acedido pelos consumidores, pelo que não terá qualquer tipo de incriminatório. Para além disso, serão recolhidas tantas informações, quanto possível, durante as horas mais movimentadas do estabelecimento e abrangirá todo o terreno coberto pela rede. O estudo irá prolongar-se ao longo do ano, estando a estratégia de *markting*, desenvolvida com base nos resultados obtidos com a análise, continuamente em funcionamento, durante esse período.
+
+Também no tempo decorrido do estudo, o tipo de relacionamento entre os sujeitos e os condutores do projeto manter-se-á como vendedor e consumidor apenas. Todavia, o indivíduo consciente da coleta dos dados, poderá eventualmente requisitar o acesso aos dados respetivos à sua pessoa, e que os mesmos sejam apagados, se tal for o seu desejo. 
+
+Are there prior concerns over this type of processing or security flaws? Is it novel in any way? What is the current state of technology in this area? Are there any current issues of public concern that you should factor in? Are you signed up to any approved code of conduct or certification scheme (once any have been approved)?
 
 Describe the context of the processing: what is the nature of your relationship
 with the individuals? How much control will they have? Would they expect you to
@@ -141,10 +133,7 @@ you, and more broadly?
 ### 3º passo: Processo de consulta
 
 Consider how to consult with relevant stakeholders: describe when and how
-you will seek individuals’ views – or justify why it’s not appropriate to do so. Who
-else do you need to involve within your organisation? Do you need to ask your
-processors to assist? Do you plan to consult information security experts, or any
-other experts?
+you will seek individuals’ views – or justify why it’s not appropriate to do so. Who else do you need to involve within your organisation? Do you need to ask your processors to assist? Do you plan to consult information security experts, or any other experts?
 
 ### 4º passo: Considerar a necessidade e proporcionalidade
 
