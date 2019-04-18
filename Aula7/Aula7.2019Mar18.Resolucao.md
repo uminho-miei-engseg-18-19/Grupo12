@@ -91,16 +91,6 @@ Um centro comercial decide conduzir um estudo sobre os gostos e os interesses do
 
 3.
 
-<center>
-
-|              Submitting controller details              |        |
-|:-------------------------------------------------------:|--------|
-| Name of controller                                      | Merdas |
-| Subject/title of DPO                                    | Merdas |
-| Name of controller contact /DPO (delete as appropriate) | Merdas |
-
-</center>
-
 ### 1º passo: Identificar a necessidade para um DPIA
 
 O objetivo deste projeto passa por tentar fornecer uma melhor experiência aos visitantes de um centro comercial, fornecendo-lhes conteúdo relevante, para uma maioria, com base nos seus gostos, beneficiando não só os consumidores, como os agentes lucrativos. Desta forma, seriam analisados os pacotes trocados na rede pública da infraestrutura, de modo a recolher informação sobre os gostos e preferências dos utilizadores.
@@ -117,39 +107,14 @@ Posto isto, é possível garantir que os dados recolhidos serão apenas relativo
 
 Também no tempo decorrido do estudo, o tipo de relacionamento entre os sujeitos e os condutores do projeto manter-se-á como vendedor e consumidor apenas. Todavia, o indivíduo consciente da coleta dos dados, poderá eventualmente requisitar o acesso aos dados respetivos à sua pessoa, e que os mesmos sejam apagados, se tal for o seu desejo. 
 
-Are there prior concerns over this type of processing or security flaws? Is it novel in any way? What is the current state of technology in this area? Are there any current issues of public concern that you should factor in? Are you signed up to any approved code of conduct or certification scheme (once any have been approved)?
-
-Describe the context of the processing: what is the nature of your relationship
-with the individuals? How much control will they have? Would they expect you to
-use their data in this way? Do they include children or other vulnerable groups? Are
-there prior concerns over this type of processing or security flaws? Is it novel in any
-way? What is the current state of technology in this area? Are there any current
-issues of public concern that you should factor in? Are you signed up to any
-approved code of conduct or certification scheme (once any have been approved)?
-Describe the purposes of the processing: what do you want to achieve? What is
-the intended effect on individuals? What are the benefits of the processing – for
-you, and more broadly?
-
 ### 3º passo: Processo de consulta
 
-Consider how to consult with relevant stakeholders: describe when and how
-you will seek individuals’ views – or justify why it’s not appropriate to do so. Who else do you need to involve within your organisation? Do you need to ask your processors to assist? Do you plan to consult information security experts, or any other experts?
+As opinião de utilizadores informados será recolhida aquando da sua conexão, onde este irá ser interrogado se concorda com os termos de utilização impostos. Não serão envolvidas quaisquer entidades exteriores, neste processo.
 
 ### 4º passo: Considerar a necessidade e proporcionalidade
 
-Describe compliance and proportionality measures, in particular: what is
-your lawful basis for processing? Does the processing actually achieve your
-purpose? Is there another way to achieve the same outcome? How will you prevent
-function creep? How will you ensure data quality and data minimisation? What
-information will you give individuals? How will you help to support their rights?
-What measures do you take to ensure processors comply? How do you safeguard
-any international transfers?
-
-### 5º passo: Identificar os riscos
-
-### 6º passo: Identificar medidas que reduzem os riscos
-
-### 7º passo: Sign off and record outcomes
+Apenas depois de recolhidos, processados e analisados os dados, será possível dizer se o procedimento realmente consegue cumprir o seu propósito. Contudo, caso isto não se verifique, serão analisados outros tipos de procedimento, para atingir os objetivos pretendidos.
 
 ## Pergunta P1.4
 
+Depois de preenchidas todas as secções propostas pela ferramenta, colocou-se o PIA nesta diretoria. Este pode ser encontrado como *pia.pdf*.
