@@ -1,4 +1,4 @@
-# Aula 10 - Resolucao
+# Aula 10 - Resolução
 
 ## Pergunta P1.1
 
@@ -26,9 +26,13 @@ O controlo de segurança seguinte, consiste no processo de desenvolvimento e apo
 
 Relacionar este último com o nosso projeto.
 
-
 ## Pergunta P3.1
+
+
 
 ## Pergunta P3.2
 
+
+
 ## Pergunta P3.3
+
