@@ -30,11 +30,22 @@ No caso do projeto que o nosso grupo está a desenvolver, estes controlos de seg
 
 ## Pergunta P3.1
 
+As 3 práticas de segurança que escolhemos, que também são utilizadas no desenvolvimento do projeto da UC de Engenharia de segurança são:
 
+- **Education & Guidance**, visto que esta prática de segurança diz respeito ao treino que os desenvolvedores têm treino em questões de segurança e se as aplicam, o que se tem verificado no projeto, visto que tem sido desenvolvido de forma incremental, cuidada e com testes extensivos a novas funcionalidades adicionadas. O grau de maturidade calculado desta prática é de 2.6.
+- **Security Testing**, visto que a ideia do grupo será testar que, a aplicação desenvolvida, além de implementar corretamente a parte funcional, seja capaz de lidar com erros de forma a que isso não influencie o comportamento da aplicação ou de outras aplicações do sistema, principalmente, no que diz respeito ao input de opções por parte do utilizador. O grau de maturidade calculado desta prática é de 2.33.
+- **Issue Management**, visto que pelo que o grupo entendeu desta prática de segurança, ele refere-se à gestão das tarefas a realizar na aplicação, incluindo aquelas que dizem respeito à segurança da mesma, peloq eu se adequa ao que tem sido e irá continuar a ser feito no projeto da UC. O grau de maturidade calculado desta prática é de 1.82.
 
 ## Pergunta P3.2
 
+Em relação às três práticas de segurança previamente identificadas, o objetivo, em termos de grau de maturidade, é:
 
+- Para a prática **Education & Guidance** o grupo é da opinião que o grau de maturidade calculado já é aceitável.
+- Para a prática **Security Testing**, o grupo pretende atingir um grau de maturidade de 2.5.
+- Para a prática **Issue Management**, o grupo pretende atingir um grau de maturidade de 2.5.
 
 ## Pergunta P3.3
+
+Notas: na práticas de **educaiton & guidance** o plano será manter o que está definido no cálculo do grau de maturidade atual.
+nas outras será melhorar um outro ponto provavelmente dos que estão na interview.
 
