@@ -32,8 +32,8 @@ No caso do projeto que o nosso grupo está a desenvolver, estes controlos de seg
 
 As 3 práticas de segurança que escolhemos, que também são utilizadas no desenvolvimento do projeto da UC de Engenharia de segurança são:
 
-- **Education & Guidance**, visto que esta prática de segurança diz respeito ao treino que os desenvolvedores têm treino em questões de segurança e se as aplicam, o que se tem verificado no projeto, visto que tem sido desenvolvido de forma incremental, cuidada e com testes extensivos a novas funcionalidades adicionadas. O grau de maturidade calculado desta prática é de 2.6.
-- **Security Testing**, visto que a ideia do grupo será testar que, a aplicação desenvolvida, além de implementar corretamente a parte funcional, seja capaz de lidar com erros de forma a que isso não influencie o comportamento da aplicação ou de outras aplicações do sistema, principalmente, no que diz respeito ao input de opções por parte do utilizador. O grau de maturidade calculado desta prática é de 2.33.
+- **Education & Guidance**, visto que esta prática de segurança diz respeito ao treino que os desenvolvedores têm sobre em questões de segurança e se as mesmas se aplicam. O que se tem verificado no projeto, visto que este tem sido desenvolvido de forma incremental, cuidada e com testes extensivos a novas funcionalidades adicionadas. O grau de maturidade calculado desta prática é de 2.6.
+- **Security Testing**, visto que a ideia do grupo será testar se a aplicação desenvolvida, além de implementar corretamente a parte funcional, seja capaz de lidar com erros, de forma a que isso não influencie o comportamento da mesma, ou de outras aplicações do sistema, principalmente no que diz respeito aos inputs fornecidos pelo utilizador. O grau de maturidade calculado desta prática é de 2.33.
 - **Issue Management**, visto que pelo que o grupo entendeu desta prática de segurança, ele refere-se à gestão das tarefas a realizar na aplicação, incluindo aquelas que dizem respeito à segurança da mesma, peloq eu se adequa ao que tem sido e irá continuar a ser feito no projeto da UC. O grau de maturidade calculado desta prática é de 1.82.
 
 ## Pergunta P3.2
@@ -46,6 +46,15 @@ Em relação às três práticas de segurança previamente identificadas, o obje
 
 ## Pergunta P3.3
 
-Notas: na práticas de **educaiton & guidance** o plano será manter o que está definido no cálculo do grau de maturidade atual.
-nas outras será melhorar um outro ponto provavelmente dos que estão na interview.
+Com intuito de obter o nível de maturidade pretendido, o grupo desenvolveu o seguinte plano:
 
+- Para a prática **Education & Guidance**, uma vez que o grupo concorda que o grau de maturidade já é aceitável, o plano seria manter o que foi definido até ao momento;
+- Para a prática **Security Testing**, o plano desenvolvido será composto por quatro fases, cada com 3 meses de duração:
+
+    1. Para melhorar a prática **Security Testing**, o grupo começaria por especificar uma série de testes à segurança da aplicação, baseado nos requisitos definidos. Estes deverão ser gerados de acordo com a lógica da aplicação. De modo a melhorar a prática **Issue Management**, o primeiro passo seria estabelecer um meio de contacto, para comunicar incidentes, assim como a formação de uma equipa designada para lidar com os mesmos.
+
+    2. Numa segunda fase do desenvolvimento, seriam desenvolvidos a maioria dos teste à segurança do sistema, de modo a obter resultados significativos, para os investidores. Não só, mas também automatizar um processo de avaliação consistente. Para além disto, será também expectavel que o ponto de contacto para resolução de problemas esteja implementado para toda a organização, assim como o recrutamento de especialistas, para integrarem na mesma.
+
+    3. Para esta fase, é expectavel que a estejam desenvolvida a maioria dos testes de segurança, assim como a automatização do processo de execução dos mesmos e avaliação dos resultados, e que estes sejam realizados antes de qualquer *release* da aplicação. Não só, mas também que seja estabelecido um *standard* de para os níveis mínimos de segurança. Já para a prática **Issue Management**, espera-se que a maioria dos incidentes possam ser reportados à equipa responsável pelos assuntos relativos à segurança da plataforma e tratados pela sua origem. Não só, mas também espera-se que pelo menos metade dos investidores sejam sensiblizaods para o aparecimento e resolução dos problemas relatados. Espera-se ainda que seja melhorada a coleta dos dados relativa a este tipo de incidentes.
+
+    4. Por último, nesta última, fase pretende-se que as medidas discutidas em cima sejam implementadas para a maioria dos casos, para ambas as práticas, devendo este manter-se durante futuro do projeto.
