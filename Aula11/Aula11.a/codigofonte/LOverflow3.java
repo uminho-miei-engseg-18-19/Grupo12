@@ -18,6 +18,6 @@ public class LOverflow3 {
     System.out.println("Que valor deseja recuperar? ");
     int which = scan.nextInt();
 
-    System.out.println("O valor é " +vals[which]);
+    System.out.println("O valor e " +vals[which]);
   }
 }

@@ -9,11 +9,11 @@ public class LOverflow2
     int count;
     Scanner scan = new Scanner(System.in);
 
-    System.out.print("Quantos números? ");
+    System.out.print("Quantos numeros? ");
     count = scan.nextInt();
     for (int i =0 ; i < count; i++)
     {
-    	System.out.print("Introduza número: ");
+    	System.out.print("Introduza numero: ");
    	test  = scan.nextInt();
     	tests[i]= test;
     }
