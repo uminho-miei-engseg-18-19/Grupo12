@@ -19,7 +19,11 @@ Para além disto, existe também outro controlo que deve existir para garantir u
 
 ## Pergunta P1.3
 
+A vulnerabilidade de *Buffer Overflow* presente nestas aplicações é conhecida como *Stack-based buffer overflow*. Esta acontece porque, quando um *array* é declaro em C, o espaço para ele é reservado e o *array* é manipulado através do seu apontador, para o primeiro byte. Contudo, a função `gets` não é segura porque não verifica se os limites do *array* são ultrapassados. Por isso, quando o compilador gera código máquina, para ser executado, o código gerado permite que o programa copie informação, para além dos limites do *array*, alterando o conteúdo das posições de memória adjacentes a este.
 
+Posto isto, para o caso do programa *RootExplooit*, poderá ser usada uma string com mais de 4 caracteres, que corresponde ao espaço reservado para a password introduzida, de modo alterar a informação nas posições de memória adjacentes. Neste caso, alterando o valor da variável `pass` e obter as permissões de root/admin.
+
+Para o caso da aplicação *0-simple*, já será necessário que a string introduzida possua um número máximo de caracteres superior a 64. Desta forma, é possível alterar o valor da variável `control` e consequentemente obter a mensagem "YOU WIN!!!".
 
 ## Pergunta P1.4
 
