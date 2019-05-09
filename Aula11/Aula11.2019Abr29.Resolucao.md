@@ -115,7 +115,23 @@ Congratulations, you win!!! You correctly got the variable to the right value
 
 ## Pergunta P2.1
 
+1. A vulnerabilidade existente na função _vulneravel_ diz respeito à declaração das variáveis i e j como inteiros, variáveis essas que, num ciclo, irão ser incrementadas até o tamanho de x e y, mas x e y têm o dobro do tamanho de um `int` visto que são do tipo `size_t` e segundo o nosso compilador, `size_t` tem 8 bytes de tamanho e `int` tem apenas 4. Assim , quando as variáveis i e j passarem o valor permitido para um inteiro (2147483647), no caso em que x e y sejam maiores que esse valor, ocorrerá um overflow do inteiro. Isto causará um comportamento inesperado do programa, visto que pode causar um erro como pode chegar apenas ao valor máximo de um inteiro e abortar o ciclo.
+
+2. O código overflow.c que provoca a vulnerabilidade encontra-se nesta diretoria com o nome `overflow_vuln.c`.
+
+3. Executando o programa , não dá qualquer tipo de erro, mas o ciclo que devia ir até 2147483651, vai apenas até 2147483647 (valor máximo de um inteiro) pelas razões anteriormente enunciadas, como mostra a imagem.
+
+![Overflow](overflow.png)
+
 
 
 ## Pergunta P2.2
+
+1. A vulnerabilidade existente na função _vulneravel_ diz respeito à verificação que ocorre quando é testado se `tamanho < MAX_SIZE`, visto que a verificação não é errada, mas não testa para valores negativos, o que fará com que, num momento a seguir, se `tamanho <= 0`, ao executar `tamanho_real = tamanho - 1`, tamanho será menor que 0 e, logo a seguir é tentada alocar memória para a variável destino com um número de bytes negativo. Os efeitos desta vulnerabilidade é que o programa irá abortar muito provavelmente com erro.
+
+2. Nesta diretoria, no ficheiro `underflow_vuln.c` encontra-se o ficheiro alterado para demonstrar a vulnerabilidade.
+
+3. Executando o programa, o mesmo dá um erro de _segmentation fault_, como havia sido pensado na pergunta 2.2.1. A imagem em baixo comprova essa situação.
+
+![Underflow](underflow.png)
 
