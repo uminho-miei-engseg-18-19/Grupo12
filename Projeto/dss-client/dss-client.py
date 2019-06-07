@@ -48,8 +48,13 @@ def getDataToSign():
     }
     resp = requests.post('http://localhost:8080/services/rest/signature/one-document/getDataToSign', json=PARAMS)
     print(resp)
+    return resp.bytes # O valor correspondente à chave bytes contém os dados a assinar.
 
 def signDocument(docpath, container, packaging, digest, allow_expired_certificate, add_timestamp):
+    #Temos que passar um certificado para assinar o documento?
+    doc_file = open(docpath,"r")
+    doc_contents = doc_file.read()
+    doc_contents = doc_contents.encode('utf8')
     PARAMS = {
         "signWithExpiredCertificate" : str(allow_expired_certificate),
         "generateTBSWithoutCertificate" : "false",
@@ -91,7 +96,7 @@ def signDocument(docpath, container, packaging, digest, allow_expired_certificat
             "value" : "AQIDBA=="
         },
         "toSignDocument" : {
-            "bytes" : "SGVsbG8=",
+            "bytes" : doc_contents,
             "digestAlgorithm" : "null",
             "name" : str(docpath),
             "mimeType" : "null"
@@ -101,6 +106,7 @@ def signDocument(docpath, container, packaging, digest, allow_expired_certificat
     print(resp)
     
 def extendDocument():
+    #Temos que passar um certificado para extender a assinatura do documento?
     PARAMS = {
         "signWithExpiredCertificate" : "false",
         "generateTBSWithoutCertificate" : "false",
@@ -125,7 +131,7 @@ def extendDocument():
         },
         "signingCertificate" : "null",
         "certificateChain" : [ ],
-        "detachedContents" : [ {
+        "detachedContents" : [ { # Provavelmente é aqui, em bytes, que temos que passar os bytes do ficheiro assinado para extender a assinatura
             "bytes" : "77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxoOnRhYmxlIHhtbG5zOmg9Imh0dHA6Ly93d3cudzMub3JnL1RSL2h0bWw0LyI+DQoJPGg6dHI+DQoJCTxoOnRkPkhlbGxvPC9oOnRkPg0KCQk8aDp0ZD5Xb3JsZDwvaDp0ZD4NCgk8L2g6dHI+DQo8L2g6dGFibGU+",
             "digestAlgorithm" : "null",
             "name" : "sample.xml",
@@ -151,6 +157,7 @@ def validateSignature():
     print(resp)
 
 def main(args):
+    # Falta executar direito quando apenas se executa o programa como: python3 dss-client.py. Se inserirmos 1 para assinar, o programa crasha.
     if args.service is None:
         options = [("Sign a document",      signDocument),
                    ("Extend a signature",   extendDocument),
