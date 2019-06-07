@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../RevocationSource.html" title="eu.europa.esig.dss.x509.RevocationSource" alt="" coords="98,11,397,53"/>
+<area shape="rect" id="node1" href="../RevocationSource.html" title="&lt;TABLE&gt;" alt="" coords="87,5,407,59"/>
+<area shape="rect" id="node3_1" href="./CRLSource.html" title="eu.europa.esig.dss.x509.crl.CRLSource" alt="" coords="205,112,290,155"/>
+<area shape="rect" id="node3" href="./CRLSource.html" title="&lt;TABLE&gt;" alt="" coords="194,107,301,160"/>
+<area shape="rect" id="node2_2" href="./OfflineCRLSource.html" title="eu.europa.esig.dss.x509.crl.OfflineCRLSource" alt="" coords="16,219,140,245"/>
+<area shape="rect" id="node2" href="./OfflineCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="5,208,151,256"/>
+<area shape="rect" id="node4_3" href="../../client/crl/OnlineCRLSource.html" title="eu.europa.esig.dss.client.crl.OnlineCRLSource" alt="" coords="186,219,309,245"/>
+<area shape="rect" id="node4" href="../../client/crl/OnlineCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="175,208,319,256"/>
+<area shape="rect" id="node5_4" href="../../client/crl/JdbcCacheCRLSource.html" title="eu.europa.esig.dss.client.crl.JdbcCacheCRLSource" alt="" coords="354,219,503,245"/>
+<area shape="rect" id="node5" href="../../client/crl/JdbcCacheCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="343,208,514,256"/>
+</map>

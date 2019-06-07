@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SignatureCertificateSource.html" title="eu.europa.esig.dss.x509.SignatureCertificateSource" alt="" coords="16,214,191,239"/>
+<area shape="rect" id="node1" href="./SignatureCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="5,203,201,251"/>
+<area shape="rect" id="node2_1" href="./KeyStoreCertificateSource.html" title="eu.europa.esig.dss.x509.KeyStoreCertificateSource" alt="" coords="236,214,408,239"/>
+<area shape="rect" id="node2" href="./KeyStoreCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="225,203,419,251"/>
+<area shape="rect" id="node3_2" href="./CommonTrustedCertificateSource.html" title="eu.europa.esig.dss.x509.CommonTrustedCertificateSource" alt="" coords="454,214,667,239"/>
+<area shape="rect" id="node3" href="./CommonTrustedCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="443,203,678,251"/>
+<area shape="rect" id="node4_3" href="./CommonCertificateSource.html" title="eu.europa.esig.dss.x509.CommonCertificateSource" alt="" coords="237,118,407,143"/>
+<area shape="rect" id="node4" href="./CommonCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="226,107,418,155"/>
+<area shape="rect" id="node5_4" href="./CertificateSource.html" title="eu.europa.esig.dss.x509.CertificateSource" alt="" coords="263,11,381,53"/>
+<area shape="rect" id="node5" href="./CertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="252,5,392,59"/>
+</map>

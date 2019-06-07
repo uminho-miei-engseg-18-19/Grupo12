@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../x509/ocsp/OfflineOCSPSource.html" title="eu.europa.esig.dss.x509.ocsp.OfflineOCSPSource" alt="" coords="18,17,154,42"/>
+<area shape="rect" id="node1" href="../../x509/ocsp/OfflineOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="7,5,165,53"/>
+<area shape="rect" id="node2_1" href="./CAdESOCSPSource.html" title="eu.europa.esig.dss.cades.validation.CAdESOCSPSource" alt="" coords="16,113,156,138"/>
+<area shape="rect" id="node2" href="./CAdESOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="5,101,167,149"/>
+</map>

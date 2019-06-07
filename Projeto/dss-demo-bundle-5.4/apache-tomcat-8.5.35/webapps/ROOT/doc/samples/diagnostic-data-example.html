@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.7.1">
+<title>Untitled</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="./coderay-asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
+</div>
+<div id="content">
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;DiagnosticData</span> <span class="attribute-name">xmlns</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://dss.esig.europa.eu/validation/diagnostic</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+    <span class="tag">&lt;DocumentName&gt;</span>testdocument.pdf<span class="tag">&lt;/DocumentName&gt;</span>
+    <span class="tag">&lt;ValidationDate&gt;</span>2018-02-23T05:50:46<span class="tag">&lt;/ValidationDate&gt;</span>
+    <span class="tag">&lt;Signatures&gt;</span>
+        <span class="tag">&lt;Signature</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">id-2056753e8b67ab9c96a6fe80ec9f619f8e9b4505b66b078c7a2b6e151edc2bbb</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+            <span class="tag">&lt;SignatureFilename&gt;</span>testdocument.pdf<span class="tag">&lt;/SignatureFilename&gt;</span>
+            <span class="tag">&lt;DateTime&gt;</span>2017-10-27T11:54:56<span class="tag">&lt;/DateTime&gt;</span>
+            <span class="tag">&lt;SignatureFormat&gt;</span>PAdES-BASE-LTA<span class="tag">&lt;/SignatureFormat&gt;</span>
+            <span class="tag">&lt;StructuralValidation&gt;</span>
+                <span class="tag">&lt;Valid&gt;</span>true<span class="tag">&lt;/Valid&gt;</span>
+            <span class="tag">&lt;/StructuralValidation&gt;</span>
+            <span class="tag">&lt;BasicSignature&gt;</span>
+                <span class="tag">&lt;EncryptionAlgoUsedToSignThisToken&gt;</span>RSA<span class="tag">&lt;/EncryptionAlgoUsedToSignThisToken&gt;</span>
+                <span class="tag">&lt;KeyLengthUsedToSignThisToken&gt;</span>2048<span class="tag">&lt;/KeyLengthUsedToSignThisToken&gt;</span>
+                <span class="tag">&lt;DigestAlgoUsedToSignThisToken&gt;</span>SHA256<span class="tag">&lt;/DigestAlgoUsedToSignThisToken&gt;</span>
+                <span class="tag">&lt;ReferenceDataFound&gt;</span>true<span class="tag">&lt;/ReferenceDataFound&gt;</span>
+                <span class="tag">&lt;ReferenceDataIntact&gt;</span>true<span class="tag">&lt;/ReferenceDataIntact&gt;</span>
+                <span class="tag">&lt;SignatureIntact&gt;</span>true<span class="tag">&lt;/SignatureIntact&gt;</span>
+                <span class="tag">&lt;SignatureValid&gt;</span>true<span class="tag">&lt;/SignatureValid&gt;</span>
+            <span class="tag">&lt;/BasicSignature&gt;</span>
+            <span class="tag">&lt;SigningCertificate</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">021EC5069EB8A903BD62B6769EDDFE439DFA90A720C9A362D5FE76B9C31D0302</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                <span class="tag">&lt;AttributePresent&gt;</span>true<span class="tag">&lt;/AttributePresent&gt;</span>
+                <span class="tag">&lt;DigestValuePresent&gt;</span>true<span class="tag">&lt;/DigestValuePresent&gt;</span>
+                <span class="tag">&lt;DigestValueMatch&gt;</span>true<span class="tag">&lt;/DigestValueMatch&gt;</span>
+                <span class="tag">&lt;IssuerSerialMatch&gt;</span>true<span class="tag">&lt;/IssuerSerialMatch&gt;</span>
+            <span class="tag">&lt;/SigningCertificate&gt;</span>
+            <span class="tag">&lt;CertificateChain&gt;</span>
+                <span class="tag">&lt;ChainItem</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">021EC5069EB8A903BD62B6769EDDFE439DFA90A720C9A362D5FE76B9C31D0302</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                    <span class="tag">&lt;Source&gt;</span>UNKNOWN<span class="tag">&lt;/Source&gt;</span>
+                <span class="tag">&lt;/ChainItem&gt;</span>
+                <span class="tag">&lt;ChainItem</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">80AC352930875BA0AFE7F70DD389130C8E1E7BEFFDC96477356AD2A9E003AD2B</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                    <span class="tag">&lt;Source&gt;</span>UNKNOWN<span class="tag">&lt;/Source&gt;</span>
+                <span class="tag">&lt;/ChainItem&gt;</span>
+                <span class="tag">&lt;ChainItem</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                    <span class="tag">&lt;Source&gt;</span>TRUSTED_LIST<span class="tag">&lt;/Source&gt;</span>
+                <span class="tag">&lt;/ChainItem&gt;</span>
+            <span class="tag">&lt;/CertificateChain&gt;</span>
+            <span class="tag">&lt;ContentType&gt;</span>application/pdf<span class="tag">&lt;/ContentType&gt;</span>
+            <span class="tag">&lt;CommitmentTypeIndication</span><span class="tag">/&gt;</span>
+            <span class="tag">&lt;ClaimedRoles</span><span class="tag">/&gt;</span>
+            <span class="tag">&lt;Timestamps&gt;</span>
+                <span class="tag">&lt;Timestamp</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">F8B72B7574450E84664DE88950BC781CA2528CF5B39ABB3E1F93947B752BE79F</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">Type</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">SIGNATURE_TIMESTAMP</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                    <span class="tag">&lt;ProductionTime&gt;</span>2017-10-27T11:55:08<span class="tag">&lt;/ProductionTime&gt;</span>
+                    <span class="tag">&lt;SignedDataDigestAlgo&gt;</span>SHA512<span class="tag">&lt;/SignedDataDigestAlgo&gt;</span>
+                    <span class="tag">&lt;EncodedSignedDataDigestValue&gt;</span>kS17/pxPekqLwE8UcpnhxyZd/8gkQ8IAhho9KI+2yuh25qyB4qS7ozZ7L85YSssCy66ByRGweAG/mwK8RfXJoA==<span class="tag">&lt;/EncodedSignedDataDigestValue&gt;</span>
+                    <span class="tag">&lt;MessageImprintDataFound&gt;</span>true<span class="tag">&lt;/MessageImprintDataFound&gt;</span>
+                    <span class="tag">&lt;MessageImprintDataIntact&gt;</span>true<span class="tag">&lt;/MessageImprintDataIntact&gt;</span>
+                    <span class="tag">&lt;BasicSignature&gt;</span>
+                        <span class="tag">&lt;EncryptionAlgoUsedToSignThisToken&gt;</span>RSA<span class="tag">&lt;/EncryptionAlgoUsedToSignThisToken&gt;</span>
+                        <span class="tag">&lt;KeyLengthUsedToSignThisToken&gt;</span>2048<span class="tag">&lt;/KeyLengthUsedToSignThisToken&gt;</span>
+                        <span class="tag">&lt;DigestAlgoUsedToSignThisToken&gt;</span>SHA512<span class="tag">&lt;/DigestAlgoUsedToSignThisToken&gt;</span>
+                        <span class="tag">&lt;ReferenceDataFound&gt;</span>true<span class="tag">&lt;/ReferenceDataFound&gt;</span>
+                        <span class="tag">&lt;ReferenceDataIntact&gt;</span>true<span class="tag">&lt;/ReferenceDataIntact&gt;</span>
+                        <span class="tag">&lt;SignatureIntact&gt;</span>true<span class="tag">&lt;/SignatureIntact&gt;</span>
+                        <span class="tag">&lt;SignatureValid&gt;</span>true<span class="tag">&lt;/SignatureValid&gt;</span>
+                    <span class="tag">&lt;/BasicSignature&gt;</span>
+                    <span class="tag">&lt;SigningCertificate</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">EE3C22E06087BFEC213709AD3E7F2DDA9CE9D19CE238DCA81A6433E9070A9FBE</span><span class="delimiter">&quot;</span></span><span class="tag">/&gt;</span>
+                    <span class="tag">&lt;CertificateChain&gt;</span>
+                        <span class="tag">&lt;ChainItem</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">EE3C22E06087BFEC213709AD3E7F2DDA9CE9D19CE238DCA81A6433E9070A9FBE</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                            <span class="tag">&lt;Source&gt;</span>TIMESTAMP<span class="tag">&lt;/Source&gt;</span>
+                        <span class="tag">&lt;/ChainItem&gt;</span>
+                        <span class="tag">&lt;ChainItem</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                            <span class="tag">&lt;Source&gt;</span>TRUSTED_LIST<span class="tag">&lt;/Source&gt;</span>
+                        <span class="tag">&lt;/ChainItem&gt;</span>
+                    <span class="tag">&lt;/CertificateChain&gt;</span>
+                    <span class="tag">&lt;TimestampedObjects&gt;</span>
+                        <span class="tag">&lt;TimestampedObject</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">id-2056753e8b67ab9c96a6fe80ec9f619f8e9b4505b66b078c7a2b6e151edc2bbb</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">Category</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">SIGNATURE</span><span class="delimiter">&quot;</span></span><span class="tag">/&gt;</span>
+                        <span class="tag">&lt;TimestampedObject</span> <span class="attribute-name">Category</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">CERTIFICATE</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                            <span class="tag">&lt;DigestAlgoAndValue&gt;</span>
+                                <span class="tag">&lt;DigestMethod&gt;</span>SHA256<span class="tag">&lt;/DigestMethod&gt;</span>
+                                <span class="tag">&lt;DigestValue&gt;</span>Ah7FBp64qQO9YrZ2nt3+Q536kKcgyaNi1f52ucMdAwI=<span class="tag">&lt;/DigestValue&gt;</span>
+                            <span class="tag">&lt;/DigestAlgoAndValue&gt;</span>
+                        <span class="tag">&lt;/TimestampedObject&gt;</span>
+                    <span class="tag">&lt;/TimestampedObjects&gt;</span>
+                <span class="tag">&lt;/Timestamp&gt;</span>
+                <span class="tag">&lt;Timestamp</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">7F9B88A8161CC87905298FF8E0CD080516452FBA1480DD6AFAE38B7DD18E2A1B</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">Type</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">ARCHIVE_TIMESTAMP</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                    ....
+                <span class="tag">&lt;/Timestamp&gt;</span>
+            <span class="tag">&lt;/Timestamps&gt;</span>
+            <span class="tag">&lt;SignatureScopes&gt;</span>
+                <span class="tag">&lt;SignatureScope</span> <span class="attribute-name">name</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">PDF previous version #1</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">scope</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">PdfByteRangeSignatureScope</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>The document byte range: [0, 9258, 32602, 495939]<span class="tag">&lt;/SignatureScope&gt;</span>
+            <span class="tag">&lt;/SignatureScopes&gt;</span>
+        <span class="tag">&lt;/Signature&gt;</span>
+    <span class="tag">&lt;/Signatures&gt;</span>
+    <span class="tag">&lt;UsedCertificates&gt;</span>
+        <span class="tag">&lt;Certificate</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">021EC5069EB8A903BD62B6769EDDFE439DFA90A720C9A362D5FE76B9C31D0302</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+            <span class="tag">&lt;SubjectDistinguishedName</span> <span class="attribute-name">Format</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">CANONICAL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>2.5.4.5=#130b3837303533303236323231,2.5.4.42=#130b456c696e65204765726461,2.5.4.4=#130d56616e205261656d646f6e636b,cn=E van R (signature),c=be<span class="tag">&lt;/SubjectDistinguishedName&gt;</span>
+            <span class="tag">&lt;SubjectDistinguishedName</span> <span class="attribute-name">Format</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">RFC2253</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>2.5.4.5=#130b3837303533303236323231,2.5.4.42=#130b456c696e65204765726461,2.5.4.4=#130d56616e205261656d646f6e636b,CN=E Van R (Signature),C=BE<span class="tag">&lt;/SubjectDistinguishedName&gt;</span>
+            <span class="tag">&lt;IssuerDistinguishedName</span> <span class="attribute-name">Format</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">CANONICAL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>2.5.4.5=#1306323031373130,cn=citizen ca,o=http://repository.eid.belgium.be/,c=be<span class="tag">&lt;/IssuerDistinguishedName&gt;</span>
+            <span class="tag">&lt;IssuerDistinguishedName</span> <span class="attribute-name">Format</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">RFC2253</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>2.5.4.5=#1306323031373130,CN=Citizen CA,O=http://repository.eid.belgium.be/,C=BE<span class="tag">&lt;/IssuerDistinguishedName&gt;</span>
+            <span class="tag">&lt;SerialNumber&gt;</span>21267647932559290630671294378886251870<span class="tag">&lt;/SerialNumber&gt;</span>
+            <span class="tag">&lt;CommonName&gt;</span>E Van R (Signature)<span class="tag">&lt;/CommonName&gt;</span>
+            <span class="tag">&lt;CountryName&gt;</span>BE<span class="tag">&lt;/CountryName&gt;</span>
+            <span class="tag">&lt;GivenName&gt;</span>E G<span class="tag">&lt;/GivenName&gt;</span>
+            <span class="tag">&lt;Surname&gt;</span>Van R<span class="tag">&lt;/Surname&gt;</span>
+            <span class="tag">&lt;AuthorityInformationAccessUrls&gt;</span>
+                <span class="tag">&lt;Url&gt;</span>http://certs.eid.belgium.be/belgiumrs4.crt<span class="tag">&lt;/Url&gt;</span>
+            <span class="tag">&lt;/AuthorityInformationAccessUrls&gt;</span>
+            <span class="tag">&lt;CRLDistributionPoints&gt;</span>
+                <span class="tag">&lt;Url&gt;</span>http://crl.eid.belgium.be/eidc201710.crl<span class="tag">&lt;/Url&gt;</span>
+            <span class="tag">&lt;/CRLDistributionPoints&gt;</span>
+            <span class="tag">&lt;OCSPAccessUrls&gt;</span>
+                <span class="tag">&lt;Url&gt;</span>http://ocsp.eid.belgium.be/2<span class="tag">&lt;/Url&gt;</span>
+            <span class="tag">&lt;/OCSPAccessUrls&gt;</span>
+            <span class="tag">&lt;DigestAlgoAndValues&gt;</span>
+                <span class="tag">&lt;DigestAlgoAndValue&gt;</span>
+                    <span class="tag">&lt;DigestMethod&gt;</span>SHA256<span class="tag">&lt;/DigestMethod&gt;</span>
+                    <span class="tag">&lt;DigestValue&gt;</span>Ah7FBp64qQO9YrZ2nt3+Q536kKcgyaNi1f52ucMdAwI=<span class="tag">&lt;/DigestValue&gt;</span>
+                <span class="tag">&lt;/DigestAlgoAndValue&gt;</span>
+                <span class="tag">&lt;DigestAlgoAndValue&gt;</span>
+                    <span class="tag">&lt;DigestMethod&gt;</span>SHA1<span class="tag">&lt;/DigestMethod&gt;</span>
+                    <span class="tag">&lt;DigestValue&gt;</span>WWUnOSgChkevrP7omdQeS/plaNQ=<span class="tag">&lt;/DigestValue&gt;</span>
+                <span class="tag">&lt;/DigestAlgoAndValue&gt;</span>
+            <span class="tag">&lt;/DigestAlgoAndValues&gt;</span>
+            <span class="tag">&lt;NotAfter&gt;</span>2027-03-13T23:59:59<span class="tag">&lt;/NotAfter&gt;</span>
+            <span class="tag">&lt;NotBefore&gt;</span>2017-05-15T16:19:53<span class="tag">&lt;/NotBefore&gt;</span>
+            <span class="tag">&lt;PublicKeySize&gt;</span>2048<span class="tag">&lt;/PublicKeySize&gt;</span>
+            <span class="tag">&lt;PublicKeyEncryptionAlgo&gt;</span>RSA<span class="tag">&lt;/PublicKeyEncryptionAlgo&gt;</span>
+            <span class="tag">&lt;KeyUsageBits&gt;</span>
+                <span class="tag">&lt;KeyUsage&gt;</span>nonRepudiation<span class="tag">&lt;/KeyUsage&gt;</span>
+            <span class="tag">&lt;/KeyUsageBits&gt;</span>
+            <span class="tag">&lt;ExtendedKeyUsages</span><span class="tag">/&gt;</span>
+            <span class="tag">&lt;IdPkixOcspNoCheck&gt;</span>false<span class="tag">&lt;/IdPkixOcspNoCheck&gt;</span>
+            <span class="tag">&lt;BasicSignature&gt;</span>
+                <span class="tag">&lt;EncryptionAlgoUsedToSignThisToken&gt;</span>RSA<span class="tag">&lt;/EncryptionAlgoUsedToSignThisToken&gt;</span>
+                <span class="tag">&lt;KeyLengthUsedToSignThisToken&gt;</span>4096<span class="tag">&lt;/KeyLengthUsedToSignThisToken&gt;</span>
+                <span class="tag">&lt;DigestAlgoUsedToSignThisToken&gt;</span>SHA256<span class="tag">&lt;/DigestAlgoUsedToSignThisToken&gt;</span>
+                <span class="tag">&lt;ReferenceDataFound&gt;</span>true<span class="tag">&lt;/ReferenceDataFound&gt;</span>
+                <span class="tag">&lt;ReferenceDataIntact&gt;</span>true<span class="tag">&lt;/ReferenceDataIntact&gt;</span>
+                <span class="tag">&lt;SignatureIntact&gt;</span>true<span class="tag">&lt;/SignatureIntact&gt;</span>
+                <span class="tag">&lt;SignatureValid&gt;</span>true<span class="tag">&lt;/SignatureValid&gt;</span>
+            <span class="tag">&lt;/BasicSignature&gt;</span>
+            <span class="tag">&lt;SigningCertificate</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">80AC352930875BA0AFE7F70DD389130C8E1E7BEFFDC96477356AD2A9E003AD2B</span><span class="delimiter">&quot;</span></span><span class="tag">/&gt;</span>
+            <span class="tag">&lt;CertificateChain&gt;</span>
+                <span class="tag">&lt;ChainItem</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">80AC352930875BA0AFE7F70DD389130C8E1E7BEFFDC96477356AD2A9E003AD2B</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                    <span class="tag">&lt;Source&gt;</span>UNKNOWN<span class="tag">&lt;/Source&gt;</span>
+                <span class="tag">&lt;/ChainItem&gt;</span>
+                <span class="tag">&lt;ChainItem</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                    <span class="tag">&lt;Source&gt;</span>TRUSTED_LIST<span class="tag">&lt;/Source&gt;</span>
+                <span class="tag">&lt;/ChainItem&gt;</span>
+            <span class="tag">&lt;/CertificateChain&gt;</span>
+            <span class="tag">&lt;Trusted&gt;</span>false<span class="tag">&lt;/Trusted&gt;</span>
+            <span class="tag">&lt;SelfSigned&gt;</span>false<span class="tag">&lt;/SelfSigned&gt;</span>
+            <span class="tag">&lt;CertificatePolicies&gt;</span>
+                <span class="tag">&lt;certificatePolicy</span> <span class="attribute-name">cpsUrl</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://repository.eid.belgium.be</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>2.16.56.12.1.1.2.1<span class="tag">&lt;/certificatePolicy&gt;</span>
+            <span class="tag">&lt;/CertificatePolicies&gt;</span>
+            <span class="tag">&lt;QCStatementIds&gt;</span>
+                <span class="tag">&lt;oid</span> <span class="attribute-name">Description</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">qc-compliance</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>0.4.0.1862.1.1<span class="tag">&lt;/oid&gt;</span>
+                <span class="tag">&lt;oid</span> <span class="attribute-name">Description</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">qc-sscd</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>0.4.0.1862.1.4<span class="tag">&lt;/oid&gt;</span>
+            <span class="tag">&lt;/QCStatementIds&gt;</span>
+            <span class="tag">&lt;QCTypes</span><span class="tag">/&gt;</span>
+            <span class="tag">&lt;TrustedServiceProviders&gt;</span>
+                <span class="tag">&lt;TrustedServiceProvider&gt;</span>
+                    <span class="tag">&lt;TSPName&gt;</span>Certipost n.v./s.a.<span class="tag">&lt;/TSPName&gt;</span>
+                    <span class="tag">&lt;TSPRegistrationIdentifier&gt;</span>VATBE-0475396406<span class="tag">&lt;/TSPRegistrationIdentifier&gt;</span>
+                    <span class="tag">&lt;CountryCode&gt;</span>BE<span class="tag">&lt;/CountryCode&gt;</span>
+                    <span class="tag">&lt;TrustedServices&gt;</span>
+                        <span class="tag">&lt;TrustedService&gt;</span>
+                            <span class="tag">&lt;ServiceName&gt;</span>CN=Belgium Root CA4, C=BE<span class="tag">&lt;/ServiceName&gt;</span>
+                            <span class="tag">&lt;ServiceType&gt;</span>http://uri.etsi.org/TrstSvc/Svctype/CA/QC<span class="tag">&lt;/ServiceType&gt;</span>
+                            <span class="tag">&lt;Status&gt;</span>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted<span class="tag">&lt;/Status&gt;</span>
+                            <span class="tag">&lt;StartDate&gt;</span>2016-06-30T22:00:00<span class="tag">&lt;/StartDate&gt;</span>
+                            <span class="tag">&lt;CapturedQualifiers&gt;</span>
+                                <span class="tag">&lt;Qualifier&gt;</span>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDStatusAsInCert<span class="tag">&lt;/Qualifier&gt;</span>
+                            <span class="tag">&lt;/CapturedQualifiers&gt;</span>
+                            <span class="tag">&lt;AdditionalServiceInfoUris&gt;</span>
+                                <span class="tag">&lt;URI&gt;</span>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC<span class="tag">&lt;/URI&gt;</span>
+                                <span class="tag">&lt;URI&gt;</span>http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures<span class="tag">&lt;/URI&gt;</span>
+                            <span class="tag">&lt;/AdditionalServiceInfoUris&gt;</span>
+                        <span class="tag">&lt;/TrustedService&gt;</span>
+                    <span class="tag">&lt;/TrustedServices&gt;</span>
+                <span class="tag">&lt;/TrustedServiceProvider&gt;</span>
+            <span class="tag">&lt;/TrustedServiceProviders&gt;</span>
+            <span class="tag">&lt;Revocations&gt;</span>
+                <span class="tag">&lt;Revocation</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">021ec5069eb8a903bd62b6769eddfe439dfa90a720c9a362d5fe76b9c31d0302bfc08d553a774d1f440ab36525a3290e2cc23b46d0ac954ea4d8201faff0d91a</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                    <span class="tag">&lt;Origin&gt;</span>SIGNATURE<span class="tag">&lt;/Origin&gt;</span>
+                    <span class="tag">&lt;Source&gt;</span>OCSPToken<span class="tag">&lt;/Source&gt;</span>
+                    <span class="tag">&lt;Status&gt;</span>true<span class="tag">&lt;/Status&gt;</span>
+                    <span class="tag">&lt;ProductionDate&gt;</span>2017-10-27T11:55:08<span class="tag">&lt;/ProductionDate&gt;</span>
+                    <span class="tag">&lt;ThisUpdate&gt;</span>2017-10-27T11:55:08<span class="tag">&lt;/ThisUpdate&gt;</span>
+                    <span class="tag">&lt;NextUpdate&gt;</span>2017-10-27T11:56:08<span class="tag">&lt;/NextUpdate&gt;</span>
+                    <span class="tag">&lt;DigestAlgoAndValues&gt;</span>
+                        <span class="tag">&lt;DigestAlgoAndValue&gt;</span>
+                            <span class="tag">&lt;DigestMethod&gt;</span>SHA256<span class="tag">&lt;/DigestMethod&gt;</span>
+                            <span class="tag">&lt;DigestValue&gt;</span>v8CNVTp3TR9ECrNlJaMpDizCO0bQrJVOpNggH6/w2Ro=<span class="tag">&lt;/DigestValue&gt;</span>
+                        <span class="tag">&lt;/DigestAlgoAndValue&gt;</span>
+                        <span class="tag">&lt;DigestAlgoAndValue&gt;</span>
+                            <span class="tag">&lt;DigestMethod&gt;</span>SHA1<span class="tag">&lt;/DigestMethod&gt;</span>
+                            <span class="tag">&lt;DigestValue&gt;</span>MRhWbZTCsnogtBv4KZ5GzE2imWA=<span class="tag">&lt;/DigestValue&gt;</span>
+                        <span class="tag">&lt;/DigestAlgoAndValue&gt;</span>
+                    <span class="tag">&lt;/DigestAlgoAndValues&gt;</span>
+                    <span class="tag">&lt;BasicSignature&gt;</span>
+                        <span class="tag">&lt;EncryptionAlgoUsedToSignThisToken&gt;</span>RSA<span class="tag">&lt;/EncryptionAlgoUsedToSignThisToken&gt;</span>
+                        <span class="tag">&lt;KeyLengthUsedToSignThisToken&gt;</span>2048<span class="tag">&lt;/KeyLengthUsedToSignThisToken&gt;</span>
+                        <span class="tag">&lt;DigestAlgoUsedToSignThisToken&gt;</span>SHA256<span class="tag">&lt;/DigestAlgoUsedToSignThisToken&gt;</span>
+                        <span class="tag">&lt;ReferenceDataFound&gt;</span>true<span class="tag">&lt;/ReferenceDataFound&gt;</span>
+                        <span class="tag">&lt;ReferenceDataIntact&gt;</span>true<span class="tag">&lt;/ReferenceDataIntact&gt;</span>
+                        <span class="tag">&lt;SignatureIntact&gt;</span>true<span class="tag">&lt;/SignatureIntact&gt;</span>
+                        <span class="tag">&lt;SignatureValid&gt;</span>true<span class="tag">&lt;/SignatureValid&gt;</span>
+                    <span class="tag">&lt;/BasicSignature&gt;</span>
+                    <span class="tag">&lt;SigningCertificate</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">CB217219BADFC13B4FEA3EFA43882E9FECE49E542DCDBA83428DC6854499A35F</span><span class="delimiter">&quot;</span></span><span class="tag">/&gt;</span>
+                    <span class="tag">&lt;CertificateChain&gt;</span>
+                        <span class="tag">&lt;ChainItem</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">CB217219BADFC13B4FEA3EFA43882E9FECE49E542DCDBA83428DC6854499A35F</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                            <span class="tag">&lt;Source&gt;</span>OCSP_RESPONSE<span class="tag">&lt;/Source&gt;</span>
+                        <span class="tag">&lt;/ChainItem&gt;</span>
+                        <span class="tag">&lt;ChainItem</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">80AC352930875BA0AFE7F70DD389130C8E1E7BEFFDC96477356AD2A9E003AD2B</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                            <span class="tag">&lt;Source&gt;</span>UNKNOWN<span class="tag">&lt;/Source&gt;</span>
+                        <span class="tag">&lt;/ChainItem&gt;</span>
+                        <span class="tag">&lt;ChainItem</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                            <span class="tag">&lt;Source&gt;</span>TRUSTED_LIST<span class="tag">&lt;/Source&gt;</span>
+                        <span class="tag">&lt;/ChainItem&gt;</span>
+                    <span class="tag">&lt;/CertificateChain&gt;</span>
+                    <span class="tag">&lt;Info</span><span class="tag">/&gt;</span>
+                <span class="tag">&lt;/Revocation&gt;</span>
+            <span class="tag">&lt;/Revocations&gt;</span>
+            <span class="tag">&lt;Info&gt;</span>
+                <span class="tag">&lt;Message</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">0</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>No CRL info found !<span class="tag">&lt;/Message&gt;</span>
+            <span class="tag">&lt;/Info&gt;</span>
+        <span class="tag">&lt;/Certificate&gt;</span>
+        <span class="tag">&lt;Certificate</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">80AC352930875BA0AFE7F70DD389130C8E1E7BEFFDC96477356AD2A9E003AD2B</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+            ...
+        <span class="tag">&lt;/Certificate&gt;</span>
+        <span class="tag">&lt;Certificate</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                ...
+        <span class="tag">&lt;/Certificate&gt;</span>
+        <span class="tag">&lt;Certificate</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">EE3C22E06087BFEC213709AD3E7F2DDA9CE9D19CE238DCA81A6433E9070A9FBE</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+            ...
+        <span class="tag">&lt;/Certificate&gt;</span>
+        <span class="tag">&lt;Certificate</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">CB217219BADFC13B4FEA3EFA43882E9FECE49E542DCDBA83428DC6854499A35F</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+            ...
+        <span class="tag">&lt;/Certificate&gt;</span>
+    <span class="tag">&lt;/UsedCertificates&gt;</span>
+    <span class="tag">&lt;TrustedLists&gt;</span>
+        <span class="tag">&lt;TrustedList&gt;</span>
+            <span class="tag">&lt;CountryCode&gt;</span>BE<span class="tag">&lt;/CountryCode&gt;</span>
+            <span class="tag">&lt;Url&gt;</span>https://tsl.belgium.be/tsl-be.xml<span class="tag">&lt;/Url&gt;</span>
+            <span class="tag">&lt;SequenceNumber&gt;</span>36<span class="tag">&lt;/SequenceNumber&gt;</span>
+            <span class="tag">&lt;Version&gt;</span>5<span class="tag">&lt;/Version&gt;</span>
+            <span class="tag">&lt;LastLoading&gt;</span>2018-02-23T05:15:00<span class="tag">&lt;/LastLoading&gt;</span>
+            <span class="tag">&lt;IssueDate&gt;</span>2018-02-08T00:00:00<span class="tag">&lt;/IssueDate&gt;</span>
+            <span class="tag">&lt;NextUpdate&gt;</span>2018-07-30T00:00:00<span class="tag">&lt;/NextUpdate&gt;</span>
+            <span class="tag">&lt;WellSigned&gt;</span>true<span class="tag">&lt;/WellSigned&gt;</span>
+        <span class="tag">&lt;/TrustedList&gt;</span>
+    <span class="tag">&lt;/TrustedLists&gt;</span>
+    <span class="tag">&lt;ListOfTrustedLists&gt;</span>
+        <span class="tag">&lt;CountryCode&gt;</span>EU<span class="tag">&lt;/CountryCode&gt;</span>
+        <span class="tag">&lt;Url&gt;</span>https://ec.europa.eu/information_society/policy/esignature/trusted-list/tl-mp.xml<span class="tag">&lt;/Url&gt;</span>
+        <span class="tag">&lt;SequenceNumber&gt;</span>200<span class="tag">&lt;/SequenceNumber&gt;</span>
+        <span class="tag">&lt;Version&gt;</span>5<span class="tag">&lt;/Version&gt;</span>
+        <span class="tag">&lt;LastLoading&gt;</span>2018-02-23T05:15:00<span class="tag">&lt;/LastLoading&gt;</span>
+        <span class="tag">&lt;IssueDate&gt;</span>2018-02-19T13:00:00<span class="tag">&lt;/IssueDate&gt;</span>
+        <span class="tag">&lt;NextUpdate&gt;</span>2018-08-19T00:00:00<span class="tag">&lt;/NextUpdate&gt;</span>
+        <span class="tag">&lt;WellSigned&gt;</span>true<span class="tag">&lt;/WellSigned&gt;</span>
+    <span class="tag">&lt;/ListOfTrustedLists&gt;</span>
+<span class="tag">&lt;/DiagnosticData&gt;</span></code></pre>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2018-10-25 13:24:33 CEST
+</div>
+</div>
+</body>
+</html>

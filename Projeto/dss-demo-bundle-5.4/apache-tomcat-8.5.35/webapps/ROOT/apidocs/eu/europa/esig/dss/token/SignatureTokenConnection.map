@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./AbstractSignatureTokenConnection.html" title="eu.europa.esig.dss.token.AbstractSignatureTokenConnection" alt="" coords="16,219,243,245"/>
+<area shape="rect" id="node1" href="./AbstractSignatureTokenConnection.html" title="&lt;TABLE&gt;" alt="" coords="5,208,253,256"/>
+<area shape="rect" id="node2_1" href="./SignatureTokenConnection.html" title="eu.europa.esig.dss.token.SignatureTokenConnection" alt="" coords="177,112,351,155"/>
+<area shape="rect" id="node2" href="./SignatureTokenConnection.html" title="&lt;TABLE&gt;" alt="" coords="166,107,362,160"/>
+<area shape="rect" id="node3_2" href="./mocca/MOCCASignatureTokenConnection.html" title="eu.europa.esig.dss.token.mocca.MOCCASignatureTokenConnection" alt="" coords="289,219,511,245"/>
+<area shape="rect" id="node3" href="./mocca/MOCCASignatureTokenConnection.html" title="&lt;TABLE&gt;" alt="" coords="278,208,522,256"/>
+<area shape="rect" id="node4_3" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/AutoCloseable.html" title="java.lang.AutoCloseable" alt="" coords="212,11,316,53"/>
+<area shape="rect" id="node4" href="http://java.sun.com/j2se/1.4.2/docs/api/java/lang/AutoCloseable.html" title="&lt;TABLE&gt;" alt="" coords="201,5,327,59"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ValidationTimeParser.html" title="eu.europa.esig.dss.jaxb.parsers.ValidationTimeParser" alt="" coords="16,17,159,42"/>
+<area shape="rect" id="node1" href="./ValidationTimeParser.html" title="&lt;TABLE&gt;" alt="" coords="5,5,169,53"/>
+<area shape="rect" id="node2_1" href="./TimestampedObjectTypeParser.html" title="eu.europa.esig.dss.jaxb.parsers.TimestampedObjectTypeParser" alt="" coords="204,17,405,42"/>
+<area shape="rect" id="node2" href="./TimestampedObjectTypeParser.html" title="&lt;TABLE&gt;" alt="" coords="193,5,416,53"/>
+<area shape="rect" id="node3_2" href="./SubIndicationParser.html" title="eu.europa.esig.dss.jaxb.parsers.SubIndicationParser" alt="" coords="451,17,587,42"/>
+<area shape="rect" id="node3" href="./SubIndicationParser.html" title="&lt;TABLE&gt;" alt="" coords="441,5,598,53"/>
+<area shape="rect" id="node4_3" href="./SignatureScopeTypeParser.html" title="eu.europa.esig.dss.jaxb.parsers.SignatureScopeTypeParser" alt="" coords="633,17,811,42"/>
+<area shape="rect" id="node4" href="./SignatureScopeTypeParser.html" title="&lt;TABLE&gt;" alt="" coords="623,5,821,53"/>
+<area shape="rect" id="node5_4" href="./SignatureQualificationParser.html" title="eu.europa.esig.dss.jaxb.parsers.SignatureQualificationParser" alt="" coords="857,17,1041,42"/>
+<area shape="rect" id="node5" href="./SignatureQualificationParser.html" title="&lt;TABLE&gt;" alt="" coords="846,5,1051,53"/>
+<area shape="rect" id="node6_5" href="./IndicationParser.html" title="eu.europa.esig.dss.jaxb.parsers.IndicationParser" alt="" coords="1086,17,1198,42"/>
+<area shape="rect" id="node6" href="./IndicationParser.html" title="&lt;TABLE&gt;" alt="" coords="1075,5,1209,53"/>
+<area shape="rect" id="node7_6" href="./DigestMatcherTypeParser.html" title="eu.europa.esig.dss.jaxb.parsers.DigestMatcherTypeParser" alt="" coords="1244,17,1413,42"/>
+<area shape="rect" id="node7" href="./DigestMatcherTypeParser.html" title="&lt;TABLE&gt;" alt="" coords="1233,5,1424,53"/>
+<area shape="rect" id="node8_7" href="./DateParser.html" title="eu.europa.esig.dss.jaxb.parsers.DateParser" alt="" coords="1459,17,1543,42"/>
+<area shape="rect" id="node8" href="./DateParser.html" title="&lt;TABLE&gt;" alt="" coords="1448,5,1553,53"/>
+<area shape="rect" id="node9_8" href="./ContextParser.html" title="eu.europa.esig.dss.jaxb.parsers.ContextParser" alt="" coords="1588,17,1691,42"/>
+<area shape="rect" id="node9" href="./ContextParser.html" title="&lt;TABLE&gt;" alt="" coords="1577,5,1701,53"/>
+<area shape="rect" id="node10_9" href="./CertificateQualificationParser.html" title="eu.europa.esig.dss.jaxb.parsers.CertificateQualificationParser" alt="" coords="1737,17,1923,42"/>
+<area shape="rect" id="node10" href="./CertificateQualificationParser.html" title="&lt;TABLE&gt;" alt="" coords="1726,5,1934,53"/>
+</map>

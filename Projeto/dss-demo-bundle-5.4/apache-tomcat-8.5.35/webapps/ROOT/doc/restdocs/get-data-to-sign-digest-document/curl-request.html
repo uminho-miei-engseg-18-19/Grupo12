@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.7.1">
+<title>Untitled</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="./coderay-asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
+</div>
+<div id="content">
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="bash">$ curl 'http://localhost:8080/services/rest/signature/one-document/getDataToSign' -i -X POST \
+    -H 'Accept: application/json, application/javascript, text/javascript, text/json' \
+    -H 'Content-Type: application/json; charset=UTF-8' \
+    -d '{
+  &quot;parameters&quot; : {
+    &quot;signWithExpiredCertificate&quot; : false,
+    &quot;generateTBSWithoutCertificate&quot; : false,
+    &quot;signatureLevel&quot; : &quot;CAdES_BASELINE_B&quot;,
+    &quot;signaturePackaging&quot; : &quot;DETACHED&quot;,
+    &quot;signatureAlgorithm&quot; : &quot;RSA_SHA256&quot;,
+    &quot;encryptionAlgorithm&quot; : &quot;RSA&quot;,
+    &quot;digestAlgorithm&quot; : &quot;SHA256&quot;,
+    &quot;referenceDigestAlgorithm&quot; : null,
+    &quot;maskGenerationFunction&quot; : null,
+    &quot;contentTimestampParameters&quot; : {
+      &quot;digestAlgorithm&quot; : &quot;SHA256&quot;,
+      &quot;canonicalizationMethod&quot; : &quot;http://www.w3.org/2001/10/xml-exc-c14n#&quot;
+    },
+    &quot;signatureTimestampParameters&quot; : {
+      &quot;digestAlgorithm&quot; : &quot;SHA256&quot;,
+      &quot;canonicalizationMethod&quot; : &quot;http://www.w3.org/2001/10/xml-exc-c14n#&quot;
+    },
+    &quot;archiveTimestampParameters&quot; : {
+      &quot;digestAlgorithm&quot; : &quot;SHA256&quot;,
+      &quot;canonicalizationMethod&quot; : &quot;http://www.w3.org/2001/10/xml-exc-c14n#&quot;
+    },
+    &quot;signingCertificate&quot; : {
+      &quot;encodedCertificate&quot; : &quot;MIIC6jCCAdKgAwIBAgIGLtYU17tXMA0GCSqGSIb3DQEBCwUAMDAxGzAZBgNVBAMMElJvb3RTZWxmU2lnbmVkRmFrZTERMA8GA1UECgwIRFNTLXRlc3QwHhcNMTcwNjA4MTEyNjAxWhcNNDcwNzA0MDc1NzI0WjAoMRMwEQYDVQQDDApTaWduZXJGYWtlMREwDwYDVQQKDAhEU1MtdGVzdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMI3kZhtnipn+iiZHZ9ax8FlfE5Ow/cFwBTfAEb3R1ZQUp6/BQnBt7Oo0JWBtc9qkv7JUDdcBJXPV5QWS5AyMPHpqQ75Hitjsq/Fzu8eHtkKpFizcxGa9BZdkQjh4rSrtO1Kjs0Rd5DQtWSgkeVCCN09kN0ZsZ0ENY+Ip8QxSmyztsStkYXdULqpwz4JEXW9vz64eTbde4vQJ6pjHGarJf1gQNEc2XzhmI/prXLysWNqC7lZg7PUZUTrdegABTUzYCRJ1kWBRPm4qo0LN405c94QQd45a5kTgowHzEgLnAQI28x0M3A59TKC+ieNc6VF1PsTLpUw7PNI2VstX5jAuasCAwEAAaMSMBAwDgYDVR0PAQH/BAQDAgEGMA0GCSqGSIb3DQEBCwUAA4IBAQCK6LGA01TR+rmU8p6yhAi4OkDN2b1dbIL8l8iCMYopLCxx8xqq3ubZCOxqh1X2j6pgWzarb0b/MUix00IoUvNbFOxAW7PBZIKDLnm6LsckRxs1U32sC9d1LOHe3WKBNB6GZALT1ewjh7hSbWjftlmcovq+6eVGA5cvf2u/2+TkKkyHV/NR394nXrdsdpvygwypEtXjetzD7UT93Nuw3xcV8VIftIvHf9LjU7h+UjGmKXG9c15eYr3SzUmv6kyOI0Bvw14PWtsWGl0QdOSRvIBBrP4adCnGTgjgjk9LTcO8B8FKrr+8lHGuc0bp4lIUToiUkGILXsiEeEg9WAqm+XqO&quot;
+    },
+    &quot;certificateChain&quot; : [ ],
+    &quot;detachedContents&quot; : null,
+    &quot;asicContainerType&quot; : null,
+    &quot;blevelParams&quot; : {
+      &quot;trustAnchorBPPolicy&quot; : true,
+      &quot;signingDate&quot; : 1542794105720,
+      &quot;claimedSignerRoles&quot; : null,
+      &quot;signaturePolicy&quot; : null,
+      &quot;commitmentTypeIndications&quot; : null,
+      &quot;signerLocation&quot; : null
+    }
+  },
+  &quot;toSignDocument&quot; : {
+    &quot;bytes&quot; : &quot;kcDHOZjwZhVfuDhuhCeCERRmYpTH4Jj4RmfVVi31Q9g=&quot;,
+    &quot;digestAlgorithm&quot; : &quot;SHA256&quot;,
+    &quot;name&quot; : &quot;RemoteDocument&quot;,
+    &quot;mimeType&quot; : null
+  }
+}'</code></pre>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2018-12-17 10:32:47 CET
+</div>
+</div>
+</body>
+</html>

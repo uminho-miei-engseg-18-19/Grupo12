@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../validation/SignatureScope.html" title="eu.europa.esig.dss.validation.SignatureScope" alt="" coords="50,17,162,42"/>
+<area shape="rect" id="node1" href="../../validation/SignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="39,5,173,53"/>
+<area shape="rect" id="node3_1" href="./XmlElementSignatureScope.html" title="eu.europa.esig.dss.xades.validation.XmlElementSignatureScope" alt="" coords="16,113,196,138"/>
+<area shape="rect" id="node3" href="./XmlElementSignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="5,101,207,149"/>
+<area shape="rect" id="node2_2" href="./XmlRootSignatureScope.html" title="eu.europa.esig.dss.xades.validation.XmlRootSignatureScope" alt="" coords="26,209,186,234"/>
+<area shape="rect" id="node2" href="./XmlRootSignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="15,197,197,245"/>
+</map>

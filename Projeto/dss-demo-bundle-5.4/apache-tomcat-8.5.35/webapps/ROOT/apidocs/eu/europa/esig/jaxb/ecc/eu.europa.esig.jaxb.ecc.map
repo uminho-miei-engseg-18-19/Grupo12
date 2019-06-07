@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./QualifierType.html" title="eu.europa.esig.jaxb.ecc.QualifierType" alt="" coords="16,17,111,42"/>
+<area shape="rect" id="node1" href="./QualifierType.html" title="&lt;TABLE&gt;" alt="" coords="5,5,121,53"/>
+<area shape="rect" id="node2_1" href="./QualifiersType.html" title="eu.europa.esig.jaxb.ecc.QualifiersType" alt="" coords="157,17,258,42"/>
+<area shape="rect" id="node2" href="./QualifiersType.html" title="&lt;TABLE&gt;" alt="" coords="146,5,269,53"/>
+<area shape="rect" id="node3_2" href="./QualificationsType.html" title="eu.europa.esig.jaxb.ecc.QualificationsType" alt="" coords="303,17,429,42"/>
+<area shape="rect" id="node3" href="./QualificationsType.html" title="&lt;TABLE&gt;" alt="" coords="293,5,439,53"/>
+<area shape="rect" id="node4_3" href="./QualificationElementType.html" title="eu.europa.esig.jaxb.ecc.QualificationElementType" alt="" coords="475,17,641,42"/>
+<area shape="rect" id="node4" href="./QualificationElementType.html" title="&lt;TABLE&gt;" alt="" coords="464,5,652,53"/>
+<area shape="rect" id="node5_4" href="./PoliciesListType.html" title="eu.europa.esig.jaxb.ecc.PoliciesListType" alt="" coords="687,17,802,42"/>
+<area shape="rect" id="node5" href="./PoliciesListType.html" title="&lt;TABLE&gt;" alt="" coords="677,5,813,53"/>
+<area shape="rect" id="node6_5" href="./ObjectFactory.html" title="eu.europa.esig.jaxb.ecc.ObjectFactory" alt="" coords="847,17,949,42"/>
+<area shape="rect" id="node6" href="./ObjectFactory.html" title="&lt;TABLE&gt;" alt="" coords="837,5,959,53"/>
+<area shape="rect" id="node7_6" href="./KeyUsageType.html" title="eu.europa.esig.jaxb.ecc.KeyUsageType" alt="" coords="995,17,1103,42"/>
+<area shape="rect" id="node7" href="./KeyUsageType.html" title="&lt;TABLE&gt;" alt="" coords="984,5,1113,53"/>
+<area shape="rect" id="node8_7" href="./KeyUsageBitType.html" title="eu.europa.esig.jaxb.ecc.KeyUsageBitType" alt="" coords="1148,17,1272,42"/>
+<area shape="rect" id="node8" href="./KeyUsageBitType.html" title="&lt;TABLE&gt;" alt="" coords="1137,5,1283,53"/>
+<area shape="rect" id="node9_8" href="./CriteriaListType.html" title="eu.europa.esig.jaxb.ecc.CriteriaListType" alt="" coords="1318,17,1427,42"/>
+<area shape="rect" id="node9" href="./CriteriaListType.html" title="&lt;TABLE&gt;" alt="" coords="1307,5,1438,53"/>
+</map>

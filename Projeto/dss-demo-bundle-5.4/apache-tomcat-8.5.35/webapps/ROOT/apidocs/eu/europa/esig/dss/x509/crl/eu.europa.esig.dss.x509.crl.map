@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./OfflineCRLSource.html" title="eu.europa.esig.dss.x509.crl.OfflineCRLSource" alt="" coords="106,118,230,143"/>
+<area shape="rect" id="node1" href="./OfflineCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="95,107,241,155"/>
+<area shape="rect" id="node2_1" href="./ListCRLSource.html" title="eu.europa.esig.dss.x509.crl.ListCRLSource" alt="" coords="16,214,123,239"/>
+<area shape="rect" id="node2" href="./ListCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="5,203,133,251"/>
+<area shape="rect" id="node3_2" href="./ExternalResourcesCRLSource.html" title="eu.europa.esig.dss.x509.crl.ExternalResourcesCRLSource" alt="" coords="169,214,365,239"/>
+<area shape="rect" id="node3" href="./ExternalResourcesCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="158,203,375,251"/>
+<area shape="rect" id="node4_3" href="./CRLToken.html" title="eu.europa.esig.dss.x509.crl.CRLToken" alt="" coords="256,19,336,45"/>
+<area shape="rect" id="node4" href="./CRLToken.html" title="&lt;TABLE&gt;" alt="" coords="245,8,347,56"/>
+<area shape="rect" id="node5_4" href="./CRLSource.html" title="eu.europa.esig.dss.x509.crl.CRLSource" alt="" coords="125,11,211,53"/>
+<area shape="rect" id="node5" href="./CRLSource.html" title="&lt;TABLE&gt;" alt="" coords="115,5,221,59"/>
+<area shape="rect" id="node6_5" href="./CRLReasonEnum.html" title="eu.europa.esig.dss.x509.crl.CRLReasonEnum" alt="" coords="381,11,504,53"/>
+<area shape="rect" id="node6" href="./CRLReasonEnum.html" title="&lt;TABLE&gt;" alt="" coords="371,5,515,59"/>
+</map>

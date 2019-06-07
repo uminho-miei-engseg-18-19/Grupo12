@@ -1,0 +1,32 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./XPointerSignatureScope.html" title="eu.europa.esig.dss.xades.validation.XPointerSignatureScope" alt="" coords="16,17,176,42"/>
+<area shape="rect" id="node1" href="./XPointerSignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="5,5,187,53"/>
+<area shape="rect" id="node2_1" href="./XmlRootSignatureScope.html" title="eu.europa.esig.dss.xades.validation.XmlRootSignatureScope" alt="" coords="232,113,392,138"/>
+<area shape="rect" id="node2" href="./XmlRootSignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="221,101,403,149"/>
+<area shape="rect" id="node3_2" href="./XmlElementSignatureScope.html" title="eu.europa.esig.dss.xades.validation.XmlElementSignatureScope" alt="" coords="222,17,402,42"/>
+<area shape="rect" id="node3" href="./XmlElementSignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="211,5,413,53"/>
+<area shape="rect" id="node4_3" href="./XMLDocumentValidator.html" title="eu.europa.esig.dss.xades.validation.XMLDocumentValidator" alt="" coords="448,17,603,42"/>
+<area shape="rect" id="node4" href="./XMLDocumentValidator.html" title="&lt;TABLE&gt;" alt="" coords="437,5,613,53"/>
+<area shape="rect" id="node5_4" href="./XAdESSignatureScopeFinder.html" title="eu.europa.esig.dss.xades.validation.XAdESSignatureScopeFinder" alt="" coords="649,17,837,42"/>
+<area shape="rect" id="node5" href="./XAdESSignatureScopeFinder.html" title="&lt;TABLE&gt;" alt="" coords="638,5,847,53"/>
+<area shape="rect" id="node6_5" href="./XAdESSignature.html" title="eu.europa.esig.dss.xades.validation.XAdESSignature" alt="" coords="882,17,998,42"/>
+<area shape="rect" id="node6" href="./XAdESSignature.html" title="&lt;TABLE&gt;" alt="" coords="871,5,1009,53"/>
+<area shape="rect" id="node7_6" href="./XAdESOCSPSource.html" title="eu.europa.esig.dss.xades.validation.XAdESOCSPSource" alt="" coords="1044,17,1183,42"/>
+<area shape="rect" id="node7" href="./XAdESOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="1033,5,1193,53"/>
+<area shape="rect" id="node8_7" href="./XAdESCRLSource.html" title="eu.europa.esig.dss.xades.validation.XAdESCRLSource" alt="" coords="1229,17,1355,42"/>
+<area shape="rect" id="node8" href="./XAdESCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="1218,5,1366,53"/>
+<area shape="rect" id="node9_8" href="./XAdESCertificateSource.html" title="eu.europa.esig.dss.xades.validation.XAdESCertificateSource" alt="" coords="1401,17,1561,42"/>
+<area shape="rect" id="node9" href="./XAdESCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="1391,5,1572,53"/>
+<area shape="rect" id="node10_9" href="./XAdES122XPathQueryHolder.html" title="eu.europa.esig.dss.xades.validation.XAdES122XPathQueryHolder" alt="" coords="1607,17,1795,42"/>
+<area shape="rect" id="node10" href="./XAdES122XPathQueryHolder.html" title="&lt;TABLE&gt;" alt="" coords="1597,5,1806,53"/>
+<area shape="rect" id="node11_10" href="./XAdES111XPathQueryHolder.html" title="eu.europa.esig.dss.xades.validation.XAdES111XPathQueryHolder" alt="" coords="1841,17,2029,42"/>
+<area shape="rect" id="node11" href="./XAdES111XPathQueryHolder.html" title="&lt;TABLE&gt;" alt="" coords="1830,5,2039,53"/>
+<area shape="rect" id="node12_11" href="./SignatureRSARIPEMD160AT.html" title="eu.europa.esig.dss.xades.validation.SignatureRSARIPEMD160AT" alt="" coords="2074,17,2262,42"/>
+<area shape="rect" id="node12" href="./SignatureRSARIPEMD160AT.html" title="&lt;TABLE&gt;" alt="" coords="2063,5,2273,53"/>
+<area shape="rect" id="node13_12" href="./SignatureECDSARIPEMD160.html" title="eu.europa.esig.dss.xades.validation.SignatureECDSARIPEMD160" alt="" coords="2307,17,2498,42"/>
+<area shape="rect" id="node13" href="./SignatureECDSARIPEMD160.html" title="&lt;TABLE&gt;" alt="" coords="2297,5,2509,53"/>
+<area shape="rect" id="node14_13" href="./ManifestValidator.html" title="eu.europa.esig.dss.xades.validation.ManifestValidator" alt="" coords="2544,17,2664,42"/>
+<area shape="rect" id="node14" href="./ManifestValidator.html" title="&lt;TABLE&gt;" alt="" coords="2533,5,2675,53"/>
+<area shape="rect" id="node15_14" href="./DetachedSignatureResolver.html" title="eu.europa.esig.dss.xades.validation.DetachedSignatureResolver" alt="" coords="2709,17,2888,42"/>
+<area shape="rect" id="node15" href="./DetachedSignatureResolver.html" title="&lt;TABLE&gt;" alt="" coords="2699,5,2899,53"/>
+</map>

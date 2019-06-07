@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ZipCommentPresentCheck.html" title="eu.europa.esig.dss.validation.process.bbb.fc.checks.ZipCommentPresentCheck" alt="" coords="16,17,191,42"/>
+<area shape="rect" id="node1" href="./ZipCommentPresentCheck.html" title="&lt;TABLE&gt;" alt="" coords="5,5,201,53"/>
+<area shape="rect" id="node2_1" href="./MimeTypeFilePresentCheck.html" title="eu.europa.esig.dss.validation.process.bbb.fc.checks.MimeTypeFilePresentCheck" alt="" coords="236,17,419,42"/>
+<area shape="rect" id="node2" href="./MimeTypeFilePresentCheck.html" title="&lt;TABLE&gt;" alt="" coords="225,5,429,53"/>
+<area shape="rect" id="node3_2" href="./ManifestFilePresentCheck.html" title="eu.europa.esig.dss.validation.process.bbb.fc.checks.ManifestFilePresentCheck" alt="" coords="464,17,636,42"/>
+<area shape="rect" id="node3" href="./ManifestFilePresentCheck.html" title="&lt;TABLE&gt;" alt="" coords="453,5,647,53"/>
+<area shape="rect" id="node4_3" href="./FullScopeCheck.html" title="eu.europa.esig.dss.validation.process.bbb.fc.checks.FullScopeCheck" alt="" coords="682,17,797,42"/>
+<area shape="rect" id="node4" href="./FullScopeCheck.html" title="&lt;TABLE&gt;" alt="" coords="671,5,807,53"/>
+<area shape="rect" id="node5_4" href="./FormatCheck.html" title="eu.europa.esig.dss.validation.process.bbb.fc.checks.FormatCheck" alt="" coords="843,17,940,42"/>
+<area shape="rect" id="node5" href="./FormatCheck.html" title="&lt;TABLE&gt;" alt="" coords="832,5,951,53"/>
+<area shape="rect" id="node6_5" href="./ContainerTypeCheck.html" title="eu.europa.esig.dss.validation.process.bbb.fc.checks.ContainerTypeCheck" alt="" coords="985,17,1125,42"/>
+<area shape="rect" id="node6" href="./ContainerTypeCheck.html" title="&lt;TABLE&gt;" alt="" coords="975,5,1136,53"/>
+<area shape="rect" id="node7_6" href="./AcceptableZipCommentCheck.html" title="eu.europa.esig.dss.validation.process.bbb.fc.checks.AcceptableZipCommentCheck" alt="" coords="1171,17,1366,42"/>
+<area shape="rect" id="node7" href="./AcceptableZipCommentCheck.html" title="&lt;TABLE&gt;" alt="" coords="1161,5,1377,53"/>
+<area shape="rect" id="node8_7" href="./AcceptableMimetypeFileContentCheck.html" title="eu.europa.esig.dss.validation.process.bbb.fc.checks.AcceptableMimetypeFileContentCheck" alt="" coords="1412,17,1656,42"/>
+<area shape="rect" id="node8" href="./AcceptableMimetypeFileContentCheck.html" title="&lt;TABLE&gt;" alt="" coords="1401,5,1667,53"/>
+</map>

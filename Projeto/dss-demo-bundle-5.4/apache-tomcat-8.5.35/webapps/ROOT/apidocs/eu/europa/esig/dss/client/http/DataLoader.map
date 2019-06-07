@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./NativeHTTPDataLoader.html" title="eu.europa.esig.dss.client.http.NativeHTTPDataLoader" alt="" coords="16,219,168,245"/>
+<area shape="rect" id="node1" href="./NativeHTTPDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="5,208,179,256"/>
+<area shape="rect" id="node2_1" href="./MemoryDataLoader.html" title="eu.europa.esig.dss.client.http.MemoryDataLoader" alt="" coords="214,219,346,245"/>
+<area shape="rect" id="node2" href="./MemoryDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="203,208,357,256"/>
+<area shape="rect" id="node3_2" href="./IgnoreDataLoader.html" title="eu.europa.esig.dss.client.http.IgnoreDataLoader" alt="" coords="392,219,512,245"/>
+<area shape="rect" id="node3" href="./IgnoreDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="381,208,523,256"/>
+<area shape="rect" id="node4_3" href="./DataLoader.html" title="eu.europa.esig.dss.client.http.DataLoader" alt="" coords="409,112,495,155"/>
+<area shape="rect" id="node4" href="./DataLoader.html" title="&lt;TABLE&gt;" alt="" coords="399,107,505,160"/>
+<area shape="rect" id="node5_4" href="./commons/FileCacheDataLoader.html" title="eu.europa.esig.dss.client.http.commons.FileCacheDataLoader" alt="" coords="557,219,701,245"/>
+<area shape="rect" id="node5" href="./commons/FileCacheDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="547,208,712,256"/>
+<area shape="rect" id="node6_5" href="./commons/CommonsDataLoader.html" title="eu.europa.esig.dss.client.http.commons.CommonsDataLoader" alt="" coords="747,219,891,245"/>
+<area shape="rect" id="node6" href="./commons/CommonsDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="736,208,901,256"/>
+<area shape="rect" id="node7_6" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="java.io.Serializable" alt="" coords="409,11,495,53"/>
+<area shape="rect" id="node7" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="&lt;TABLE&gt;" alt="" coords="398,5,506,59"/>
+</map>

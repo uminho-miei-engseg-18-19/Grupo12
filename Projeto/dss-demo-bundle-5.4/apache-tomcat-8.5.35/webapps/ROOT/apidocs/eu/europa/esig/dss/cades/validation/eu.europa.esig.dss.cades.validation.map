@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./PrecomputedDigestCalculatorProvider.html" title="eu.europa.esig.dss.cades.validation.PrecomputedDigestCalculatorProvider" alt="" coords="16,17,253,42"/>
+<area shape="rect" id="node1" href="./PrecomputedDigestCalculatorProvider.html" title="&lt;TABLE&gt;" alt="" coords="5,5,264,53"/>
+<area shape="rect" id="node2_1" href="./CMSTimestampValidator.html" title="eu.europa.esig.dss.cades.validation.CMSTimestampValidator" alt="" coords="297,113,461,138"/>
+<area shape="rect" id="node2" href="./CMSTimestampValidator.html" title="&lt;TABLE&gt;" alt="" coords="286,101,471,149"/>
+<area shape="rect" id="node3_2" href="./CMSDocumentValidator.html" title="eu.europa.esig.dss.cades.validation.CMSDocumentValidator" alt="" coords="299,17,458,42"/>
+<area shape="rect" id="node3" href="./CMSDocumentValidator.html" title="&lt;TABLE&gt;" alt="" coords="289,5,469,53"/>
+<area shape="rect" id="node4_3" href="./CAdESSignatureScopeFinder.html" title="eu.europa.esig.dss.cades.validation.CAdESSignatureScopeFinder" alt="" coords="503,17,694,42"/>
+<area shape="rect" id="node4" href="./CAdESSignatureScopeFinder.html" title="&lt;TABLE&gt;" alt="" coords="493,5,705,53"/>
+<area shape="rect" id="node5_4" href="./CAdESSignature.html" title="eu.europa.esig.dss.cades.validation.CAdESSignature" alt="" coords="740,17,857,42"/>
+<area shape="rect" id="node5" href="./CAdESSignature.html" title="&lt;TABLE&gt;" alt="" coords="729,5,868,53"/>
+<area shape="rect" id="node6_5" href="./CAdESOCSPSource.html" title="eu.europa.esig.dss.cades.validation.CAdESOCSPSource" alt="" coords="903,17,1043,42"/>
+<area shape="rect" id="node6" href="./CAdESOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="893,5,1054,53"/>
+<area shape="rect" id="node7_6" href="./CAdESCRLSource.html" title="eu.europa.esig.dss.cades.validation.CAdESCRLSource" alt="" coords="1089,17,1217,42"/>
+<area shape="rect" id="node7" href="./CAdESCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="1079,5,1228,53"/>
+</map>

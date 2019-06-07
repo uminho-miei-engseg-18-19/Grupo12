@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TimestampDataLoader.html" title="eu.europa.esig.dss.client.http.commons.TimestampDataLoader" alt="" coords="16,113,165,138"/>
+<area shape="rect" id="node1" href="./TimestampDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="5,101,176,149"/>
+<area shape="rect" id="node2_1" href="./ResourceLoader.html" title="eu.europa.esig.dss.client.http.commons.ResourceLoader" alt="" coords="299,17,413,42"/>
+<area shape="rect" id="node2" href="./ResourceLoader.html" title="&lt;TABLE&gt;" alt="" coords="289,5,423,53"/>
+<area shape="rect" id="node3_2" href="./OCSPDataLoader.html" title="eu.europa.esig.dss.client.http.commons.OCSPDataLoader" alt="" coords="211,113,333,138"/>
+<area shape="rect" id="node3" href="./OCSPDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="200,101,344,149"/>
+<area shape="rect" id="node4_3" href="./FileCacheDataLoader.html" title="eu.europa.esig.dss.client.http.commons.FileCacheDataLoader" alt="" coords="459,17,603,42"/>
+<area shape="rect" id="node4" href="./FileCacheDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="448,5,613,53"/>
+<area shape="rect" id="node5_4" href="./CommonsDataLoader.html" title="eu.europa.esig.dss.client.http.commons.CommonsDataLoader" alt="" coords="109,17,253,42"/>
+<area shape="rect" id="node5" href="./CommonsDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="99,5,264,53"/>
+</map>

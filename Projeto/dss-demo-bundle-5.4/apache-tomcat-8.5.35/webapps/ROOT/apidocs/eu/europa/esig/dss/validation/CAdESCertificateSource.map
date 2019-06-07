@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../x509/SignatureCertificateSource.html" title="eu.europa.esig.dss.x509.SignatureCertificateSource" alt="" coords="128,17,303,42"/>
+<area shape="rect" id="node1" href="../x509/SignatureCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="117,5,313,53"/>
+<area shape="rect" id="node3_1" href="./CAdESCertificateSource.html" title="eu.europa.esig.dss.validation.CAdESCertificateSource" alt="" coords="135,113,296,138"/>
+<area shape="rect" id="node3" href="./CAdESCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="124,101,307,149"/>
+<area shape="rect" id="node2_2" href="./TimestampCertificateSource.html" title="eu.europa.esig.dss.validation.TimestampCertificateSource" alt="" coords="16,209,199,234"/>
+<area shape="rect" id="node2" href="./TimestampCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="5,197,209,245"/>
+<area shape="rect" id="node4_3" href="../pades/validation/PAdESCertificateSource.html" title="eu.europa.esig.dss.pades.validation.PAdESCertificateSource" alt="" coords="244,209,405,234"/>
+<area shape="rect" id="node4" href="../pades/validation/PAdESCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="233,197,416,245"/>
+</map>

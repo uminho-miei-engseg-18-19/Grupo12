@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./BasicBuildingBlocks.html" title="eu.europa.esig.dss.validation.process.bbb.BasicBuildingBlocks" alt="" coords="16,17,155,42"/>
+<area shape="rect" id="node1" href="./BasicBuildingBlocks.html" title="&lt;TABLE&gt;" alt="" coords="5,5,165,53"/>
+<area shape="rect" id="node2_1" href="./AbstractValueCheckItem.html" title="eu.europa.esig.dss.validation.process.bbb.AbstractValueCheckItem" alt="" coords="201,17,597,42"/>
+<area shape="rect" id="node2" href="./AbstractValueCheckItem.html" title="&lt;TABLE&gt;" alt="" coords="190,5,607,53"/>
+<area shape="rect" id="node3_2" href="./AbstractMultiValuesCheckItem.html" title="eu.europa.esig.dss.validation.process.bbb.AbstractMultiValuesCheckItem" alt="" coords="642,17,1073,42"/>
+<area shape="rect" id="node3" href="./AbstractMultiValuesCheckItem.html" title="&lt;TABLE&gt;" alt="" coords="631,5,1083,53"/>
+</map>

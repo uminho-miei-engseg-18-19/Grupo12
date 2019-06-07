@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./DataToSignASiCSWithCAdESFromFiles.html" title="eu.europa.esig.dss.asic.signature.asics.DataToSignASiCSWithCAdESFromFiles" alt="" coords="16,209,269,234"/>
+<area shape="rect" id="node1" href="./DataToSignASiCSWithCAdESFromFiles.html" title="&lt;TABLE&gt;" alt="" coords="5,197,280,245"/>
+<area shape="rect" id="node2_1" href="./DataToSignASiCSWithCAdESFromArchive.html" title="eu.europa.esig.dss.asic.signature.asics.DataToSignASiCSWithCAdESFromArchive" alt="" coords="315,209,583,234"/>
+<area shape="rect" id="node2" href="./DataToSignASiCSWithCAdESFromArchive.html" title="&lt;TABLE&gt;" alt="" coords="305,197,594,245"/>
+<area shape="rect" id="node3_2" href="./AbstractGetDataToSignASiCSWithCAdES.html" title="eu.europa.esig.dss.asic.signature.asics.AbstractGetDataToSignASiCSWithCAdES" alt="" coords="162,113,430,138"/>
+<area shape="rect" id="node3" href="./AbstractGetDataToSignASiCSWithCAdES.html" title="&lt;TABLE&gt;" alt="" coords="151,101,441,149"/>
+<area shape="rect" id="node4_3" href="./AbstractGetDataToSignASiCS.html" title="eu.europa.esig.dss.asic.signature.asics.AbstractGetDataToSignASiCS" alt="" coords="197,17,395,42"/>
+<area shape="rect" id="node4" href="./AbstractGetDataToSignASiCS.html" title="&lt;TABLE&gt;" alt="" coords="187,5,405,53"/>
+</map>

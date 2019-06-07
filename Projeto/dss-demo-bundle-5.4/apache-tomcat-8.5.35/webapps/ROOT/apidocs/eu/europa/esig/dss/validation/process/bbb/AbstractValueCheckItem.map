@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../ChainItem.html" title="eu.europa.esig.dss.validation.process.ChainItem" alt="" coords="112,17,420,42"/>
+<area shape="rect" id="node1" href="../ChainItem.html" title="&lt;TABLE&gt;" alt="" coords="101,5,431,53"/>
+<area shape="rect" id="node2_1" href="./AbstractValueCheckItem.html" title="eu.europa.esig.dss.validation.process.bbb.AbstractValueCheckItem" alt="" coords="68,113,464,138"/>
+<area shape="rect" id="node2" href="./AbstractValueCheckItem.html" title="&lt;TABLE&gt;" alt="" coords="57,101,475,149"/>
+<area shape="rect" id="node3_2" href="./sav/checks/ContentTypeCheck.html" title="eu.europa.esig.dss.validation.process.bbb.sav.checks.ContentTypeCheck" alt="" coords="16,209,145,234"/>
+<area shape="rect" id="node3" href="./sav/checks/ContentTypeCheck.html" title="&lt;TABLE&gt;" alt="" coords="5,197,156,245"/>
+<area shape="rect" id="node4_3" href="./sav/checks/ContentIdentifierCheck.html" title="eu.europa.esig.dss.validation.process.bbb.sav.checks.ContentIdentifierCheck" alt="" coords="191,209,341,234"/>
+<area shape="rect" id="node4" href="./sav/checks/ContentIdentifierCheck.html" title="&lt;TABLE&gt;" alt="" coords="181,197,351,245"/>
+<area shape="rect" id="node5_4" href="./sav/checks/ContentHintsCheck.html" title="eu.europa.esig.dss.validation.process.bbb.sav.checks.ContentHintsCheck" alt="" coords="387,209,519,234"/>
+<area shape="rect" id="node5" href="./sav/checks/ContentHintsCheck.html" title="&lt;TABLE&gt;" alt="" coords="376,197,529,245"/>
+</map>

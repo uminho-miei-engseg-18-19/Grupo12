@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./PKIFactoryAccess.html" title="eu.europa.esig.dss.signature.PKIFactoryAccess" alt="" coords="587,17,715,42"/>
+<area shape="rect" id="node1" href="./PKIFactoryAccess.html" title="&lt;TABLE&gt;" alt="" coords="577,5,726,53"/>
+<area shape="rect" id="node2_1" href="./AbstractPkiFactoryTestSignature.html" title="eu.europa.esig.dss.signature.AbstractPkiFactoryTestSignature" alt="" coords="415,113,887,138"/>
+<area shape="rect" id="node2" href="./AbstractPkiFactoryTestSignature.html" title="&lt;TABLE&gt;" alt="" coords="405,101,898,149"/>
+<area shape="rect" id="node3_2" href="./AbstractPkiFactoryTestMultipleDocumentsSignatureService.html" title="eu.europa.esig.dss.signature.AbstractPkiFactoryTestMultipleDocumentsSignatureService" alt="" coords="16,209,641,234"/>
+<area shape="rect" id="node3" href="./AbstractPkiFactoryTestMultipleDocumentsSignatureService.html" title="&lt;TABLE&gt;" alt="" coords="5,197,652,245"/>
+<area shape="rect" id="node4_3" href="./AbstractPkiFactoryTestDocumentSignatureService.html" title="eu.europa.esig.dss.signature.AbstractPkiFactoryTestDocumentSignatureService" alt="" coords="687,209,1261,234"/>
+<area shape="rect" id="node4" href="./AbstractPkiFactoryTestDocumentSignatureService.html" title="&lt;TABLE&gt;" alt="" coords="676,197,1272,245"/>
+</map>

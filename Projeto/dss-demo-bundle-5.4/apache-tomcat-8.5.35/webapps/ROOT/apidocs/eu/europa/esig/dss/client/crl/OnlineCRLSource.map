@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../x509/RevocationSourceAlternateUrlsSupport.html" title="eu.europa.esig.dss.x509.RevocationSourceAlternateUrlsSupport" alt="" coords="16,11,435,53"/>
+<area shape="rect" id="node1" href="../../x509/RevocationSourceAlternateUrlsSupport.html" title="&lt;TABLE&gt;" alt="" coords="5,5,445,59"/>
+<area shape="rect" id="node3_1" href="./OnlineCRLSource.html" title="eu.europa.esig.dss.client.crl.OnlineCRLSource" alt="" coords="312,118,435,143"/>
+<area shape="rect" id="node3" href="./OnlineCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="301,107,445,155"/>
+<area shape="rect" id="node2_2" href="../../x509/crl/CRLSource.html" title="eu.europa.esig.dss.x509.crl.CRLSource" alt="" coords="480,11,565,53"/>
+<area shape="rect" id="node2" href="../../x509/crl/CRLSource.html" title="&lt;TABLE&gt;" alt="" coords="469,5,576,59"/>
+</map>

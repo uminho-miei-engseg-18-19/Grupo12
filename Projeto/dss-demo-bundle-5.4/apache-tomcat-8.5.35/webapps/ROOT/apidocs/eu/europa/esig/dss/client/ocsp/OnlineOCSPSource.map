@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../x509/RevocationSourceAlternateUrlsSupport.html" title="eu.europa.esig.dss.x509.RevocationSourceAlternateUrlsSupport" alt="" coords="16,11,435,53"/>
+<area shape="rect" id="node1" href="../../x509/RevocationSourceAlternateUrlsSupport.html" title="&lt;TABLE&gt;" alt="" coords="5,5,445,59"/>
+<area shape="rect" id="node3_1" href="./OnlineOCSPSource.html" title="eu.europa.esig.dss.client.ocsp.OnlineOCSPSource" alt="" coords="310,118,445,143"/>
+<area shape="rect" id="node3" href="./OnlineOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="299,107,455,155"/>
+<area shape="rect" id="node2_2" href="../../x509/ocsp/OCSPSource.html" title="eu.europa.esig.dss.x509.ocsp.OCSPSource" alt="" coords="481,11,578,53"/>
+<area shape="rect" id="node2" href="../../x509/ocsp/OCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="470,5,589,59"/>
+</map>

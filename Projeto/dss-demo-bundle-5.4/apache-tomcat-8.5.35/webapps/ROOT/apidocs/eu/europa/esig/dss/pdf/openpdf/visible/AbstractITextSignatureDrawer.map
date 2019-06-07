@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TextOnlySignatureDrawer.html" title="eu.europa.esig.dss.pdf.openpdf.visible.TextOnlySignatureDrawer" alt="" coords="16,214,183,239"/>
+<area shape="rect" id="node1" href="./TextOnlySignatureDrawer.html" title="&lt;TABLE&gt;" alt="" coords="5,203,193,251"/>
+<area shape="rect" id="node2_1" href="./ITextSignatureDrawer.html" title="eu.europa.esig.dss.pdf.openpdf.visible.ITextSignatureDrawer" alt="" coords="136,11,279,53"/>
+<area shape="rect" id="node2" href="./ITextSignatureDrawer.html" title="&lt;TABLE&gt;" alt="" coords="125,5,289,59"/>
+<area shape="rect" id="node4_2" href="./AbstractITextSignatureDrawer.html" title="eu.europa.esig.dss.pdf.openpdf.visible.AbstractITextSignatureDrawer" alt="" coords="111,118,303,143"/>
+<area shape="rect" id="node4" href="./AbstractITextSignatureDrawer.html" title="&lt;TABLE&gt;" alt="" coords="101,107,314,155"/>
+<area shape="rect" id="node3_3" href="./ImageOnlySignatureDrawer.html" title="eu.europa.esig.dss.pdf.openpdf.visible.ImageOnlySignatureDrawer" alt="" coords="229,214,405,239"/>
+<area shape="rect" id="node3" href="./ImageOnlySignatureDrawer.html" title="&lt;TABLE&gt;" alt="" coords="218,203,415,251"/>
+</map>

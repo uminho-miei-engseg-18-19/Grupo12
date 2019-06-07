@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../x509/SignatureCertificateSource.html" title="eu.europa.esig.dss.x509.SignatureCertificateSource" alt="" coords="16,17,191,42"/>
+<area shape="rect" id="node1" href="../../x509/SignatureCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="5,5,201,53"/>
+<area shape="rect" id="node2_1" href="./XAdESCertificateSource.html" title="eu.europa.esig.dss.xades.validation.XAdESCertificateSource" alt="" coords="23,113,183,138"/>
+<area shape="rect" id="node2" href="./XAdESCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="13,101,194,149"/>
+</map>

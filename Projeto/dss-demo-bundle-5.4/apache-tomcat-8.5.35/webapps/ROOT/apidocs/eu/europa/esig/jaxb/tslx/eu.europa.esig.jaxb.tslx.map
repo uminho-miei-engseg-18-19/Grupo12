@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TakenOverByType.html" title="eu.europa.esig.jaxb.tslx.TakenOverByType" alt="" coords="16,17,140,42"/>
+<area shape="rect" id="node1" href="./TakenOverByType.html" title="&lt;TABLE&gt;" alt="" coords="5,5,151,53"/>
+<area shape="rect" id="node2_1" href="./ObjectFactory.html" title="eu.europa.esig.jaxb.tslx.ObjectFactory" alt="" coords="186,17,287,42"/>
+<area shape="rect" id="node2" href="./ObjectFactory.html" title="&lt;TABLE&gt;" alt="" coords="175,5,298,53"/>
+<area shape="rect" id="node3_2" href="./ExtendedKeyUsageType.html" title="eu.europa.esig.jaxb.tslx.ExtendedKeyUsageType" alt="" coords="333,17,495,42"/>
+<area shape="rect" id="node3" href="./ExtendedKeyUsageType.html" title="&lt;TABLE&gt;" alt="" coords="322,5,506,53"/>
+<area shape="rect" id="node4_3" href="./CertSubjectDNAttributeType.html" title="eu.europa.esig.jaxb.tslx.CertSubjectDNAttributeType" alt="" coords="541,17,724,42"/>
+<area shape="rect" id="node4" href="./CertSubjectDNAttributeType.html" title="&lt;TABLE&gt;" alt="" coords="531,5,735,53"/>
+</map>

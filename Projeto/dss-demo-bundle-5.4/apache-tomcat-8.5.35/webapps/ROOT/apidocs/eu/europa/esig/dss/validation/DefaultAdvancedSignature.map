@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./DefaultAdvancedSignature.html" title="eu.europa.esig.dss.validation.DefaultAdvancedSignature" alt="" coords="69,118,241,143"/>
+<area shape="rect" id="node1" href="./DefaultAdvancedSignature.html" title="&lt;TABLE&gt;" alt="" coords="59,107,252,155"/>
+<area shape="rect" id="node3_1" href="../xades/validation/XAdESSignature.html" title="eu.europa.esig.dss.xades.validation.XAdESSignature" alt="" coords="16,214,132,239"/>
+<area shape="rect" id="node3" href="../xades/validation/XAdESSignature.html" title="&lt;TABLE&gt;" alt="" coords="5,203,143,251"/>
+<area shape="rect" id="node4_2" href="../cades/validation/CAdESSignature.html" title="eu.europa.esig.dss.cades.validation.CAdESSignature" alt="" coords="178,214,295,239"/>
+<area shape="rect" id="node4" href="../cades/validation/CAdESSignature.html" title="&lt;TABLE&gt;" alt="" coords="167,203,306,251"/>
+<area shape="rect" id="node2_3" href="./AdvancedSignature.html" title="eu.europa.esig.dss.validation.AdvancedSignature" alt="" coords="90,11,221,53"/>
+<area shape="rect" id="node2" href="./AdvancedSignature.html" title="&lt;TABLE&gt;" alt="" coords="79,5,231,59"/>
+</map>

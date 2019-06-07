@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../validation/TimestampValidator.html" title="eu.europa.esig.dss.validation.TimestampValidator" alt="" coords="16,11,151,53"/>
+<area shape="rect" id="node1" href="../../validation/TimestampValidator.html" title="&lt;TABLE&gt;" alt="" coords="5,5,161,59"/>
+<area shape="rect" id="node2_1" href="./CMSTimestampValidator.html" title="eu.europa.esig.dss.cades.validation.CMSTimestampValidator" alt="" coords="97,118,261,143"/>
+<area shape="rect" id="node2" href="./CMSTimestampValidator.html" title="&lt;TABLE&gt;" alt="" coords="87,107,272,155"/>
+<area shape="rect" id="node4_2" href="../../asic/validation/ASiCEWithCAdESTimestampValidator.html" title="eu.europa.esig.dss.asic.validation.ASiCEWithCAdESTimestampValidator" alt="" coords="57,214,301,239"/>
+<area shape="rect" id="node4" href="../../asic/validation/ASiCEWithCAdESTimestampValidator.html" title="&lt;TABLE&gt;" alt="" coords="47,203,312,251"/>
+<area shape="rect" id="node3_3" href="./CMSDocumentValidator.html" title="eu.europa.esig.dss.cades.validation.CMSDocumentValidator" alt="" coords="196,19,355,45"/>
+<area shape="rect" id="node3" href="./CMSDocumentValidator.html" title="&lt;TABLE&gt;" alt="" coords="185,8,365,56"/>
+</map>

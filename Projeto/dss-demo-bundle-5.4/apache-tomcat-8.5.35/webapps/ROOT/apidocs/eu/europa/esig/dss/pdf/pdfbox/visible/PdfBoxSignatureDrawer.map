@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../visible/SignatureDrawer.html" title="eu.europa.esig.dss.pdf.visible.SignatureDrawer" alt="" coords="61,11,176,53"/>
+<area shape="rect" id="node1" href="../../visible/SignatureDrawer.html" title="&lt;TABLE&gt;" alt="" coords="51,5,187,59"/>
+<area shape="rect" id="node2_1" href="./PdfBoxSignatureDrawer.html" title="eu.europa.esig.dss.pdf.pdfbox.visible.PdfBoxSignatureDrawer" alt="" coords="41,112,197,155"/>
+<area shape="rect" id="node2" href="./PdfBoxSignatureDrawer.html" title="&lt;TABLE&gt;" alt="" coords="30,107,207,160"/>
+<area shape="rect" id="node3_2" href="./AbstractPdfBoxSignatureDrawer.html" title="eu.europa.esig.dss.pdf.pdfbox.visible.AbstractPdfBoxSignatureDrawer" alt="" coords="16,219,221,245"/>
+<area shape="rect" id="node3" href="./AbstractPdfBoxSignatureDrawer.html" title="&lt;TABLE&gt;" alt="" coords="5,208,232,256"/>
+</map>

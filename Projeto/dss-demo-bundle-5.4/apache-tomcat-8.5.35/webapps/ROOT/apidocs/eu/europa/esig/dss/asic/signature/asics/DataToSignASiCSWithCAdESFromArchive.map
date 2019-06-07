@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../GetDataToSignASiCWithCAdESHelper.html" title="eu.europa.esig.dss.asic.signature.GetDataToSignASiCWithCAdESHelper" alt="" coords="16,11,260,53"/>
+<area shape="rect" id="node1" href="../GetDataToSignASiCWithCAdESHelper.html" title="&lt;TABLE&gt;" alt="" coords="5,5,271,59"/>
+<area shape="rect" id="node2_1" href="./DataToSignASiCSWithCAdESFromArchive.html" title="eu.europa.esig.dss.asic.signature.asics.DataToSignASiCSWithCAdESFromArchive" alt="" coords="155,118,423,143"/>
+<area shape="rect" id="node2" href="./DataToSignASiCSWithCAdESFromArchive.html" title="&lt;TABLE&gt;" alt="" coords="144,107,433,155"/>
+<area shape="rect" id="node3_2" href="./AbstractGetDataToSignASiCSWithCAdES.html" title="eu.europa.esig.dss.asic.signature.asics.AbstractGetDataToSignASiCSWithCAdES" alt="" coords="305,19,573,45"/>
+<area shape="rect" id="node3" href="./AbstractGetDataToSignASiCSWithCAdES.html" title="&lt;TABLE&gt;" alt="" coords="295,8,584,56"/>
+</map>

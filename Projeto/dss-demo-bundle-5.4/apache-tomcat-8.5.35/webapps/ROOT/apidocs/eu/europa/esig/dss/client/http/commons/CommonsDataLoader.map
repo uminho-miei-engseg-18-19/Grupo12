@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../DataLoader.html" title="eu.europa.esig.dss.client.http.DataLoader" alt="" coords="139,11,224,53"/>
+<area shape="rect" id="node1" href="../DataLoader.html" title="&lt;TABLE&gt;" alt="" coords="128,5,235,59"/>
+<area shape="rect" id="node4_1" href="./CommonsDataLoader.html" title="eu.europa.esig.dss.client.http.commons.CommonsDataLoader" alt="" coords="109,118,253,143"/>
+<area shape="rect" id="node4" href="./CommonsDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="99,107,264,155"/>
+<area shape="rect" id="node2_2" href="./TimestampDataLoader.html" title="eu.europa.esig.dss.client.http.commons.TimestampDataLoader" alt="" coords="16,214,165,239"/>
+<area shape="rect" id="node2" href="./TimestampDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="5,203,176,251"/>
+<area shape="rect" id="node3_3" href="./OCSPDataLoader.html" title="eu.europa.esig.dss.client.http.commons.OCSPDataLoader" alt="" coords="211,214,333,239"/>
+<area shape="rect" id="node3" href="./OCSPDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="200,203,344,251"/>
+</map>

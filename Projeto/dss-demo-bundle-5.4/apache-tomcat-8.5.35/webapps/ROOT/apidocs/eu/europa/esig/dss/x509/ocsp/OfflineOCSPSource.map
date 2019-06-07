@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./OfflineOCSPSource.html" title="eu.europa.esig.dss.x509.ocsp.OfflineOCSPSource" alt="" coords="435,118,571,143"/>
+<area shape="rect" id="node1" href="./OfflineOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="425,107,582,155"/>
+<area shape="rect" id="node3_1" href="./ListOCSPSource.html" title="eu.europa.esig.dss.x509.ocsp.ListOCSPSource" alt="" coords="16,214,135,239"/>
+<area shape="rect" id="node3" href="./ListOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="5,203,145,251"/>
+<area shape="rect" id="node4_2" href="./ExternalResourcesOCSPSource.html" title="eu.europa.esig.dss.x509.ocsp.ExternalResourcesOCSPSource" alt="" coords="181,214,389,239"/>
+<area shape="rect" id="node4" href="./ExternalResourcesOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="170,203,399,251"/>
+<area shape="rect" id="node5_3" href="../../xades/validation/XAdESOCSPSource.html" title="eu.europa.esig.dss.xades.validation.XAdESOCSPSource" alt="" coords="434,214,573,239"/>
+<area shape="rect" id="node5" href="../../xades/validation/XAdESOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="423,203,583,251"/>
+<area shape="rect" id="node6_4" href="../../cades/validation/CAdESOCSPSource.html" title="eu.europa.esig.dss.cades.validation.CAdESOCSPSource" alt="" coords="619,214,759,239"/>
+<area shape="rect" id="node6" href="../../cades/validation/CAdESOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="608,203,769,251"/>
+<area shape="rect" id="node7_5" href="../../pades/validation/PAdESOCSPSource.html" title="eu.europa.esig.dss.pades.validation.PAdESOCSPSource" alt="" coords="804,214,944,239"/>
+<area shape="rect" id="node7" href="../../pades/validation/PAdESOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="793,203,955,251"/>
+<area shape="rect" id="node2_6" href="./OCSPSource.html" title="eu.europa.esig.dss.x509.ocsp.OCSPSource" alt="" coords="455,11,552,53"/>
+<area shape="rect" id="node2" href="./OCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="444,5,563,59"/>
+</map>

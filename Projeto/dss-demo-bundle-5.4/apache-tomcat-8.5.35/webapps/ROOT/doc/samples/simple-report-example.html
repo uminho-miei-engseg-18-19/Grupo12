@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.7.1">
+<title>Untitled</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="./coderay-asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
+</div>
+<div id="content">
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;SimpleReport</span> <span class="attribute-name">xmlns</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://dss.esig.europa.eu/validation/simple-report</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+    <span class="tag">&lt;Policy&gt;</span>
+        <span class="tag">&lt;PolicyName&gt;</span>QES AdESQC TL based<span class="tag">&lt;/PolicyName&gt;</span>
+        <span class="tag">&lt;PolicyDescription&gt;</span>Validate electronic signatures and indicates whether they are Advanced electronic Signatures (AdES), AdES supported by a Qualified Certificate (AdES/QC) or a
+                Qualified electronic Signature (QES). All certificates and their related chains supporting the signatures are validated against the EU Member State Trusted Lists (this includes
+                signer's certificate and certificates used to validate certificate validity status services - CRLs, OCSP, and time-stamps).
+        <span class="tag">&lt;/PolicyDescription&gt;</span>
+    <span class="tag">&lt;/Policy&gt;</span>
+    <span class="tag">&lt;ValidationTime&gt;</span>2018-02-23T05:50:46<span class="tag">&lt;/ValidationTime&gt;</span>
+    <span class="tag">&lt;DocumentName&gt;</span>testdocument.pdf<span class="tag">&lt;/DocumentName&gt;</span>
+    <span class="tag">&lt;ValidSignaturesCount&gt;</span>1<span class="tag">&lt;/ValidSignaturesCount&gt;</span>
+    <span class="tag">&lt;SignaturesCount&gt;</span>1<span class="tag">&lt;/SignaturesCount&gt;</span>
+    <span class="tag">&lt;Signature</span> <span class="attribute-name">Id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">id-2056753e8b67ab9c96a6fe80ec9f619f8e9b4505b66b078c7a2b6e151edc2bbb</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">SignatureFormat</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">PAdES-BASE-LTA</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+        <span class="tag">&lt;SigningTime&gt;</span>2017-10-27T11:54:56<span class="tag">&lt;/SigningTime&gt;</span>
+        <span class="tag">&lt;BestSignatureTime&gt;</span>2017-10-27T11:55:08<span class="tag">&lt;/BestSignatureTime&gt;</span>
+        <span class="tag">&lt;SignedBy&gt;</span>E Van R (Signature)<span class="tag">&lt;/SignedBy&gt;</span>
+        <span class="tag">&lt;CertificateChain&gt;</span>
+            <span class="tag">&lt;Certificate&gt;</span>
+                <span class="tag">&lt;id&gt;</span>021EC5069EB8A903BD62B6769EDDFE439DFA90A720C9A362D5FE76B9C31D0302<span class="tag">&lt;/id&gt;</span>
+                <span class="tag">&lt;qualifiedName&gt;</span>E Van R (Signature)<span class="tag">&lt;/qualifiedName&gt;</span>
+            <span class="tag">&lt;/Certificate&gt;</span>
+            <span class="tag">&lt;Certificate&gt;</span>
+                <span class="tag">&lt;id&gt;</span>80AC352930875BA0AFE7F70DD389130C8E1E7BEFFDC96477356AD2A9E003AD2B<span class="tag">&lt;/id&gt;</span>
+                <span class="tag">&lt;qualifiedName&gt;</span>Citizen CA<span class="tag">&lt;/qualifiedName&gt;</span>
+            <span class="tag">&lt;/Certificate&gt;</span>
+            <span class="tag">&lt;Certificate&gt;</span>
+                <span class="tag">&lt;id&gt;</span>702DD5C1A093CF0A9D71FADD9BF9A7C5857D89FB73B716E867228B3C2BEB968F<span class="tag">&lt;/id&gt;</span>
+                <span class="tag">&lt;qualifiedName&gt;</span>Belgium Root CA4<span class="tag">&lt;/qualifiedName&gt;</span>
+            <span class="tag">&lt;/Certificate&gt;</span>
+        <span class="tag">&lt;/CertificateChain&gt;</span>
+        <span class="tag">&lt;SignatureLevel</span> <span class="attribute-name">description</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">Qualified Electronic Signature</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>QESig<span class="tag">&lt;/SignatureLevel&gt;</span>
+        <span class="tag">&lt;Indication&gt;</span>TOTAL_PASSED<span class="tag">&lt;/Indication&gt;</span>
+        <span class="tag">&lt;SignatureScope</span> <span class="attribute-name">name</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">PDF previous version #1</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">scope</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">PdfByteRangeSignatureScope</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>The document byte range: [0, 9258, 32602, 495939]<span class="tag">&lt;/SignatureScope&gt;</span>
+    <span class="tag">&lt;/Signature&gt;</span>
+<span class="tag">&lt;/SimpleReport&gt;</span></code></pre>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2018-10-25 13:24:33 CEST
+</div>
+</div>
+</body>
+</html>

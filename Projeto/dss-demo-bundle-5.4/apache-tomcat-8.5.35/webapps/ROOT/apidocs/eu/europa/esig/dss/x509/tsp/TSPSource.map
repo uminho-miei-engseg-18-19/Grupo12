@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TSPSource.html" title="eu.europa.esig.dss.x509.tsp.TSPSource" alt="" coords="138,112,223,155"/>
+<area shape="rect" id="node1" href="./TSPSource.html" title="&lt;TABLE&gt;" alt="" coords="127,107,234,160"/>
+<area shape="rect" id="node2_1" href="./CompositeTSPSource.html" title="eu.europa.esig.dss.x509.tsp.CompositeTSPSource" alt="" coords="16,219,164,245"/>
+<area shape="rect" id="node2" href="./CompositeTSPSource.html" title="&lt;TABLE&gt;" alt="" coords="5,208,175,256"/>
+<area shape="rect" id="node3_2" href="../../client/tsp/OnlineTSPSource.html" title="eu.europa.esig.dss.client.tsp.OnlineTSPSource" alt="" coords="210,219,333,245"/>
+<area shape="rect" id="node3" href="../../client/tsp/OnlineTSPSource.html" title="&lt;TABLE&gt;" alt="" coords="199,208,343,256"/>
+<area shape="rect" id="node4_3" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="java.io.Serializable" alt="" coords="137,11,224,53"/>
+<area shape="rect" id="node4" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="&lt;TABLE&gt;" alt="" coords="127,5,235,59"/>
+</map>

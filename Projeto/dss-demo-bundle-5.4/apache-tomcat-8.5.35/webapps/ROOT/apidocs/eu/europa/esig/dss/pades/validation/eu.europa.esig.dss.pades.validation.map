@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./PDFDocumentValidator.html" title="eu.europa.esig.dss.pades.validation.PDFDocumentValidator" alt="" coords="16,17,172,42"/>
+<area shape="rect" id="node1" href="./PDFDocumentValidator.html" title="&lt;TABLE&gt;" alt="" coords="5,5,183,53"/>
+<area shape="rect" id="node2_1" href="./PdfByteRangeSignatureScope.html" title="eu.europa.esig.dss.pades.validation.PdfByteRangeSignatureScope" alt="" coords="218,17,413,42"/>
+<area shape="rect" id="node2" href="./PdfByteRangeSignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="207,5,423,53"/>
+<area shape="rect" id="node3_2" href="./PAdESSignatureScopeFinder.html" title="eu.europa.esig.dss.pades.validation.PAdESSignatureScopeFinder" alt="" coords="459,17,649,42"/>
+<area shape="rect" id="node3" href="./PAdESSignatureScopeFinder.html" title="&lt;TABLE&gt;" alt="" coords="448,5,660,53"/>
+<area shape="rect" id="node4_3" href="./PAdESSignature.html" title="eu.europa.esig.dss.pades.validation.PAdESSignature" alt="" coords="695,17,813,42"/>
+<area shape="rect" id="node4" href="./PAdESSignature.html" title="&lt;TABLE&gt;" alt="" coords="685,5,823,53"/>
+<area shape="rect" id="node5_4" href="./PAdESOCSPSource.html" title="eu.europa.esig.dss.pades.validation.PAdESOCSPSource" alt="" coords="859,17,999,42"/>
+<area shape="rect" id="node5" href="./PAdESOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="848,5,1009,53"/>
+<area shape="rect" id="node6_5" href="./PAdESCRLSource.html" title="eu.europa.esig.dss.pades.validation.PAdESCRLSource" alt="" coords="1045,17,1173,42"/>
+<area shape="rect" id="node6" href="./PAdESCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="1034,5,1183,53"/>
+<area shape="rect" id="node7_6" href="./PAdESCertificateSource.html" title="eu.europa.esig.dss.pades.validation.PAdESCertificateSource" alt="" coords="1219,17,1380,42"/>
+<area shape="rect" id="node7" href="./PAdESCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="1208,5,1391,53"/>
+</map>

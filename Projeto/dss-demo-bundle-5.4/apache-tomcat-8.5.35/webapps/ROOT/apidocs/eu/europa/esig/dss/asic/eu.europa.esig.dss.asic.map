@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ASiCWithCAdESSignatureParameters.html" title="eu.europa.esig.dss.asic.ASiCWithCAdESSignatureParameters" alt="" coords="16,17,257,42"/>
+<area shape="rect" id="node1" href="./ASiCWithCAdESSignatureParameters.html" title="&lt;TABLE&gt;" alt="" coords="5,5,268,53"/>
+<area shape="rect" id="node2_1" href="./ASiCWithCAdESContainerExtractor.html" title="eu.europa.esig.dss.asic.ASiCWithCAdESContainerExtractor" alt="" coords="156,113,384,138"/>
+<area shape="rect" id="node2" href="./ASiCWithCAdESContainerExtractor.html" title="&lt;TABLE&gt;" alt="" coords="145,101,395,149"/>
+<area shape="rect" id="node3_2" href="./OpenDocumentSupportUtils.html" title="eu.europa.esig.dss.asic.OpenDocumentSupportUtils" alt="" coords="555,17,735,42"/>
+<area shape="rect" id="node3" href="./OpenDocumentSupportUtils.html" title="&lt;TABLE&gt;" alt="" coords="544,5,745,53"/>
+<area shape="rect" id="node4_3" href="./ManifestNamespace.html" title="eu.europa.esig.dss.asic.ManifestNamespace" alt="" coords="780,17,917,42"/>
+<area shape="rect" id="node4" href="./ManifestNamespace.html" title="&lt;TABLE&gt;" alt="" coords="769,5,928,53"/>
+<area shape="rect" id="node5_4" href="./ASiCWithXAdESSignatureParameters.html" title="eu.europa.esig.dss.asic.ASiCWithXAdESSignatureParameters" alt="" coords="963,17,1203,42"/>
+<area shape="rect" id="node5" href="./ASiCWithXAdESSignatureParameters.html" title="&lt;TABLE&gt;" alt="" coords="953,5,1214,53"/>
+<area shape="rect" id="node6_5" href="./ASiCWithXAdESContainerExtractor.html" title="eu.europa.esig.dss.asic.ASiCWithXAdESContainerExtractor" alt="" coords="429,113,655,138"/>
+<area shape="rect" id="node6" href="./ASiCWithXAdESContainerExtractor.html" title="&lt;TABLE&gt;" alt="" coords="419,101,665,149"/>
+<area shape="rect" id="node7_6" href="./ASiCUtils.html" title="eu.europa.esig.dss.asic.ASiCUtils" alt="" coords="1249,17,1325,42"/>
+<area shape="rect" id="node7" href="./ASiCUtils.html" title="&lt;TABLE&gt;" alt="" coords="1239,5,1336,53"/>
+<area shape="rect" id="node8_7" href="./ASiCParameters.html" title="eu.europa.esig.dss.asic.ASiCParameters" alt="" coords="1371,17,1487,42"/>
+<area shape="rect" id="node8" href="./ASiCParameters.html" title="&lt;TABLE&gt;" alt="" coords="1360,5,1497,53"/>
+<area shape="rect" id="node9_8" href="./ASiCNamespace.html" title="eu.europa.esig.dss.asic.ASiCNamespace" alt="" coords="1532,17,1651,42"/>
+<area shape="rect" id="node9" href="./ASiCNamespace.html" title="&lt;TABLE&gt;" alt="" coords="1521,5,1661,53"/>
+<area shape="rect" id="node10_9" href="./ASiCExtractResult.html" title="eu.europa.esig.dss.asic.ASiCExtractResult" alt="" coords="1697,17,1825,42"/>
+<area shape="rect" id="node10" href="./ASiCExtractResult.html" title="&lt;TABLE&gt;" alt="" coords="1686,5,1835,53"/>
+<area shape="rect" id="node11_10" href="./AbstractASiCContainerExtractor.html" title="eu.europa.esig.dss.asic.AbstractASiCContainerExtractor" alt="" coords="303,17,509,42"/>
+<area shape="rect" id="node11" href="./AbstractASiCContainerExtractor.html" title="&lt;TABLE&gt;" alt="" coords="292,5,520,53"/>
+</map>

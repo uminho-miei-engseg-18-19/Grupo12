@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./XmlTrustAnchor.html" title="eu.europa.esig.dss.jaxb.simplecertificatereport.XmlTrustAnchor" alt="" coords="16,17,127,42"/>
+<area shape="rect" id="node1" href="./XmlTrustAnchor.html" title="&lt;TABLE&gt;" alt="" coords="5,5,137,53"/>
+<area shape="rect" id="node2_1" href="./XmlSubject.html" title="eu.europa.esig.dss.jaxb.simplecertificatereport.XmlSubject" alt="" coords="172,17,256,42"/>
+<area shape="rect" id="node2" href="./XmlSubject.html" title="&lt;TABLE&gt;" alt="" coords="161,5,267,53"/>
+<area shape="rect" id="node3_2" href="./XmlRevocation.html" title="eu.europa.esig.dss.jaxb.simplecertificatereport.XmlRevocation" alt="" coords="302,17,406,42"/>
+<area shape="rect" id="node3" href="./XmlRevocation.html" title="&lt;TABLE&gt;" alt="" coords="291,5,417,53"/>
+<area shape="rect" id="node4_3" href="./XmlChainItem.html" title="eu.europa.esig.dss.jaxb.simplecertificatereport.XmlChainItem" alt="" coords="451,17,550,42"/>
+<area shape="rect" id="node4" href="./XmlChainItem.html" title="&lt;TABLE&gt;" alt="" coords="441,5,561,53"/>
+<area shape="rect" id="node5_4" href="./SimpleCertificateReport.html" title="eu.europa.esig.dss.jaxb.simplecertificatereport.SimpleCertificateReport" alt="" coords="596,17,752,42"/>
+<area shape="rect" id="node5" href="./SimpleCertificateReport.html" title="&lt;TABLE&gt;" alt="" coords="585,5,763,53"/>
+<area shape="rect" id="node6_5" href="./ObjectFactory.html" title="eu.europa.esig.dss.jaxb.simplecertificatereport.ObjectFactory" alt="" coords="798,17,899,42"/>
+<area shape="rect" id="node6" href="./ObjectFactory.html" title="&lt;TABLE&gt;" alt="" coords="787,5,910,53"/>
+<area shape="rect" id="node7_6" href="./Adapter3.html" title="eu.europa.esig.dss.jaxb.simplecertificatereport.Adapter3" alt="" coords="945,17,1017,42"/>
+<area shape="rect" id="node7" href="./Adapter3.html" title="&lt;TABLE&gt;" alt="" coords="934,5,1027,53"/>
+<area shape="rect" id="node8_7" href="./Adapter2.html" title="eu.europa.esig.dss.jaxb.simplecertificatereport.Adapter2" alt="" coords="1062,17,1134,42"/>
+<area shape="rect" id="node8" href="./Adapter2.html" title="&lt;TABLE&gt;" alt="" coords="1051,5,1145,53"/>
+<area shape="rect" id="node9_8" href="./Adapter1.html" title="eu.europa.esig.dss.jaxb.simplecertificatereport.Adapter1" alt="" coords="1179,17,1251,42"/>
+<area shape="rect" id="node9" href="./Adapter1.html" title="&lt;TABLE&gt;" alt="" coords="1169,5,1262,53"/>
+</map>

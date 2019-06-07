@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./PdfSignatureOrDocTimestampInfo.html" title="eu.europa.esig.dss.pdf.PdfSignatureOrDocTimestampInfo" alt="" coords="56,11,271,53"/>
+<area shape="rect" id="node1" href="./PdfSignatureOrDocTimestampInfo.html" title="&lt;TABLE&gt;" alt="" coords="45,5,281,59"/>
+<area shape="rect" id="node2_1" href="./PdfSignatureInfo.html" title="eu.europa.esig.dss.pdf.PdfSignatureInfo" alt="" coords="16,214,129,239"/>
+<area shape="rect" id="node2" href="./PdfSignatureInfo.html" title="&lt;TABLE&gt;" alt="" coords="5,203,140,251"/>
+<area shape="rect" id="node3_2" href="./PdfDocTimestampInfo.html" title="eu.europa.esig.dss.pdf.PdfDocTimestampInfo" alt="" coords="180,214,325,239"/>
+<area shape="rect" id="node3" href="./PdfDocTimestampInfo.html" title="&lt;TABLE&gt;" alt="" coords="169,203,336,251"/>
+<area shape="rect" id="node4_3" href="./PdfCMSInfo.html" title="eu.europa.esig.dss.pdf.PdfCMSInfo" alt="" coords="119,118,208,143"/>
+<area shape="rect" id="node4" href="./PdfCMSInfo.html" title="&lt;TABLE&gt;" alt="" coords="108,107,219,155"/>
+</map>

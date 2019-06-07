@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../tsl/TrustedListsCertificateSource.html" title="eu.europa.esig.dss.tsl.TrustedListsCertificateSource" alt="" coords="28,209,217,234"/>
+<area shape="rect" id="node1" href="../tsl/TrustedListsCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="17,197,228,245"/>
+<area shape="rect" id="node2_1" href="./CommonTrustedCertificateSource.html" title="eu.europa.esig.dss.x509.CommonTrustedCertificateSource" alt="" coords="16,113,229,138"/>
+<area shape="rect" id="node2" href="./CommonTrustedCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="5,101,240,149"/>
+<area shape="rect" id="node3_2" href="./CommonCertificateSource.html" title="eu.europa.esig.dss.x509.CommonCertificateSource" alt="" coords="37,17,208,42"/>
+<area shape="rect" id="node3" href="./CommonCertificateSource.html" title="&lt;TABLE&gt;" alt="" coords="27,5,219,53"/>
+</map>

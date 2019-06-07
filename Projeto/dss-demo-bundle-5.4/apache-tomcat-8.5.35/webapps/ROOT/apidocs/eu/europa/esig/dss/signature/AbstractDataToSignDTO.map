@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./DataToSignOneDocumentDTO.html" title="eu.europa.esig.dss.signature.DataToSignOneDocumentDTO" alt="" coords="16,113,212,138"/>
+<area shape="rect" id="node1" href="./DataToSignOneDocumentDTO.html" title="&lt;TABLE&gt;" alt="" coords="5,101,223,149"/>
+<area shape="rect" id="node2_1" href="./DataToSignMultipleDocumentsDTO.html" title="eu.europa.esig.dss.signature.DataToSignMultipleDocumentsDTO" alt="" coords="258,113,482,138"/>
+<area shape="rect" id="node2" href="./DataToSignMultipleDocumentsDTO.html" title="&lt;TABLE&gt;" alt="" coords="247,101,493,149"/>
+<area shape="rect" id="node3_2" href="./AbstractDataToSignDTO.html" title="eu.europa.esig.dss.signature.AbstractDataToSignDTO" alt="" coords="160,17,324,42"/>
+<area shape="rect" id="node3" href="./AbstractDataToSignDTO.html" title="&lt;TABLE&gt;" alt="" coords="149,5,335,53"/>
+</map>

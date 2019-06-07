@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../ChainItem.html" title="eu.europa.esig.dss.validation.process.ChainItem" alt="" coords="29,17,337,42"/>
+<area shape="rect" id="node1" href="../../ChainItem.html" title="&lt;TABLE&gt;" alt="" coords="18,5,347,53"/>
+<area shape="rect" id="node2_1" href="./BestSignatureTimeNotBeforeCertificateIssuanceCheck.html" title="eu.europa.esig.dss.validation.process.vpfltvd.checks.BestSignatureTimeNotBeforeCertificateIssuanceCheck" alt="" coords="16,113,349,138"/>
+<area shape="rect" id="node2" href="./BestSignatureTimeNotBeforeCertificateIssuanceCheck.html" title="&lt;TABLE&gt;" alt="" coords="5,101,360,149"/>
+</map>

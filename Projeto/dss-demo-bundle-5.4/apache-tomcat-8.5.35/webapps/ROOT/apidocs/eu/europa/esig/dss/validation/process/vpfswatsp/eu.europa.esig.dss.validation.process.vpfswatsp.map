@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ValidationProcessForSignaturesWithArchivalData.html" title="eu.europa.esig.dss.validation.process.vpfswatsp.ValidationProcessForSignaturesWithArchivalData" alt="" coords="16,17,320,42"/>
+<area shape="rect" id="node1" href="./ValidationProcessForSignaturesWithArchivalData.html" title="&lt;TABLE&gt;" alt="" coords="5,5,331,53"/>
+<area shape="rect" id="node2_1" href="./TimestampComparator.html" title="eu.europa.esig.dss.validation.process.vpfswatsp.TimestampComparator" alt="" coords="366,17,517,42"/>
+<area shape="rect" id="node2" href="./TimestampComparator.html" title="&lt;TABLE&gt;" alt="" coords="355,5,527,53"/>
+<area shape="rect" id="node3_2" href="./POEExtraction.html" title="eu.europa.esig.dss.validation.process.vpfswatsp.POEExtraction" alt="" coords="563,17,669,42"/>
+<area shape="rect" id="node3" href="./POEExtraction.html" title="&lt;TABLE&gt;" alt="" coords="552,5,680,53"/>
+</map>

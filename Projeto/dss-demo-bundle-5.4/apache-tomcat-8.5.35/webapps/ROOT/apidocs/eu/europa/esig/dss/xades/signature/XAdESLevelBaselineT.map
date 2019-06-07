@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../signature/SignatureExtension.html" title="eu.europa.esig.dss.signature.SignatureExtension" alt="" coords="16,11,408,53"/>
+<area shape="rect" id="node1" href="../../signature/SignatureExtension.html" title="&lt;TABLE&gt;" alt="" coords="5,5,419,59"/>
+<area shape="rect" id="node3_1" href="./XAdESLevelBaselineT.html" title="eu.europa.esig.dss.xades.signature.XAdESLevelBaselineT" alt="" coords="288,118,435,143"/>
+<area shape="rect" id="node3" href="./XAdESLevelBaselineT.html" title="&lt;TABLE&gt;" alt="" coords="277,107,445,155"/>
+<area shape="rect" id="node2_2" href="./XAdESLevelC.html" title="eu.europa.esig.dss.xades.signature.XAdESLevelC" alt="" coords="227,214,325,239"/>
+<area shape="rect" id="node2" href="./XAdESLevelC.html" title="&lt;TABLE&gt;" alt="" coords="216,203,336,251"/>
+<area shape="rect" id="node4_3" href="./XAdESLevelBaselineLT.html" title="eu.europa.esig.dss.xades.signature.XAdESLevelBaselineLT" alt="" coords="371,214,525,239"/>
+<area shape="rect" id="node4" href="./XAdESLevelBaselineLT.html" title="&lt;TABLE&gt;" alt="" coords="361,203,535,251"/>
+<area shape="rect" id="node5_4" href="./ExtensionBuilder.html" title="eu.europa.esig.dss.xades.signature.ExtensionBuilder" alt="" coords="454,19,570,45"/>
+<area shape="rect" id="node5" href="./ExtensionBuilder.html" title="&lt;TABLE&gt;" alt="" coords="443,8,581,56"/>
+</map>

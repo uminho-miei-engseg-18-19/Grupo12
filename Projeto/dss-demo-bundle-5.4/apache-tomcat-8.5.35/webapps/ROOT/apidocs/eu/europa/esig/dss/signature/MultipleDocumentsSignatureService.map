@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./MultipleDocumentsSignatureService.html" title="eu.europa.esig.dss.signature.MultipleDocumentsSignatureService" alt="" coords="57,112,610,155"/>
+<area shape="rect" id="node1" href="./MultipleDocumentsSignatureService.html" title="&lt;TABLE&gt;" alt="" coords="46,107,621,160"/>
+<area shape="rect" id="node3_1" href="../xades/signature/XAdESService.html" title="eu.europa.esig.dss.xades.signature.XAdESService" alt="" coords="119,219,222,245"/>
+<area shape="rect" id="node3" href="../xades/signature/XAdESService.html" title="&lt;TABLE&gt;" alt="" coords="109,208,233,256"/>
+<area shape="rect" id="node4_2" href="../asic/signature/AbstractASiCSignatureService.html" title="eu.europa.esig.dss.asic.signature.AbstractASiCSignatureService" alt="" coords="268,219,724,245"/>
+<area shape="rect" id="node4" href="../asic/signature/AbstractASiCSignatureService.html" title="&lt;TABLE&gt;" alt="" coords="257,208,735,256"/>
+<area shape="rect" id="node2_3" href="./RemoteMultipleDocumentsSignatureService.html" title="eu.europa.esig.dss.signature.RemoteMultipleDocumentsSignatureService" alt="" coords="16,11,651,53"/>
+<area shape="rect" id="node2" href="./RemoteMultipleDocumentsSignatureService.html" title="&lt;TABLE&gt;" alt="" coords="5,5,661,59"/>
+</map>

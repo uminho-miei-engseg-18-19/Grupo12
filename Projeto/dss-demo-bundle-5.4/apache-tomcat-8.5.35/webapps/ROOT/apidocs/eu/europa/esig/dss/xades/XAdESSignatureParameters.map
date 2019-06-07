@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../AbstractSignatureParameters.html" title="eu.europa.esig.dss.AbstractSignatureParameters" alt="" coords="40,17,232,42"/>
+<area shape="rect" id="node1" href="../AbstractSignatureParameters.html" title="&lt;TABLE&gt;" alt="" coords="29,5,243,53"/>
+<area shape="rect" id="node2_1" href="./XAdESSignatureParameters.html" title="eu.europa.esig.dss.xades.XAdESSignatureParameters" alt="" coords="45,113,227,138"/>
+<area shape="rect" id="node2" href="./XAdESSignatureParameters.html" title="&lt;TABLE&gt;" alt="" coords="34,101,238,149"/>
+<area shape="rect" id="node3_2" href="../asic/ASiCWithXAdESSignatureParameters.html" title="eu.europa.esig.dss.asic.ASiCWithXAdESSignatureParameters" alt="" coords="16,209,256,234"/>
+<area shape="rect" id="node3" href="../asic/ASiCWithXAdESSignatureParameters.html" title="&lt;TABLE&gt;" alt="" coords="5,197,267,245"/>
+</map>

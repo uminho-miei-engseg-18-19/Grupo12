@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./DocumentSignatureService.html" title="eu.europa.esig.dss.signature.DocumentSignatureService" alt="" coords="57,112,558,155"/>
+<area shape="rect" id="node1" href="./DocumentSignatureService.html" title="&lt;TABLE&gt;" alt="" coords="46,107,569,160"/>
+<area shape="rect" id="node2_1" href="./AbstractSignatureService.html" title="eu.europa.esig.dss.signature.AbstractSignatureService" alt="" coords="94,219,521,245"/>
+<area shape="rect" id="node2" href="./AbstractSignatureService.html" title="&lt;TABLE&gt;" alt="" coords="83,208,531,256"/>
+<area shape="rect" id="node3_2" href="./RemoteDocumentSignatureService.html" title="eu.europa.esig.dss.signature.RemoteDocumentSignatureService" alt="" coords="16,11,599,53"/>
+<area shape="rect" id="node3" href="./RemoteDocumentSignatureService.html" title="&lt;TABLE&gt;" alt="" coords="5,5,609,59"/>
+</map>

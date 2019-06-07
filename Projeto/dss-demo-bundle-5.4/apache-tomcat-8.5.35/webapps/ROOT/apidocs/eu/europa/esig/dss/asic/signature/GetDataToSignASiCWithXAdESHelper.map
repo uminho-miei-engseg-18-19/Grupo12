@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./GetDataToSignASiCWithXAdESHelper.html" title="eu.europa.esig.dss.asic.signature.GetDataToSignASiCWithXAdESHelper" alt="" coords="477,112,719,155"/>
+<area shape="rect" id="node1" href="./GetDataToSignASiCWithXAdESHelper.html" title="&lt;TABLE&gt;" alt="" coords="466,107,730,160"/>
+<area shape="rect" id="node3_1" href="./asics/DataToSignASiCSWithXAdESFromFiles.html" title="eu.europa.esig.dss.asic.signature.asics.DataToSignASiCSWithXAdESFromFiles" alt="" coords="16,219,268,245"/>
+<area shape="rect" id="node3" href="./asics/DataToSignASiCSWithXAdESFromFiles.html" title="&lt;TABLE&gt;" alt="" coords="5,208,279,256"/>
+<area shape="rect" id="node4_2" href="./asics/DataToSignASiCSWithXAdESFromArchive.html" title="eu.europa.esig.dss.asic.signature.asics.DataToSignASiCSWithXAdESFromArchive" alt="" coords="313,219,579,245"/>
+<area shape="rect" id="node4" href="./asics/DataToSignASiCSWithXAdESFromArchive.html" title="&lt;TABLE&gt;" alt="" coords="303,208,589,256"/>
+<area shape="rect" id="node5_3" href="./asice/DataToSignASiCEWithXAdESFromFiles.html" title="eu.europa.esig.dss.asic.signature.asice.DataToSignASiCEWithXAdESFromFiles" alt="" coords="624,219,876,245"/>
+<area shape="rect" id="node5" href="./asice/DataToSignASiCEWithXAdESFromFiles.html" title="&lt;TABLE&gt;" alt="" coords="613,208,887,256"/>
+<area shape="rect" id="node6_4" href="./asice/DataToSignASiCEWithXAdESFromArchive.html" title="eu.europa.esig.dss.asic.signature.asice.DataToSignASiCEWithXAdESFromArchive" alt="" coords="921,219,1187,245"/>
+<area shape="rect" id="node6" href="./asice/DataToSignASiCEWithXAdESFromArchive.html" title="&lt;TABLE&gt;" alt="" coords="911,208,1197,256"/>
+<area shape="rect" id="node2_5" href="./GetDataToSignHelper.html" title="eu.europa.esig.dss.asic.signature.GetDataToSignHelper" alt="" coords="526,11,670,53"/>
+<area shape="rect" id="node2" href="./GetDataToSignHelper.html" title="&lt;TABLE&gt;" alt="" coords="515,5,681,59"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./QCStatementPolicyIdentifiers.html" title="eu.europa.esig.dss.validation.process.QCStatementPolicyIdentifiers" alt="" coords="16,19,205,45"/>
+<area shape="rect" id="node1" href="./QCStatementPolicyIdentifiers.html" title="&lt;TABLE&gt;" alt="" coords="5,8,216,56"/>
+<area shape="rect" id="node2_1" href="./MessageTag.html" title="eu.europa.esig.dss.validation.process.MessageTag" alt="" coords="247,112,351,155"/>
+<area shape="rect" id="node2" href="./MessageTag.html" title="&lt;TABLE&gt;" alt="" coords="236,107,361,160"/>
+<area shape="rect" id="node3_2" href="./IMessageTag.html" title="eu.europa.esig.dss.validation.process.IMessageTag" alt="" coords="251,11,347,53"/>
+<area shape="rect" id="node3" href="./IMessageTag.html" title="&lt;TABLE&gt;" alt="" coords="240,5,357,59"/>
+<area shape="rect" id="node4_3" href="./ChainItem.html" title="eu.europa.esig.dss.validation.process.ChainItem" alt="" coords="393,19,701,45"/>
+<area shape="rect" id="node4" href="./ChainItem.html" title="&lt;TABLE&gt;" alt="" coords="382,8,711,56"/>
+<area shape="rect" id="node5_4" href="./Chain.html" title="eu.europa.esig.dss.validation.process.Chain" alt="" coords="747,19,1029,45"/>
+<area shape="rect" id="node5" href="./Chain.html" title="&lt;TABLE&gt;" alt="" coords="736,8,1040,56"/>
+<area shape="rect" id="node6_5" href="./CertificatePolicyIdentifiers.html" title="eu.europa.esig.dss.validation.process.CertificatePolicyIdentifiers" alt="" coords="1075,19,1243,45"/>
+<area shape="rect" id="node6" href="./CertificatePolicyIdentifiers.html" title="&lt;TABLE&gt;" alt="" coords="1064,8,1253,56"/>
+<area shape="rect" id="node7_6" href="./AdditionalInfo.html" title="eu.europa.esig.dss.validation.process.AdditionalInfo" alt="" coords="1288,19,1384,45"/>
+<area shape="rect" id="node7" href="./AdditionalInfo.html" title="&lt;TABLE&gt;" alt="" coords="1277,8,1395,56"/>
+</map>

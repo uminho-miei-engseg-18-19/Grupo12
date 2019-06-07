@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SignatureDrawerFactory.html" title="eu.europa.esig.dss.pdf.visible.SignatureDrawerFactory" alt="" coords="16,11,175,53"/>
+<area shape="rect" id="node1" href="./SignatureDrawerFactory.html" title="&lt;TABLE&gt;" alt="" coords="5,5,185,59"/>
+<area shape="rect" id="node2_1" href="./SignatureDrawer.html" title="eu.europa.esig.dss.pdf.visible.SignatureDrawer" alt="" coords="221,11,335,53"/>
+<area shape="rect" id="node2" href="./SignatureDrawer.html" title="&lt;TABLE&gt;" alt="" coords="210,5,346,59"/>
+<area shape="rect" id="node3_2" href="./ImageUtils.html" title="eu.europa.esig.dss.pdf.visible.ImageUtils" alt="" coords="381,19,461,45"/>
+<area shape="rect" id="node3" href="./ImageUtils.html" title="&lt;TABLE&gt;" alt="" coords="370,8,471,56"/>
+<area shape="rect" id="node4_3" href="./ImageTextWriter.html" title="eu.europa.esig.dss.pdf.visible.ImageTextWriter" alt="" coords="506,19,621,45"/>
+<area shape="rect" id="node4" href="./ImageTextWriter.html" title="&lt;TABLE&gt;" alt="" coords="495,8,631,56"/>
+<area shape="rect" id="node5_4" href="./ImagesMerger.html" title="eu.europa.esig.dss.pdf.visible.ImagesMerger" alt="" coords="666,19,767,45"/>
+<area shape="rect" id="node5" href="./ImagesMerger.html" title="&lt;TABLE&gt;" alt="" coords="655,8,778,56"/>
+<area shape="rect" id="node6_5" href="./ImageAndResolution.html" title="eu.europa.esig.dss.pdf.visible.ImageAndResolution" alt="" coords="813,19,951,45"/>
+<area shape="rect" id="node6" href="./ImageAndResolution.html" title="&lt;TABLE&gt;" alt="" coords="802,8,962,56"/>
+</map>

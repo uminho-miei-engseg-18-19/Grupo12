@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../validation/DocumentValidator.html" title="eu.europa.esig.dss.validation.DocumentValidator" alt="" coords="181,11,310,53"/>
+<area shape="rect" id="node1" href="../../validation/DocumentValidator.html" title="&lt;TABLE&gt;" alt="" coords="170,5,321,59"/>
+<area shape="rect" id="node4_1" href="./ASiCSignatureValidator.html" title="eu.europa.esig.dss.asic.validation.ASiCSignatureValidator" alt="" coords="167,112,323,155"/>
+<area shape="rect" id="node4" href="./ASiCSignatureValidator.html" title="&lt;TABLE&gt;" alt="" coords="157,107,334,160"/>
+<area shape="rect" id="node2_2" href="./CMSDocumentForASiCValidator.html" title="eu.europa.esig.dss.asic.validation.CMSDocumentForASiCValidator" alt="" coords="16,219,224,245"/>
+<area shape="rect" id="node2" href="./CMSDocumentForASiCValidator.html" title="&lt;TABLE&gt;" alt="" coords="5,208,235,256"/>
+<area shape="rect" id="node3_3" href="./XMLDocumentForASiCValidator.html" title="eu.europa.esig.dss.asic.validation.XMLDocumentForASiCValidator" alt="" coords="270,219,474,245"/>
+<area shape="rect" id="node3" href="./XMLDocumentForASiCValidator.html" title="&lt;TABLE&gt;" alt="" coords="259,208,485,256"/>
+</map>

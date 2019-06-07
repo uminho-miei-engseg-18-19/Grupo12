@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Protocol.html" title="eu.europa.esig.dss.client.http.Protocol" alt="" coords="88,11,192,53"/>
+<area shape="rect" id="node1" href="./Protocol.html" title="&lt;TABLE&gt;" alt="" coords="77,5,203,59"/>
+<area shape="rect" id="node2_1" href="./NativeHTTPDataLoader.html" title="eu.europa.esig.dss.client.http.NativeHTTPDataLoader" alt="" coords="16,118,168,143"/>
+<area shape="rect" id="node2" href="./NativeHTTPDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="5,107,179,155"/>
+<area shape="rect" id="node3_2" href="./NativeHTTPDataLoader.HttpMethod.html" title="eu.europa.esig.dss.client.http.NativeHTTPDataLoader.HttpMethod" alt="" coords="368,11,472,53"/>
+<area shape="rect" id="node3" href="./NativeHTTPDataLoader.HttpMethod.html" title="&lt;TABLE&gt;" alt="" coords="357,5,483,59"/>
+<area shape="rect" id="node4_3" href="./NativeDataLoaderCall.html" title="eu.europa.esig.dss.client.http.NativeDataLoaderCall" alt="" coords="518,19,661,45"/>
+<area shape="rect" id="node4" href="./NativeDataLoaderCall.html" title="&lt;TABLE&gt;" alt="" coords="507,8,671,56"/>
+<area shape="rect" id="node5_4" href="./MemoryDataLoader.html" title="eu.europa.esig.dss.client.http.MemoryDataLoader" alt="" coords="214,118,346,143"/>
+<area shape="rect" id="node5" href="./MemoryDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="203,107,357,155"/>
+<area shape="rect" id="node6_5" href="./MaxSizeInputStream.html" title="eu.europa.esig.dss.client.http.MaxSizeInputStream" alt="" coords="706,19,846,45"/>
+<area shape="rect" id="node6" href="./MaxSizeInputStream.html" title="&lt;TABLE&gt;" alt="" coords="695,8,857,56"/>
+<area shape="rect" id="node7_6" href="./IgnoreDataLoader.html" title="eu.europa.esig.dss.client.http.IgnoreDataLoader" alt="" coords="392,118,512,143"/>
+<area shape="rect" id="node7" href="./IgnoreDataLoader.html" title="&lt;TABLE&gt;" alt="" coords="381,107,523,155"/>
+<area shape="rect" id="node8_7" href="./DataLoader.html" title="eu.europa.esig.dss.client.http.DataLoader" alt="" coords="237,11,323,53"/>
+<area shape="rect" id="node8" href="./DataLoader.html" title="&lt;TABLE&gt;" alt="" coords="227,5,333,59"/>
+<area shape="rect" id="node9_8" href="./DataLoader.DataAndUrl.html" title="eu.europa.esig.dss.client.http.DataLoader.DataAndUrl" alt="" coords="892,19,977,45"/>
+<area shape="rect" id="node9" href="./DataLoader.DataAndUrl.html" title="&lt;TABLE&gt;" alt="" coords="881,8,988,56"/>
+</map>

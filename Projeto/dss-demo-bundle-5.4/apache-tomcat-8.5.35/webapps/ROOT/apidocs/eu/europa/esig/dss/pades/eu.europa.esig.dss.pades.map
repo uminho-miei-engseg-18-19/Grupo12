@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SignatureImageTextParameters.html" title="eu.europa.esig.dss.pades.SignatureImageTextParameters" alt="" coords="16,19,217,45"/>
+<area shape="rect" id="node1" href="./SignatureImageTextParameters.html" title="&lt;TABLE&gt;" alt="" coords="5,8,228,56"/>
+<area shape="rect" id="node2_1" href="./SignatureImageTextParameters.SignerPosition.html" title="eu.europa.esig.dss.pades.SignatureImageTextParameters.SignerPosition" alt="" coords="263,11,367,53"/>
+<area shape="rect" id="node2" href="./SignatureImageTextParameters.SignerPosition.html" title="&lt;TABLE&gt;" alt="" coords="253,5,378,59"/>
+<area shape="rect" id="node3_2" href="./SignatureImageTextParameters.SignerTextHorizontalAlignment.html" title="eu.europa.esig.dss.pades.SignatureImageTextParameters.SignerTextHorizontalAlignment" alt="" coords="413,11,610,53"/>
+<area shape="rect" id="node3" href="./SignatureImageTextParameters.SignerTextHorizontalAlignment.html" title="&lt;TABLE&gt;" alt="" coords="402,5,621,59"/>
+<area shape="rect" id="node4_3" href="./SignatureImageParameters.html" title="eu.europa.esig.dss.pades.SignatureImageParameters" alt="" coords="655,19,831,45"/>
+<area shape="rect" id="node4" href="./SignatureImageParameters.html" title="&lt;TABLE&gt;" alt="" coords="645,8,842,56"/>
+<area shape="rect" id="node5_4" href="./SignatureImageParameters.SignerTextImageVerticalAlignment.html" title="eu.europa.esig.dss.pades.SignatureImageParameters.SignerTextImageVerticalAlignment" alt="" coords="877,11,1095,53"/>
+<area shape="rect" id="node5" href="./SignatureImageParameters.SignerTextImageVerticalAlignment.html" title="&lt;TABLE&gt;" alt="" coords="866,5,1106,59"/>
+<area shape="rect" id="node6_5" href="./SignatureImageParameters.VisualSignatureAlignmentHorizontal.html" title="eu.europa.esig.dss.pades.SignatureImageParameters.VisualSignatureAlignmentHorizontal" alt="" coords="1141,11,1367,53"/>
+<area shape="rect" id="node6" href="./SignatureImageParameters.VisualSignatureAlignmentHorizontal.html" title="&lt;TABLE&gt;" alt="" coords="1130,5,1378,59"/>
+<area shape="rect" id="node7_6" href="./SignatureImageParameters.VisualSignatureAlignmentVertical.html" title="eu.europa.esig.dss.pades.SignatureImageParameters.VisualSignatureAlignmentVertical" alt="" coords="1413,11,1625,53"/>
+<area shape="rect" id="node7" href="./SignatureImageParameters.VisualSignatureAlignmentVertical.html" title="&lt;TABLE&gt;" alt="" coords="1403,5,1636,59"/>
+<area shape="rect" id="node8_7" href="./SignatureImageParameters.VisualSignatureRotation.html" title="eu.europa.esig.dss.pades.SignatureImageParameters.VisualSignatureRotation" alt="" coords="1671,11,1829,53"/>
+<area shape="rect" id="node8" href="./SignatureImageParameters.VisualSignatureRotation.html" title="&lt;TABLE&gt;" alt="" coords="1660,5,1840,59"/>
+<area shape="rect" id="node9_8" href="./SignatureFieldParameters.html" title="eu.europa.esig.dss.pades.SignatureFieldParameters" alt="" coords="1875,19,2044,45"/>
+<area shape="rect" id="node9" href="./SignatureFieldParameters.html" title="&lt;TABLE&gt;" alt="" coords="1864,8,2055,56"/>
+<area shape="rect" id="node10_9" href="./PAdESSignatureParameters.html" title="eu.europa.esig.dss.pades.PAdESSignatureParameters" alt="" coords="2090,19,2274,45"/>
+<area shape="rect" id="node10" href="./PAdESSignatureParameters.html" title="&lt;TABLE&gt;" alt="" coords="2079,8,2285,56"/>
+<area shape="rect" id="node11_10" href="./CertificationPermission.html" title="eu.europa.esig.dss.pades.CertificationPermission" alt="" coords="2319,11,2471,53"/>
+<area shape="rect" id="node11" href="./CertificationPermission.html" title="&lt;TABLE&gt;" alt="" coords="2309,5,2482,59"/>
+</map>

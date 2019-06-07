@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SimpleReport.html" title="eu.europa.esig.dss.validation.reports.SimpleReport" alt="" coords="16,17,113,42"/>
+<area shape="rect" id="node1" href="./SimpleReport.html" title="&lt;TABLE&gt;" alt="" coords="5,5,124,53"/>
+<area shape="rect" id="node2_1" href="./SimpleCertificateReport.html" title="eu.europa.esig.dss.validation.reports.SimpleCertificateReport" alt="" coords="159,17,315,42"/>
+<area shape="rect" id="node2" href="./SimpleCertificateReport.html" title="&lt;TABLE&gt;" alt="" coords="148,5,325,53"/>
+<area shape="rect" id="node3_2" href="./Reports.html" title="eu.europa.esig.dss.validation.reports.Reports" alt="" coords="317,113,381,138"/>
+<area shape="rect" id="node3" href="./Reports.html" title="&lt;TABLE&gt;" alt="" coords="306,101,391,149"/>
+<area shape="rect" id="node4_3" href="./DetailedReport.html" title="eu.europa.esig.dss.validation.reports.DetailedReport" alt="" coords="521,17,625,42"/>
+<area shape="rect" id="node4" href="./DetailedReport.html" title="&lt;TABLE&gt;" alt="" coords="510,5,635,53"/>
+<area shape="rect" id="node5_4" href="./CertificateReports.html" title="eu.europa.esig.dss.validation.reports.CertificateReports" alt="" coords="426,113,549,138"/>
+<area shape="rect" id="node5" href="./CertificateReports.html" title="&lt;TABLE&gt;" alt="" coords="415,101,559,149"/>
+<area shape="rect" id="node6_5" href="./AbstractReports.html" title="eu.europa.esig.dss.validation.reports.AbstractReports" alt="" coords="361,17,475,42"/>
+<area shape="rect" id="node6" href="./AbstractReports.html" title="&lt;TABLE&gt;" alt="" coords="350,5,486,53"/>
+</map>

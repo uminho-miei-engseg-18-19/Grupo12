@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TLWellSignedCheck.html" title="eu.europa.esig.dss.validation.process.qualification.trust.checks.TLWellSignedCheck" alt="" coords="16,17,152,42"/>
+<area shape="rect" id="node1" href="./TLWellSignedCheck.html" title="&lt;TABLE&gt;" alt="" coords="5,5,163,53"/>
+<area shape="rect" id="node2_1" href="./TLVersionCheck.html" title="eu.europa.esig.dss.validation.process.qualification.trust.checks.TLVersionCheck" alt="" coords="197,17,312,42"/>
+<area shape="rect" id="node2" href="./TLVersionCheck.html" title="&lt;TABLE&gt;" alt="" coords="187,5,323,53"/>
+<area shape="rect" id="node3_2" href="./TLNotExpiredCheck.html" title="eu.europa.esig.dss.validation.process.qualification.trust.checks.TLNotExpiredCheck" alt="" coords="358,17,493,42"/>
+<area shape="rect" id="node3" href="./TLNotExpiredCheck.html" title="&lt;TABLE&gt;" alt="" coords="347,5,503,53"/>
+<area shape="rect" id="node4_3" href="./TLFreshnessCheck.html" title="eu.europa.esig.dss.validation.process.qualification.trust.checks.TLFreshnessCheck" alt="" coords="538,17,670,42"/>
+<area shape="rect" id="node4" href="./TLFreshnessCheck.html" title="&lt;TABLE&gt;" alt="" coords="527,5,681,53"/>
+</map>

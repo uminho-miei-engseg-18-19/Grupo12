@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.7.1">
+<title>Untitled</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="./coderay-asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
+</div>
+<div id="content">
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight nowrap"><code data-lang="http">HTTP/1.1 200 OK
+Date: Wed, 21 Nov 2018 09:55:06 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Content-Length: 31957
+
+{
+  &quot;diagnosticData&quot; : {
+    &quot;documentName&quot; : &quot;xades-detached.xml&quot;,
+    &quot;validationDate&quot; : 1542794106070,
+    &quot;containerInfo&quot; : null,
+    &quot;signatures&quot; : [ {
+      &quot;signatureFilename&quot; : &quot;xades-detached.xml&quot;,
+      &quot;parentId&quot; : null,
+      &quot;errorMessage&quot; : null,
+      &quot;dateTime&quot; : 1506596944000,
+      &quot;signatureFormat&quot; : &quot;XAdES-BASELINE-B&quot;,
+      &quot;structuralValidation&quot; : {
+        &quot;valid&quot; : true,
+        &quot;message&quot; : null
+      },
+      &quot;digestMatchers&quot; : [ {
+        &quot;digestMethod&quot; : &quot;SHA256&quot;,
+        &quot;digestValue&quot; : &quot;kcDHOZjwZhVfuDhuhCeCERRmYpTH4Jj4RmfVVi31Q9g=&quot;,
+        &quot;dataFound&quot; : true,
+        &quot;dataIntact&quot; : true,
+        &quot;type&quot; : &quot;REFERENCE&quot;,
+        &quot;name&quot; : &quot;r-id-1&quot;
+      }, {
+        &quot;digestMethod&quot; : &quot;SHA256&quot;,
+        &quot;digestValue&quot; : &quot;DztwNTmRoOAm6/lMI8Rym5xZPzIvLYDzn/ebYYkPsr4=&quot;,
+        &quot;dataFound&quot; : true,
+        &quot;dataIntact&quot; : true,
+        &quot;type&quot; : &quot;SIGNED_PROPERTIES&quot;,
+        &quot;name&quot; : &quot;#xades-id-afde782436468dd74eeb181f7ce110e1&quot;
+      } ],
+      &quot;basicSignature&quot; : {
+        &quot;encryptionAlgoUsedToSignThisToken&quot; : &quot;RSA&quot;,
+        &quot;keyLengthUsedToSignThisToken&quot; : &quot;2048&quot;,
+        &quot;digestAlgoUsedToSignThisToken&quot; : &quot;SHA256&quot;,
+        &quot;maskGenerationFunctionUsedToSignThisToken&quot; : null,
+        &quot;signatureIntact&quot; : true,
+        &quot;signatureValid&quot; : true
+      },
+      &quot;signingCertificate&quot; : {
+        &quot;attributePresent&quot; : true,
+        &quot;digestValuePresent&quot; : true,
+        &quot;digestValueMatch&quot; : true,
+        &quot;issuerSerialMatch&quot; : true,
+        &quot;id&quot; : &quot;F0FF0B4514D316304F2817DBA0BFB05DEDB98527C0E47C73E8D8FDFE16DF267E&quot;
+      },
+      &quot;certificateChain&quot; : [ {
+        &quot;source&quot; : &quot;SIGNATURE&quot;,
+        &quot;id&quot; : &quot;F0FF0B4514D316304F2817DBA0BFB05DEDB98527C0E47C73E8D8FDFE16DF267E&quot;
+      }, {
+        &quot;source&quot; : &quot;SIGNATURE&quot;,
+        &quot;id&quot; : &quot;6F35DE3965B9A69BC3661D1A355B0AE60907ADB741CC1911EFD0F3BE72D6A6E9&quot;
+      } ],
+      &quot;contentType&quot; : &quot;text/xml&quot;,
+      &quot;contentIdentifier&quot; : null,
+      &quot;contentHints&quot; : null,
+      &quot;signatureProductionPlace&quot; : null,
+      &quot;commitmentTypeIndication&quot; : [ ],
+      &quot;claimedRoles&quot; : [ ],
+      &quot;certifiedRoles&quot; : [ ],
+      &quot;policy&quot; : null,
+      &quot;timestamps&quot; : [ ],
+      &quot;signatureScopes&quot; : [ {
+        &quot;value&quot; : &quot;Full document&quot;,
+        &quot;name&quot; : &quot;sample.xml&quot;,
+        &quot;scope&quot; : &quot;FULL&quot;
+      } ],
+      &quot;id&quot; : &quot;id-afde782436468dd74eeb181f7ce110e1&quot;,
+      &quot;counterSignature&quot; : null
+    } ],
+    &quot;usedCertificates&quot; : [ {
+      &quot;subjectDistinguishedName&quot; : [ {
+        &quot;value&quot; : &quot;c=lu,ou=pki-test,o=nowina solutions,cn=good-ca&quot;,
+        &quot;format&quot; : &quot;CANONICAL&quot;
+      }, {
+        &quot;value&quot; : &quot;C=LU,OU=PKI-TEST,O=Nowina Solutions,CN=good-ca&quot;,
+        &quot;format&quot; : &quot;RFC2253&quot;
+      } ],
+      &quot;issuerDistinguishedName&quot; : [ {
+        &quot;value&quot; : &quot;c=lu,ou=pki-test,o=nowina solutions,cn=root-ca&quot;,
+        &quot;format&quot; : &quot;CANONICAL&quot;
+      }, {
+        &quot;value&quot; : &quot;C=LU,OU=PKI-TEST,O=Nowina Solutions,CN=root-ca&quot;,
+        &quot;format&quot; : &quot;RFC2253&quot;
+      } ],
+      &quot;serialNumber&quot; : 4,
+      &quot;commonName&quot; : &quot;good-ca&quot;,
+      &quot;locality&quot; : null,
+      &quot;state&quot; : null,
+      &quot;countryName&quot; : &quot;LU&quot;,
+      &quot;organizationName&quot; : &quot;Nowina Solutions&quot;,
+      &quot;givenName&quot; : null,
+      &quot;organizationalUnit&quot; : &quot;PKI-TEST&quot;,
+      &quot;surname&quot; : null,
+      &quot;pseudonym&quot; : null,
+      &quot;email&quot; : null,
+      &quot;authorityInformationAccessUrls&quot; : [ &quot;http://dss.nowina.lu/pki-factory/crt/root-ca.crt&quot; ],
+      &quot;digestAlgoAndValues&quot; : [ ],
+      &quot;notAfter&quot; : 1535270070000,
+      &quot;notBefore&quot; : 1477468470000,
+      &quot;publicKeySize&quot; : 2048,
+      &quot;publicKeyEncryptionAlgo&quot; : &quot;RSA&quot;,
+      &quot;keyUsageBits&quot; : [ &quot;digitalSignature&quot; ],
+      &quot;extendedKeyUsages&quot; : [ ],
+      &quot;idPkixOcspNoCheck&quot; : false,
+      &quot;basicSignature&quot; : {
+        &quot;encryptionAlgoUsedToSignThisToken&quot; : &quot;RSA&quot;,
+        &quot;keyLengthUsedToSignThisToken&quot; : &quot;?&quot;,
+        &quot;digestAlgoUsedToSignThisToken&quot; : &quot;SHA256&quot;,
+        &quot;maskGenerationFunctionUsedToSignThisToken&quot; : null,
+        &quot;signatureIntact&quot; : false,
+        &quot;signatureValid&quot; : false
+      },
+      &quot;signingCertificate&quot; : null,
+      &quot;certificateChain&quot; : [ ],
+      &quot;trusted&quot; : false,
+      &quot;selfSigned&quot; : false,
+      &quot;certificatePolicies&quot; : [ ],
+      &quot;trustedServiceProviders&quot; : [ ],
+      &quot;revocations&quot; : [ ],
+      &quot;base64Encoded&quot; : &quot;MIID6jCCAtKgAwIBAgIBBDANBgkqhkiG9w0BAQsFADBNMRAwDgYDVQQDDAdyb290LWNhMRkwFwYDVQQKDBBOb3dpbmEgU29sdXRpb25zMREwDwYDVQQLDAhQS0ktVEVTVDELMAkGA1UEBhMCTFUwHhcNMTYxMDI2MDc1NDMwWhcNMTgwODI2MDc1NDMwWjBNMRAwDgYDVQQDDAdnb29kLWNhMRkwFwYDVQQKDBBOb3dpbmEgU29sdXRpb25zMREwDwYDVQQLDAhQS0ktVEVTVDELMAkGA1UEBhMCTFUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCbbl5sKBCjSB8TMdacymx/WfOjMW1giIjVJRY28JbNWkCVmtzgmitghfrPQPlueu0DTalbDkrSSyhCvzzPSGPwCFOahF/n7hQa1F3UaHSxTKrFC5nOwdLzxKRO3WjVtIGRSX2kv1FfUpQy5Eyy+rsfSzJ59dU5ZZdWpdaDuDxVVyDer3EIyCbG7/5H9MD4YuzNpeTFWmM6cUST0796XDlbExSTTGQXFJA2+CCsy9DXnJa8nz0FE8fmcvQHeU6k9QbpzGjMd3DWlE6no7UdCYD1H04+usBp5hhCrAB670NdoTrNTmGNAFt4JT0vitjKHq9KEId6Lhdcm2Tg93dDcWFtAgMBAAGjgdQwgdEwDgYDVR0PAQH/BAQDAgeAMEEGA1UdHwQ6MDgwNqA0oDKGMGh0dHA6Ly9kc3Mubm93aW5hLmx1L3BraS1mYWN0b3J5L2NybC9yb290LWNhLmNybDBMBggrBgEFBQcBAQRAMD4wPAYIKwYBBQUHMAKGMGh0dHA6Ly9kc3Mubm93aW5hLmx1L3BraS1mYWN0b3J5L2NydC9yb290LWNhLmNydDAdBgNVHQ4EFgQU+2tFqpNe3G23YR8yqBZIiVWS3vUwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAE+Nud05XGOM6FEZHWTc8+bmz/6B0XQXN564KWBBhch9i5GadjqpSsevkn+teLq5m6CLo3e4lX2dJ7hsPAvyaLqOIpzg49TGdib1nOB2O74+yAhT8v9FZtH1ECHXxYsuySGIKvd+L5IjJTis3ll4vU8FHzyRlM9IQnwZR506jFcJeGlOgyZh+ULWnRNEEwqN8DTF2D0XogYBsrCxCBj0PpaJFruvEQqpUuuYg14R1DJFahLwqVYSOD5gPhmA0HR4z3GF3jHSz0i9jXSTOsUcdkvUJy0tIOnujsUEkg3H6Wg3lz8Tw3Ic7V1NHb+MC5K4ZvX+5SYyu0+er7bFscIrYZw==&quot;,
+      &quot;id&quot; : &quot;6F35DE3965B9A69BC3661D1A355B0AE60907ADB741CC1911EFD0F3BE72D6A6E9&quot;,
+      &quot;qctypes&quot; : [ ],
+      &quot;ocspaccessUrls&quot; : [ ],
+      &quot;crldistributionPoints&quot; : [ &quot;http://dss.nowina.lu/pki-factory/crl/root-ca.crl&quot; ],
+      &quot;qcstatementIds&quot; : [ ]
+    }, {
+      &quot;subjectDistinguishedName&quot; : [ {
+        &quot;value&quot; : &quot;c=lu,ou=pki-test,o=nowina solutions,cn=root-ca&quot;,
+        &quot;format&quot; : &quot;CANONICAL&quot;
+      }, {
+        &quot;value&quot; : &quot;C=LU,OU=PKI-TEST,O=Nowina Solutions,CN=root-ca&quot;,
+        &quot;format&quot; : &quot;RFC2253&quot;
+      } ],
+      &quot;issuerDistinguishedName&quot; : [ {
+        &quot;value&quot; : &quot;c=lu,ou=pki-test,o=nowina solutions,cn=root-ca&quot;,
+        &quot;format&quot; : &quot;CANONICAL&quot;
+      }, {
+        &quot;value&quot; : &quot;C=LU,OU=PKI-TEST,O=Nowina Solutions,CN=root-ca&quot;,
+        &quot;format&quot; : &quot;RFC2253&quot;
+      } ],
+      &quot;serialNumber&quot; : 1,
+      &quot;commonName&quot; : &quot;root-ca&quot;,
+      &quot;locality&quot; : null,
+      &quot;state&quot; : null,
+      &quot;countryName&quot; : &quot;LU&quot;,
+      &quot;organizationName&quot; : &quot;Nowina Solutions&quot;,
+      &quot;givenName&quot; : null,
+      &quot;organizationalUnit&quot; : &quot;PKI-TEST&quot;,
+      &quot;surname&quot; : null,
+      &quot;pseudonym&quot; : null,
+      &quot;email&quot; : null,
+      &quot;authorityInformationAccessUrls&quot; : [ ],
+      &quot;digestAlgoAndValues&quot; : [ ],
+      &quot;notAfter&quot; : 1571924603000,
+      &quot;notBefore&quot; : 1508852603000,
+      &quot;publicKeySize&quot; : 2048,
+      &quot;publicKeyEncryptionAlgo&quot; : &quot;RSA&quot;,
+      &quot;keyUsageBits&quot; : [ &quot;keyCertSign&quot;, &quot;crlSign&quot; ],
+      &quot;extendedKeyUsages&quot; : [ ],
+      &quot;idPkixOcspNoCheck&quot; : false,
+      &quot;basicSignature&quot; : {
+        &quot;encryptionAlgoUsedToSignThisToken&quot; : &quot;RSA&quot;,
+        &quot;keyLengthUsedToSignThisToken&quot; : &quot;2048&quot;,
+        &quot;digestAlgoUsedToSignThisToken&quot; : &quot;SHA512&quot;,
+        &quot;maskGenerationFunctionUsedToSignThisToken&quot; : null,
+        &quot;signatureIntact&quot; : true,
+        &quot;signatureValid&quot; : true
+      },
+      &quot;signingCertificate&quot; : null,
+      &quot;certificateChain&quot; : [ ],
+      &quot;trusted&quot; : false,
+      &quot;selfSigned&quot; : true,
+      &quot;certificatePolicies&quot; : [ ],
+      &quot;trustedServiceProviders&quot; : [ ],
+      &quot;revocations&quot; : [ ],
+      &quot;base64Encoded&quot; : &quot;MIIDVzCCAj+gAwIBAgIBATANBgkqhkiG9w0BAQ0FADBNMRAwDgYDVQQDDAdyb290LWNhMRkwFwYDVQQKDBBOb3dpbmEgU29sdXRpb25zMREwDwYDVQQLDAhQS0ktVEVTVDELMAkGA1UEBhMCTFUwHhcNMTcxMDI0MTM0MzIzWhcNMTkxMDI0MTM0MzIzWjBNMRAwDgYDVQQDDAdyb290LWNhMRkwFwYDVQQKDBBOb3dpbmEgU29sdXRpb25zMREwDwYDVQQLDAhQS0ktVEVTVDELMAkGA1UEBhMCTFUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCcPx2j0OcAL0qmQ99apDybqwXCMvzwTDzNU7RkDYvGRQVTaqthrp7abnJnOzgjeCsu4N/9GgwXn8ICQTYEq00QVD6fabZT4ophtPbuIPF0CCL8FIXkpK2p6qpBNeHNxvgpQegMXMNUVqcYyp1v39/zyYI+iimBLhSTzO9QP54i32Katfn7ophaaYnsc02TJ0s9aBGRxekzyliUimWekr/KSY9fIHLEU09lgmdYhk1P+OAcuGQHrNYnOE2Jyl9NLN+3gtBuzTSxwJEvQIvTGAWIz+qCnCugMH6eHOs3CkbWlRSEy1qIgidqsNYm0yP6BO2hJdim9r0A3z8O9HSe4KFlAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUw91nslwAwQ7I31tDQp2YOrBeFxowDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOCAQEAO4PsY/jm4VkJKDA19mlpy2/qRaAj5n3MlgX2/8UaVRm4+5HUZ1zOrXM9Dl4gofS1eYvAD2HeBnHrY+6mfwBcH+NF54YDRjRibXp48FOn91HjnkMNjYB5o16tl8y0frI+eWJbq+GgLLvlruWShXCSQuWgDbY5jXcHV+TQskSQOcOy1hh82jdH2ysEtd4KcO/E2OGDUy+M7ZffBnLxPjxZRm198eyeC/gcVjBZoqHykwkivkYazbWhWvMkV95htR6x7dL2fp2sr9s12Gbq8Y9PfpXfXJ06qCQtojJiml4rF3YWWPVOUK6Gy1DFAvlU2iOASiV4sVwLkp1WAIFwKSChHQ==&quot;,
+      &quot;id&quot; : &quot;9B3449709FC4B27B39B4BB289BF5C368A4FEA913A901E183163B3D8E32462E02&quot;,
+      &quot;qctypes&quot; : [ ],
+      &quot;ocspaccessUrls&quot; : [ ],
+      &quot;crldistributionPoints&quot; : [ ],
+      &quot;qcstatementIds&quot; : [ ]
+    }, {
+      &quot;subjectDistinguishedName&quot; : [ {
+        &quot;value&quot; : &quot;c=lu,ou=pki-test,o=nowina solutions,cn=good-user&quot;,
+        &quot;format&quot; : &quot;CANONICAL&quot;
+      }, {
+        &quot;value&quot; : &quot;C=LU,OU=PKI-TEST,O=Nowina Solutions,CN=good-user&quot;,
+        &quot;format&quot; : &quot;RFC2253&quot;
+      } ],
+      &quot;issuerDistinguishedName&quot; : [ {
+        &quot;value&quot; : &quot;c=lu,ou=pki-test,o=nowina solutions,cn=good-ca&quot;,
+        &quot;format&quot; : &quot;CANONICAL&quot;
+      }, {
+        &quot;value&quot; : &quot;C=LU,OU=PKI-TEST,O=Nowina Solutions,CN=good-ca&quot;,
+        &quot;format&quot; : &quot;RFC2253&quot;
+      } ],
+      &quot;serialNumber&quot; : 10,
+      &quot;commonName&quot; : &quot;good-user&quot;,
+      &quot;locality&quot; : null,
+      &quot;state&quot; : null,
+      &quot;countryName&quot; : &quot;LU&quot;,
+      &quot;organizationName&quot; : &quot;Nowina Solutions&quot;,
+      &quot;givenName&quot; : null,
+      &quot;organizationalUnit&quot; : &quot;PKI-TEST&quot;,
+      &quot;surname&quot; : null,
+      &quot;pseudonym&quot; : null,
+      &quot;email&quot; : null,
+      &quot;authorityInformationAccessUrls&quot; : [ &quot;http://dss.nowina.lu/pki-factory/crt/good-ca.crt&quot; ],
+      &quot;digestAlgoAndValues&quot; : [ ],
+      &quot;notAfter&quot; : 1535270071000,
+      &quot;notBefore&quot; : 1477468471000,
+      &quot;publicKeySize&quot; : 2048,
+      &quot;publicKeyEncryptionAlgo&quot; : &quot;RSA&quot;,
+      &quot;keyUsageBits&quot; : [ &quot;nonRepudiation&quot; ],
+      &quot;extendedKeyUsages&quot; : [ ],
+      &quot;idPkixOcspNoCheck&quot; : false,
+      &quot;basicSignature&quot; : {
+        &quot;encryptionAlgoUsedToSignThisToken&quot; : &quot;RSA&quot;,
+        &quot;keyLengthUsedToSignThisToken&quot; : &quot;2048&quot;,
+        &quot;digestAlgoUsedToSignThisToken&quot; : &quot;SHA256&quot;,
+        &quot;maskGenerationFunctionUsedToSignThisToken&quot; : null,
+        &quot;signatureIntact&quot; : true,
+        &quot;signatureValid&quot; : true
+      },
+      &quot;signingCertificate&quot; : {
+        &quot;attributePresent&quot; : null,
+        &quot;digestValuePresent&quot; : null,
+        &quot;digestValueMatch&quot; : null,
+        &quot;issuerSerialMatch&quot; : null,
+        &quot;id&quot; : &quot;6F35DE3965B9A69BC3661D1A355B0AE60907ADB741CC1911EFD0F3BE72D6A6E9&quot;
+      },
+      &quot;certificateChain&quot; : [ {
+        &quot;source&quot; : &quot;SIGNATURE&quot;,
+        &quot;id&quot; : &quot;6F35DE3965B9A69BC3661D1A355B0AE60907ADB741CC1911EFD0F3BE72D6A6E9&quot;
+      } ],
+      &quot;trusted&quot; : false,
+      &quot;selfSigned&quot; : false,
+      &quot;certificatePolicies&quot; : [ ],
+      &quot;trustedServiceProviders&quot; : [ ],
+      &quot;revocations&quot; : [ ],
+      &quot;base64Encoded&quot; : &quot;MIID1DCCArygAwIBAgIBCjANBgkqhkiG9w0BAQsFADBNMRAwDgYDVQQDDAdnb29kLWNhMRkwFwYDVQQKDBBOb3dpbmEgU29sdXRpb25zMREwDwYDVQQLDAhQS0ktVEVTVDELMAkGA1UEBhMCTFUwHhcNMTYxMDI2MDc1NDMxWhcNMTgwODI2MDc1NDMxWjBPMRIwEAYDVQQDDAlnb29kLXVzZXIxGTAXBgNVBAoMEE5vd2luYSBTb2x1dGlvbnMxETAPBgNVBAsMCFBLSS1URVNUMQswCQYDVQQGEwJMVTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALRCUIQZbw3nSdLp+B9czECgpZkkQ5xV4g9M/7wlg97oCCf7UEh9BA1d+zYjszv+BJ1bJZPgan2144AvgsoGJfb6UIyVW4gklUgIl1arUvon+WkKnseFuQOfJyjSFUDIwnuvp0hzcJXHXRmLdmyh+n+6NMH0om5tVoSfQrtBViCLeSMVzuD5EPj0mIRcx91pL38e3FNTW7NaGZLeezuFuR/q7z93lLkvZ4VAMNGGLvIXOYeRBZMyPhpBZ4L3A8I3EElKWH/1LwiiXTTSG1sM6WvMTVbf2vbd47nZRQA2mSpNGjQouOAErfeVVUqzICghQCHRGONuSLG/HfqFHb4jWg0CAwEAAaOBvDCBuTAOBgNVHQ8BAf8EBAMCBkAwgYcGCCsGAQUFBwEBBHsweTA5BggrBgEFBQcwAYYtaHR0cDovL2Rzcy5ub3dpbmEubHUvcGtpLWZhY3Rvcnkvb2NzcC9nb29kLWNhMDwGCCsGAQUFBzAChjBodHRwOi8vZHNzLm5vd2luYS5sdS9wa2ktZmFjdG9yeS9jcnQvZ29vZC1jYS5jcnQwHQYDVR0OBBYEFN2pHD/7PefmBT8oX29ZhWy/OHJ1MA0GCSqGSIb3DQEBCwUAA4IBAQBK3VOLhDIVWKoFrrhhWzaddtk6XQtcwRoNPVSsi/gOrzsdM70A31xITw7YfLhpoVA1xo7ovHldpLlhqy9o5wh282yCpqBUAtgrSkDGog+K7CL6gUprlYiZuGZrtg2X3fHS2Usx4ZJ3tIj6wVecDEUqISFfFT2Esm0QXUngIKFMl95Xgmtw2wxXbOzUeDd4DIPrv+mW5poAWr6ItsV+H2VQ+ZL/kBnwWHjSTOaGFisqXY/aH/1PtBXA+15+YIWemJBSv3kDaFzOXAEtR9ZI8lYOJarnY7Ay/aN6b9uGffrbo/hVAcL4WDdhkbBN3m8w+g76LoAXNeEeu04A/0xLZzUB&quot;,
+      &quot;id&quot; : &quot;F0FF0B4514D316304F2817DBA0BFB05DEDB98527C0E47C73E8D8FDFE16DF267E&quot;,
+      &quot;qctypes&quot; : [ ],
+      &quot;ocspaccessUrls&quot; : [ &quot;http://dss.nowina.lu/pki-factory/ocsp/good-ca&quot; ],
+      &quot;crldistributionPoints&quot; : [ ],
+      &quot;qcstatementIds&quot; : [ ]
+    }, {
+      &quot;subjectDistinguishedName&quot; : [ {
+        &quot;value&quot; : &quot;c=lu,ou=pki-test,o=nowina solutions,cn=good-ca&quot;,
+        &quot;format&quot; : &quot;CANONICAL&quot;
+      }, {
+        &quot;value&quot; : &quot;C=LU,OU=PKI-TEST,O=Nowina Solutions,CN=good-ca&quot;,
+        &quot;format&quot; : &quot;RFC2253&quot;
+      } ],
+      &quot;issuerDistinguishedName&quot; : [ {
+        &quot;value&quot; : &quot;c=lu,ou=pki-test,o=nowina solutions,cn=root-ca&quot;,
+        &quot;format&quot; : &quot;CANONICAL&quot;
+      }, {
+        &quot;value&quot; : &quot;C=LU,OU=PKI-TEST,O=Nowina Solutions,CN=root-ca&quot;,
+        &quot;format&quot; : &quot;RFC2253&quot;
+      } ],
+      &quot;serialNumber&quot; : 4,
+      &quot;commonName&quot; : &quot;good-ca&quot;,
+      &quot;locality&quot; : null,
+      &quot;state&quot; : null,
+      &quot;countryName&quot; : &quot;LU&quot;,
+      &quot;organizationName&quot; : &quot;Nowina Solutions&quot;,
+      &quot;givenName&quot; : null,
+      &quot;organizationalUnit&quot; : &quot;PKI-TEST&quot;,
+      &quot;surname&quot; : null,
+      &quot;pseudonym&quot; : null,
+      &quot;email&quot; : null,
+      &quot;authorityInformationAccessUrls&quot; : [ &quot;http://dss.nowina.lu/pki-factory/crt/root-ca.crt&quot; ],
+      &quot;digestAlgoAndValues&quot; : [ ],
+      &quot;notAfter&quot; : 1569332604000,
+      &quot;notBefore&quot; : 1511534604000,
+      &quot;publicKeySize&quot; : 2048,
+      &quot;publicKeyEncryptionAlgo&quot; : &quot;RSA&quot;,
+      &quot;keyUsageBits&quot; : [ &quot;digitalSignature&quot; ],
+      &quot;extendedKeyUsages&quot; : [ ],
+      &quot;idPkixOcspNoCheck&quot; : false,
+      &quot;basicSignature&quot; : {
+        &quot;encryptionAlgoUsedToSignThisToken&quot; : &quot;RSA&quot;,
+        &quot;keyLengthUsedToSignThisToken&quot; : &quot;2048&quot;,
+        &quot;digestAlgoUsedToSignThisToken&quot; : &quot;SHA256&quot;,
+        &quot;maskGenerationFunctionUsedToSignThisToken&quot; : null,
+        &quot;signatureIntact&quot; : true,
+        &quot;signatureValid&quot; : true
+      },
+      &quot;signingCertificate&quot; : {
+        &quot;attributePresent&quot; : null,
+        &quot;digestValuePresent&quot; : null,
+        &quot;digestValueMatch&quot; : null,
+        &quot;issuerSerialMatch&quot; : null,
+        &quot;id&quot; : &quot;9B3449709FC4B27B39B4BB289BF5C368A4FEA913A901E183163B3D8E32462E02&quot;
+      },
+      &quot;certificateChain&quot; : [ {
+        &quot;source&quot; : &quot;AIA&quot;,
+        &quot;id&quot; : &quot;9B3449709FC4B27B39B4BB289BF5C368A4FEA913A901E183163B3D8E32462E02&quot;
+      } ],
+      &quot;trusted&quot; : false,
+      &quot;selfSigned&quot; : false,
+      &quot;certificatePolicies&quot; : [ ],
+      &quot;trustedServiceProviders&quot; : [ ],
+      &quot;revocations&quot; : [ ],
+      &quot;base64Encoded&quot; : &quot;MIID6jCCAtKgAwIBAgIBBDANBgkqhkiG9w0BAQsFADBNMRAwDgYDVQQDDAdyb290LWNhMRkwFwYDVQQKDBBOb3dpbmEgU29sdXRpb25zMREwDwYDVQQLDAhQS0ktVEVTVDELMAkGA1UEBhMCTFUwHhcNMTcxMTI0MTQ0MzI0WhcNMTkwOTI0MTM0MzI0WjBNMRAwDgYDVQQDDAdnb29kLWNhMRkwFwYDVQQKDBBOb3dpbmEgU29sdXRpb25zMREwDwYDVQQLDAhQS0ktVEVTVDELMAkGA1UEBhMCTFUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDE0JtjEg9q26lR5tJnvPLkgtWaMrRkeDfABta1qI3XLC2+AwLketU1lPuwK5HopmHkSTpXFE/cWfGmbgsHSkYlfcsXD6CKtYtinjzeekMQE7xiPWM5b9QtyGoh6BZUyydw934LnNjJNHfMgQVtyVnQ8L6SwFhyT3BTWU9SzVCNSlyUSJCAEsNQrFP1mxiHsdXJlUUykqxhaLC0gGZhIyhTZB3qNaRSIcGr4IlXTCXUkB8oaWNqwe/sS1+JlkiGdGED3NR9Zh4SBAk65wfL1xjzN+JgDrTTbPoKJOlqeTrv3NMsW9rzG/Fx4AlJgA7Lo+ujrHwggyC9zg3pRRQaH+LpAgMBAAGjgdQwgdEwDgYDVR0PAQH/BAQDAgeAMEEGA1UdHwQ6MDgwNqA0oDKGMGh0dHA6Ly9kc3Mubm93aW5hLmx1L3BraS1mYWN0b3J5L2NybC9yb290LWNhLmNybDBMBggrBgEFBQcBAQRAMD4wPAYIKwYBBQUHMAKGMGh0dHA6Ly9kc3Mubm93aW5hLmx1L3BraS1mYWN0b3J5L2NydC9yb290LWNhLmNydDAdBgNVHQ4EFgQUYEoTfXrajcuuURqGnbZIZlxBRQ0wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMEZzOXyFl4FEUrOXIaI2ha74zIbGsmtKdk2p801cYh4vrsldN8hbXUu7sbWTJ9BP6HdFJ+89fP+OUbyHm1NwFYf+BN11+NFKQoDniheezha9ZO8m0aKSTQvt/J3SHr/Ui7F00cDZhPa4SNHWdtl2capxYUY0o7ww/WpI+z5bIUauwiimBEqK2Dr2jwxbztM0qlDjKgHpCtriW48e5NmT9IBnJhMqqlLJpt9/AwepRMakcz65/wu40YcPd42TINMWwcIAWAZLPxdemIuwMrCQnGKZSmi1GkCWuMOwFcHXk7Yb2xku6PQPvcLWqSRMjD0RzVy8G2kK52VMwwwjoDi+Gg==&quot;,
+      &quot;id&quot; : &quot;AB3AE83863C1B024F54BFCCB363792CD9051E540853820756EA46D2A2E2B9E43&quot;,
+      &quot;qctypes&quot; : [ ],
+      &quot;ocspaccessUrls&quot; : [ ],
+      &quot;crldistributionPoints&quot; : [ &quot;http://dss.nowina.lu/pki-factory/crl/root-ca.crl&quot; ],
+      &quot;qcstatementIds&quot; : [ ]
+    } ],
+    &quot;trustedLists&quot; : [ ],
+    &quot;listOfTrustedLists&quot; : null
+  },
+  &quot;simpleReport&quot; : {
+    &quot;policy&quot; : {
+      &quot;policyName&quot; : &quot;QES AdESQC TL based&quot;,
+      &quot;policyDescription&quot; : &quot;Validate electronic signatures and indicates whether they are Advanced electronic Signatures (AdES), AdES supported by a Qualified Certificate (AdES/QC) or a\n\t\tQualified electronic Signature (QES). All certificates and their related chains supporting the signatures are validated against the EU Member State Trusted Lists (this includes\n\t\tsigner's certificate and certificates used to validate certificate validity status services - CRLs, OCSP, and time-stamps).\n\t&quot;
+    },
+    &quot;validationTime&quot; : 1542794106070,
+    &quot;documentName&quot; : &quot;xades-detached.xml&quot;,
+    &quot;validSignaturesCount&quot; : 0,
+    &quot;signaturesCount&quot; : 1,
+    &quot;containerType&quot; : null,
+    &quot;signature&quot; : [ {
+      &quot;filename&quot; : null,
+      &quot;signingTime&quot; : 1506596944000,
+      &quot;bestSignatureTime&quot; : 1542794106070,
+      &quot;signedBy&quot; : &quot;good-user&quot;,
+      &quot;certificateChain&quot; : {
+        &quot;certificate&quot; : [ {
+          &quot;id&quot; : &quot;F0FF0B4514D316304F2817DBA0BFB05DEDB98527C0E47C73E8D8FDFE16DF267E&quot;,
+          &quot;qualifiedName&quot; : &quot;good-user&quot;
+        }, {
+          &quot;id&quot; : &quot;6F35DE3965B9A69BC3661D1A355B0AE60907ADB741CC1911EFD0F3BE72D6A6E9&quot;,
+          &quot;qualifiedName&quot; : &quot;good-ca&quot;
+        } ]
+      },
+      &quot;signatureLevel&quot; : {
+        &quot;value&quot; : &quot;NA&quot;,
+        &quot;description&quot; : &quot;Not applicable&quot;
+      },
+      &quot;indication&quot; : &quot;INDETERMINATE&quot;,
+      &quot;subIndication&quot; : &quot;NO_CERTIFICATE_CHAIN_FOUND&quot;,
+      &quot;errors&quot; : [ &quot;The certificate path is not trusted!&quot;, &quot;The result of the LTV validation process is not acceptable to continue the process!&quot; ],
+      &quot;warnings&quot; : [ &quot;The signature/seal is an INDETERMINATE AdES!&quot; ],
+      &quot;infos&quot; : [ ],
+      &quot;signatureScope&quot; : [ {
+        &quot;value&quot; : &quot;Full document&quot;,
+        &quot;name&quot; : &quot;sample.xml&quot;,
+        &quot;scope&quot; : &quot;FULL&quot;
+      } ],
+      &quot;id&quot; : &quot;id-afde782436468dd74eeb181f7ce110e1&quot;,
+      &quot;counterSignature&quot; : null,
+      &quot;parentId&quot; : null,
+      &quot;signatureFormat&quot; : &quot;XAdES-BASELINE-B&quot;
+    } ]
+  },
+  &quot;detailedReport&quot; : {
+    &quot;signatures&quot; : [ {
+      &quot;validationProcessBasicSignatures&quot; : {
+        &quot;constraint&quot; : [ {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the result of the Basic Validation Process conclusive?&quot;,
+            &quot;nameId&quot; : &quot;ADEST_ROBVPIIC&quot;
+          },
+          &quot;status&quot; : &quot;NOT_OK&quot;,
+          &quot;error&quot; : {
+            &quot;value&quot; : &quot;The result of the Basic validation process is not conclusive!&quot;,
+            &quot;nameId&quot; : &quot;ADEST_ROBVPIIC_ANS&quot;
+          },
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : &quot;id-afde782436468dd74eeb181f7ce110e1&quot;
+        } ],
+        &quot;conclusion&quot; : {
+          &quot;indication&quot; : &quot;INDETERMINATE&quot;,
+          &quot;subIndication&quot; : &quot;NO_CERTIFICATE_CHAIN_FOUND&quot;,
+          &quot;errors&quot; : [ {
+            &quot;value&quot; : &quot;The certificate chain for signature is not trusted, there is no trusted anchor.&quot;,
+            &quot;nameId&quot; : &quot;BBB_XCV_CCCBB_SIG_ANS&quot;
+          } ],
+          &quot;warnings&quot; : [ ],
+          &quot;infos&quot; : [ ]
+        },
+        &quot;bestSignatureTime&quot; : 1542794106070
+      },
+      &quot;validationProcessTimestamps&quot; : [ ],
+      &quot;validationProcessLongTermData&quot; : {
+        &quot;constraint&quot; : [ {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the result of the Basic Validation Process acceptable?&quot;,
+            &quot;nameId&quot; : &quot;LTV_ABSV&quot;
+          },
+          &quot;status&quot; : &quot;NOT_OK&quot;,
+          &quot;error&quot; : {
+            &quot;value&quot; : &quot;The result of the Basic validation process is not acceptable to continue the process!&quot;,
+            &quot;nameId&quot; : &quot;LTV_ABSV_ANS&quot;
+          },
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        } ],
+        &quot;conclusion&quot; : {
+          &quot;indication&quot; : &quot;INDETERMINATE&quot;,
+          &quot;subIndication&quot; : &quot;NO_CERTIFICATE_CHAIN_FOUND&quot;,
+          &quot;errors&quot; : [ {
+            &quot;value&quot; : &quot;The certificate chain for signature is not trusted, there is no trusted anchor.&quot;,
+            &quot;nameId&quot; : &quot;BBB_XCV_CCCBB_SIG_ANS&quot;
+          } ],
+          &quot;warnings&quot; : [ ],
+          &quot;infos&quot; : [ ]
+        },
+        &quot;bestSignatureTime&quot; : 1542794106070
+      },
+      &quot;validationProcessArchivalData&quot; : {
+        &quot;constraint&quot; : [ {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the result of the LTV validation process acceptable?&quot;,
+            &quot;nameId&quot; : &quot;ARCH_LTVV&quot;
+          },
+          &quot;status&quot; : &quot;NOT_OK&quot;,
+          &quot;error&quot; : {
+            &quot;value&quot; : &quot;The result of the LTV validation process is not acceptable to continue the process!&quot;,
+            &quot;nameId&quot; : &quot;ARCH_LTVV_ANS&quot;
+          },
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        } ],
+        &quot;conclusion&quot; : {
+          &quot;indication&quot; : &quot;INDETERMINATE&quot;,
+          &quot;subIndication&quot; : &quot;NO_CERTIFICATE_CHAIN_FOUND&quot;,
+          &quot;errors&quot; : [ {
+            &quot;value&quot; : &quot;The certificate chain for signature is not trusted, there is no trusted anchor.&quot;,
+            &quot;nameId&quot; : &quot;BBB_XCV_CCCBB_SIG_ANS&quot;
+          } ],
+          &quot;warnings&quot; : [ ],
+          &quot;infos&quot; : [ ]
+        },
+        &quot;bestSignatureTime&quot; : 1542794106070
+      },
+      &quot;validationSignatureQualification&quot; : {
+        &quot;constraint&quot; : [ {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the signature/seal an acceptable AdES (ETSI EN 319 102-1) ?&quot;,
+            &quot;nameId&quot; : &quot;QUAL_IS_ADES&quot;
+          },
+          &quot;status&quot; : &quot;WARNING&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : {
+            &quot;value&quot; : &quot;The signature/seal is an INDETERMINATE AdES!&quot;,
+            &quot;nameId&quot; : &quot;QUAL_IS_ADES_IND&quot;
+          },
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        }, {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the certificate path trusted?&quot;,
+            &quot;nameId&quot; : &quot;QUAL_TRUSTED_CERT_PATH&quot;
+          },
+          &quot;status&quot; : &quot;NOT_OK&quot;,
+          &quot;error&quot; : {
+            &quot;value&quot; : &quot;The certificate path is not trusted!&quot;,
+            &quot;nameId&quot; : &quot;QUAL_TRUSTED_CERT_PATH_ANS&quot;
+          },
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        } ],
+        &quot;conclusion&quot; : {
+          &quot;indication&quot; : &quot;FAILED&quot;,
+          &quot;subIndication&quot; : null,
+          &quot;errors&quot; : [ {
+            &quot;value&quot; : &quot;The certificate path is not trusted!&quot;,
+            &quot;nameId&quot; : &quot;QUAL_TRUSTED_CERT_PATH_ANS&quot;
+          }, {
+            &quot;value&quot; : &quot;The certificate path is not trusted!&quot;,
+            &quot;nameId&quot; : &quot;QUAL_TRUSTED_CERT_PATH_ANS&quot;
+          } ],
+          &quot;warnings&quot; : [ {
+            &quot;value&quot; : &quot;The signature/seal is an INDETERMINATE AdES!&quot;,
+            &quot;nameId&quot; : &quot;QUAL_IS_ADES_IND&quot;
+          } ],
+          &quot;infos&quot; : [ ]
+        },
+        &quot;validationCertificateQualification&quot; : [ ],
+        &quot;id&quot; : null,
+        &quot;signatureQualification&quot; : &quot;NA&quot;
+      },
+      &quot;id&quot; : &quot;id-afde782436468dd74eeb181f7ce110e1&quot;,
+      &quot;counterSignature&quot; : null
+    } ],
+    &quot;certificate&quot; : null,
+    &quot;basicBuildingBlocks&quot; : [ {
+      &quot;fc&quot; : {
+        &quot;constraint&quot; : [ {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the expected format found?&quot;,
+            &quot;nameId&quot; : &quot;BBB_FC_IEFF&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        } ],
+        &quot;conclusion&quot; : {
+          &quot;indication&quot; : &quot;PASSED&quot;,
+          &quot;subIndication&quot; : null,
+          &quot;errors&quot; : [ ],
+          &quot;warnings&quot; : [ ],
+          &quot;infos&quot; : [ ]
+        }
+      },
+      &quot;isc&quot; : {
+        &quot;constraint&quot; : [ {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is there an identified candidate for the signing certificate?&quot;,
+            &quot;nameId&quot; : &quot;BBB_ICS_ISCI&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        }, {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the signed attribute: 'signing-certificate' present?&quot;,
+            &quot;nameId&quot; : &quot;BBB_ICS_ISASCP&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        }, {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the signed attribute: 'cert-digest' of the certificate present?&quot;,
+            &quot;nameId&quot; : &quot;BBB_ICS_ISACDP&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        }, {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the certificate's digest value valid?&quot;,
+            &quot;nameId&quot; : &quot;BBB_ICS_ICDVV&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        }, {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Are the issuer distinguished name and the serial number equal?&quot;,
+            &quot;nameId&quot; : &quot;BBB_ICS_AIDNASNE&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        } ],
+        &quot;conclusion&quot; : {
+          &quot;indication&quot; : &quot;PASSED&quot;,
+          &quot;subIndication&quot; : null,
+          &quot;errors&quot; : [ ],
+          &quot;warnings&quot; : [ ],
+          &quot;infos&quot; : [ ]
+        },
+        &quot;certificateChain&quot; : {
+          &quot;chainItem&quot; : [ {
+            &quot;source&quot; : &quot;SIGNATURE&quot;,
+            &quot;id&quot; : &quot;F0FF0B4514D316304F2817DBA0BFB05DEDB98527C0E47C73E8D8FDFE16DF267E&quot;
+          }, {
+            &quot;source&quot; : &quot;SIGNATURE&quot;,
+            &quot;id&quot; : &quot;6F35DE3965B9A69BC3661D1A355B0AE60907ADB741CC1911EFD0F3BE72D6A6E9&quot;
+          } ]
+        }
+      },
+      &quot;vci&quot; : {
+        &quot;constraint&quot; : [ {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the signature policy known?&quot;,
+            &quot;nameId&quot; : &quot;BBB_VCI_ISPK&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        } ],
+        &quot;conclusion&quot; : {
+          &quot;indication&quot; : &quot;PASSED&quot;,
+          &quot;subIndication&quot; : null,
+          &quot;errors&quot; : [ ],
+          &quot;warnings&quot; : [ ],
+          &quot;infos&quot; : [ ]
+        }
+      },
+      &quot;cv&quot; : {
+        &quot;constraint&quot; : [ {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the reference data object found?&quot;,
+            &quot;nameId&quot; : &quot;BBB_CV_IRDOF&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : &quot;Reference : r-id-1&quot;,
+          &quot;id&quot; : null
+        }, {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the reference data object intact?&quot;,
+            &quot;nameId&quot; : &quot;BBB_CV_IRDOI&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : &quot;Reference : r-id-1&quot;,
+          &quot;id&quot; : null
+        }, {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the reference data object found?&quot;,
+            &quot;nameId&quot; : &quot;BBB_CV_IRDOF&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : &quot;Reference : #xades-id-afde782436468dd74eeb181f7ce110e1&quot;,
+          &quot;id&quot; : null
+        }, {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the reference data object intact?&quot;,
+            &quot;nameId&quot; : &quot;BBB_CV_IRDOI&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : &quot;Reference : #xades-id-afde782436468dd74eeb181f7ce110e1&quot;,
+          &quot;id&quot; : null
+        }, {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is the signature intact?&quot;,
+            &quot;nameId&quot; : &quot;BBB_CV_ISI&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        } ],
+        &quot;conclusion&quot; : {
+          &quot;indication&quot; : &quot;PASSED&quot;,
+          &quot;subIndication&quot; : null,
+          &quot;errors&quot; : [ ],
+          &quot;warnings&quot; : [ ],
+          &quot;infos&quot; : [ ]
+        }
+      },
+      &quot;sav&quot; : {
+        &quot;constraint&quot; : [ {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Is signed qualifying property: 'signing-time' present?&quot;,
+            &quot;nameId&quot; : &quot;BBB_SAV_ISQPSTP&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        }, {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Are signature cryptographic constraints met?&quot;,
+            &quot;nameId&quot; : &quot;ASCCM&quot;
+          },
+          &quot;status&quot; : &quot;OK&quot;,
+          &quot;error&quot; : null,
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : &quot;Validation time : 2018-11-21 09:55&quot;,
+          &quot;id&quot; : null
+        } ],
+        &quot;conclusion&quot; : {
+          &quot;indication&quot; : &quot;PASSED&quot;,
+          &quot;subIndication&quot; : null,
+          &quot;errors&quot; : [ ],
+          &quot;warnings&quot; : [ ],
+          &quot;infos&quot; : [ ]
+        }
+      },
+      &quot;xcv&quot; : {
+        &quot;constraint&quot; : [ {
+          &quot;name&quot; : {
+            &quot;value&quot; : &quot;Can the certificate chain be built till the trust anchor?&quot;,
+            &quot;nameId&quot; : &quot;BBB_XCV_CCCBB&quot;
+          },
+          &quot;status&quot; : &quot;NOT_OK&quot;,
+          &quot;error&quot; : {
+            &quot;value&quot; : &quot;The certificate chain for signature is not trusted, there is no trusted anchor.&quot;,
+            &quot;nameId&quot; : &quot;BBB_XCV_CCCBB_SIG_ANS&quot;
+          },
+          &quot;warning&quot; : null,
+          &quot;info&quot; : null,
+          &quot;additionalInfo&quot; : null,
+          &quot;id&quot; : null
+        } ],
+        &quot;conclusion&quot; : {
+          &quot;indication&quot; : &quot;INDETERMINATE&quot;,
+          &quot;subIndication&quot; : &quot;NO_CERTIFICATE_CHAIN_FOUND&quot;,
+          &quot;errors&quot; : [ {
+            &quot;value&quot; : &quot;The certificate chain for signature is not trusted, there is no trusted anchor.&quot;,
+            &quot;nameId&quot; : &quot;BBB_XCV_CCCBB_SIG_ANS&quot;
+          } ],
+          &quot;warnings&quot; : [ ],
+          &quot;infos&quot; : [ ]
+        },
+        &quot;subXCV&quot; : [ ]
+      },
+      &quot;psv&quot; : null,
+      &quot;pcv&quot; : null,
+      &quot;vts&quot; : null,
+      &quot;certificateChain&quot; : {
+        &quot;chainItem&quot; : [ {
+          &quot;source&quot; : &quot;SIGNATURE&quot;,
+          &quot;id&quot; : &quot;F0FF0B4514D316304F2817DBA0BFB05DEDB98527C0E47C73E8D8FDFE16DF267E&quot;
+        }, {
+          &quot;source&quot; : &quot;SIGNATURE&quot;,
+          &quot;id&quot; : &quot;6F35DE3965B9A69BC3661D1A355B0AE60907ADB741CC1911EFD0F3BE72D6A6E9&quot;
+        } ]
+      },
+      &quot;conclusion&quot; : {
+        &quot;indication&quot; : &quot;INDETERMINATE&quot;,
+        &quot;subIndication&quot; : &quot;NO_CERTIFICATE_CHAIN_FOUND&quot;,
+        &quot;errors&quot; : [ {
+          &quot;value&quot; : &quot;The certificate chain for signature is not trusted, there is no trusted anchor.&quot;,
+          &quot;nameId&quot; : &quot;BBB_XCV_CCCBB_SIG_ANS&quot;
+        } ],
+        &quot;warnings&quot; : [ ],
+        &quot;infos&quot; : [ ]
+      },
+      &quot;id&quot; : &quot;id-afde782436468dd74eeb181f7ce110e1&quot;,
+      &quot;type&quot; : &quot;SIGNATURE&quot;
+    } ],
+    &quot;tlanalysis&quot; : [ ]
+  }
+}</code></pre>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2018-12-17 10:32:47 CET
+</div>
+</div>
+</body>
+</html>

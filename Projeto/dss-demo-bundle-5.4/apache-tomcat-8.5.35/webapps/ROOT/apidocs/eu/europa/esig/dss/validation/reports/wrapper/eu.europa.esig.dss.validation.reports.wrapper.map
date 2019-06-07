@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TrustedServiceWrapper.html" title="eu.europa.esig.dss.validation.reports.wrapper.TrustedServiceWrapper" alt="" coords="99,19,252,45"/>
+<area shape="rect" id="node1" href="./TrustedServiceWrapper.html" title="&lt;TABLE&gt;" alt="" coords="88,8,263,56"/>
+<area shape="rect" id="node2_1" href="./TokenProxy.html" title="eu.europa.esig.dss.validation.reports.wrapper.TokenProxy" alt="" coords="298,11,386,53"/>
+<area shape="rect" id="node2" href="./TokenProxy.html" title="&lt;TABLE&gt;" alt="" coords="287,5,397,59"/>
+<area shape="rect" id="node8_2" href="./AbstractTokenProxy.html" title="eu.europa.esig.dss.validation.reports.wrapper.AbstractTokenProxy" alt="" coords="273,118,411,143"/>
+<area shape="rect" id="node8" href="./AbstractTokenProxy.html" title="&lt;TABLE&gt;" alt="" coords="262,107,422,155"/>
+<area shape="rect" id="node3_3" href="./TimestampWrapper.html" title="eu.europa.esig.dss.validation.reports.wrapper.TimestampWrapper" alt="" coords="16,214,148,239"/>
+<area shape="rect" id="node3" href="./TimestampWrapper.html" title="&lt;TABLE&gt;" alt="" coords="5,203,159,251"/>
+<area shape="rect" id="node4_4" href="./SignatureWrapper.html" title="eu.europa.esig.dss.validation.reports.wrapper.SignatureWrapper" alt="" coords="193,214,317,239"/>
+<area shape="rect" id="node4" href="./SignatureWrapper.html" title="&lt;TABLE&gt;" alt="" coords="183,203,328,251"/>
+<area shape="rect" id="node5_5" href="./RevocationWrapper.html" title="eu.europa.esig.dss.validation.reports.wrapper.RevocationWrapper" alt="" coords="363,214,495,239"/>
+<area shape="rect" id="node5" href="./RevocationWrapper.html" title="&lt;TABLE&gt;" alt="" coords="352,203,505,251"/>
+<area shape="rect" id="node6_6" href="./DiagnosticData.html" title="eu.europa.esig.dss.validation.reports.wrapper.DiagnosticData" alt="" coords="432,19,540,45"/>
+<area shape="rect" id="node6" href="./DiagnosticData.html" title="&lt;TABLE&gt;" alt="" coords="421,8,551,56"/>
+<area shape="rect" id="node7_7" href="./CertificateWrapper.html" title="eu.europa.esig.dss.validation.reports.wrapper.CertificateWrapper" alt="" coords="540,214,667,239"/>
+<area shape="rect" id="node7" href="./CertificateWrapper.html" title="&lt;TABLE&gt;" alt="" coords="529,203,677,251"/>
+</map>

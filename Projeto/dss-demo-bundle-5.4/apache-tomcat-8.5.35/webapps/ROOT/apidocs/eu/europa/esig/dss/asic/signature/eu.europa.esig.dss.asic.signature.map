@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./GetDataToSignASiCWithCAdESHelper.html" title="eu.europa.esig.dss.asic.signature.GetDataToSignASiCWithCAdESHelper" alt="" coords="16,112,260,155"/>
+<area shape="rect" id="node1" href="./GetDataToSignASiCWithCAdESHelper.html" title="&lt;TABLE&gt;" alt="" coords="5,107,271,160"/>
+<area shape="rect" id="node2_1" href="./ASiCWithCAdESService.html" title="eu.europa.esig.dss.asic.signature.ASiCWithCAdESService" alt="" coords="595,121,756,146"/>
+<area shape="rect" id="node2" href="./ASiCWithCAdESService.html" title="&lt;TABLE&gt;" alt="" coords="584,109,767,157"/>
+<area shape="rect" id="node3_2" href="./ASiCWithCAdESDataToSignHelperBuilder.html" title="eu.europa.esig.dss.asic.signature.ASiCWithCAdESDataToSignHelperBuilder" alt="" coords="1051,19,1315,45"/>
+<area shape="rect" id="node3" href="./ASiCWithCAdESDataToSignHelperBuilder.html" title="&lt;TABLE&gt;" alt="" coords="1041,8,1326,56"/>
+<area shape="rect" id="node4_3" href="./GetDataToSignASiCWithXAdESHelper.html" title="eu.europa.esig.dss.asic.signature.GetDataToSignASiCWithXAdESHelper" alt="" coords="306,112,549,155"/>
+<area shape="rect" id="node4" href="./GetDataToSignASiCWithXAdESHelper.html" title="&lt;TABLE&gt;" alt="" coords="295,107,559,160"/>
+<area shape="rect" id="node5_4" href="./ASiCWithXAdESService.html" title="eu.europa.esig.dss.asic.signature.ASiCWithXAdESService" alt="" coords="802,121,962,146"/>
+<area shape="rect" id="node5" href="./ASiCWithXAdESService.html" title="&lt;TABLE&gt;" alt="" coords="791,109,973,157"/>
+<area shape="rect" id="node6_5" href="./ASiCWithXAdESDataToSignHelperBuilder.html" title="eu.europa.esig.dss.asic.signature.ASiCWithXAdESDataToSignHelperBuilder" alt="" coords="1361,19,1622,45"/>
+<area shape="rect" id="node6" href="./ASiCWithXAdESDataToSignHelperBuilder.html" title="&lt;TABLE&gt;" alt="" coords="1350,8,1633,56"/>
+<area shape="rect" id="node7_6" href="./GetDataToSignHelper.html" title="eu.europa.esig.dss.asic.signature.GetDataToSignHelper" alt="" coords="162,11,306,53"/>
+<area shape="rect" id="node7" href="./GetDataToSignHelper.html" title="&lt;TABLE&gt;" alt="" coords="151,5,317,59"/>
+<area shape="rect" id="node8_7" href="./AbstractASiCSignatureService.html" title="eu.europa.esig.dss.asic.signature.AbstractASiCSignatureService" alt="" coords="550,19,1006,45"/>
+<area shape="rect" id="node8" href="./AbstractASiCSignatureService.html" title="&lt;TABLE&gt;" alt="" coords="539,8,1017,56"/>
+</map>

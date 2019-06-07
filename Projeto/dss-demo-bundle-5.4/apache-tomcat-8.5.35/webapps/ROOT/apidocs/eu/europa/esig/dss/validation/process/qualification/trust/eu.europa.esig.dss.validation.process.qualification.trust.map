@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TrustedServiceStatus.html" title="eu.europa.esig.dss.validation.process.qualification.trust.TrustedServiceStatus" alt="" coords="16,17,159,42"/>
+<area shape="rect" id="node1" href="./TrustedServiceStatus.html" title="&lt;TABLE&gt;" alt="" coords="5,5,169,53"/>
+<area shape="rect" id="node2_1" href="./TLValidationBlock.html" title="eu.europa.esig.dss.validation.process.qualification.trust.TLValidationBlock" alt="" coords="204,17,328,42"/>
+<area shape="rect" id="node2" href="./TLValidationBlock.html" title="&lt;TABLE&gt;" alt="" coords="193,5,339,53"/>
+<area shape="rect" id="node3_2" href="./ServiceQualification.html" title="eu.europa.esig.dss.validation.process.qualification.trust.ServiceQualification" alt="" coords="373,17,505,42"/>
+<area shape="rect" id="node3" href="./ServiceQualification.html" title="&lt;TABLE&gt;" alt="" coords="363,5,516,53"/>
+<area shape="rect" id="node4_3" href="./AdditionalServiceInformation.html" title="eu.europa.esig.dss.validation.process.qualification.trust.AdditionalServiceInformation" alt="" coords="551,17,733,42"/>
+<area shape="rect" id="node4" href="./AdditionalServiceInformation.html" title="&lt;TABLE&gt;" alt="" coords="541,5,743,53"/>
+</map>

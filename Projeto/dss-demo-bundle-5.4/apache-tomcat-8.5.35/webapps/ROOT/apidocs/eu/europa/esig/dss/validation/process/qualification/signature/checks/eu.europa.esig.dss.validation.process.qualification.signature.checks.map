@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./QualifiedCertificateAtSigningTimeCheck.html" title="eu.europa.esig.dss.validation.process.qualification.signature.checks.QualifiedCertificateAtSigningTimeCheck" alt="" coords="16,17,264,42"/>
+<area shape="rect" id="node1" href="./QualifiedCertificateAtSigningTimeCheck.html" title="&lt;TABLE&gt;" alt="" coords="5,5,275,53"/>
+<area shape="rect" id="node2_1" href="./QualifiedCertificateAtCertificateIssuanceCheck.html" title="eu.europa.esig.dss.validation.process.qualification.signature.checks.QualifiedCertificateAtCertificateIssuanceCheck" alt="" coords="309,17,597,42"/>
+<area shape="rect" id="node2" href="./QualifiedCertificateAtCertificateIssuanceCheck.html" title="&lt;TABLE&gt;" alt="" coords="299,5,608,53"/>
+<area shape="rect" id="node3_2" href="./QSCDCertificateAtSigningTimeCheck.html" title="eu.europa.esig.dss.validation.process.qualification.signature.checks.QSCDCertificateAtSigningTimeCheck" alt="" coords="643,17,879,42"/>
+<area shape="rect" id="node3" href="./QSCDCertificateAtSigningTimeCheck.html" title="&lt;TABLE&gt;" alt="" coords="633,5,890,53"/>
+<area shape="rect" id="node4_3" href="./ForeSignatureAtSigningTimeCheck.html" title="eu.europa.esig.dss.validation.process.qualification.signature.checks.ForeSignatureAtSigningTimeCheck" alt="" coords="925,17,1147,42"/>
+<area shape="rect" id="node4" href="./ForeSignatureAtSigningTimeCheck.html" title="&lt;TABLE&gt;" alt="" coords="915,5,1157,53"/>
+<area shape="rect" id="node5_4" href="./CertificatePathTrustedCheck.html" title="eu.europa.esig.dss.validation.process.qualification.signature.checks.CertificatePathTrustedCheck" alt="" coords="1192,17,1376,42"/>
+<area shape="rect" id="node5" href="./CertificatePathTrustedCheck.html" title="&lt;TABLE&gt;" alt="" coords="1181,5,1387,53"/>
+<area shape="rect" id="node6_5" href="./AdESAcceptableCheck.html" title="eu.europa.esig.dss.validation.process.qualification.signature.checks.AdESAcceptableCheck" alt="" coords="1422,17,1578,42"/>
+<area shape="rect" id="node6" href="./AdESAcceptableCheck.html" title="&lt;TABLE&gt;" alt="" coords="1411,5,1589,53"/>
+<area shape="rect" id="node7_6" href="./AcceptableTrustedListCheck.html" title="eu.europa.esig.dss.validation.process.qualification.signature.checks.AcceptableTrustedListCheck" alt="" coords="1624,17,2037,42"/>
+<area shape="rect" id="node7" href="./AcceptableTrustedListCheck.html" title="&lt;TABLE&gt;" alt="" coords="1613,5,2048,53"/>
+</map>

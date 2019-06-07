@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Reports.html" title="eu.europa.esig.dss.validation.reports.Reports" alt="" coords="16,113,80,138"/>
+<area shape="rect" id="node1" href="./Reports.html" title="&lt;TABLE&gt;" alt="" coords="5,101,91,149"/>
+<area shape="rect" id="node2_1" href="./CertificateReports.html" title="eu.europa.esig.dss.validation.reports.CertificateReports" alt="" coords="125,113,248,138"/>
+<area shape="rect" id="node2" href="./CertificateReports.html" title="&lt;TABLE&gt;" alt="" coords="115,101,259,149"/>
+<area shape="rect" id="node3_2" href="./AbstractReports.html" title="eu.europa.esig.dss.validation.reports.AbstractReports" alt="" coords="60,17,175,42"/>
+<area shape="rect" id="node3" href="./AbstractReports.html" title="&lt;TABLE&gt;" alt="" coords="49,5,185,53"/>
+</map>

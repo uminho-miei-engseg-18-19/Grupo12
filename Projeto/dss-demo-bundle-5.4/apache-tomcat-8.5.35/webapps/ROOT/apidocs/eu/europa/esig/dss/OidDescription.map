@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./QCStatementOids.html" title="eu.europa.esig.dss.QCStatementOids" alt="" coords="16,112,141,155"/>
+<area shape="rect" id="node1" href="./QCStatementOids.html" title="&lt;TABLE&gt;" alt="" coords="5,107,152,160"/>
+<area shape="rect" id="node2_1" href="./OidDescription.html" title="eu.europa.esig.dss.OidDescription" alt="" coords="216,11,320,53"/>
+<area shape="rect" id="node2" href="./OidDescription.html" title="&lt;TABLE&gt;" alt="" coords="205,5,331,59"/>
+<area shape="rect" id="node3_2" href="./ExtendedKeyUsageOids.html" title="eu.europa.esig.dss.ExtendedKeyUsageOids" alt="" coords="187,112,349,155"/>
+<area shape="rect" id="node3" href="./ExtendedKeyUsageOids.html" title="&lt;TABLE&gt;" alt="" coords="177,107,359,160"/>
+<area shape="rect" id="node4_3" href="./CertificatePolicyOids.html" title="eu.europa.esig.dss.CertificatePolicyOids" alt="" coords="394,112,534,155"/>
+<area shape="rect" id="node4" href="./CertificatePolicyOids.html" title="&lt;TABLE&gt;" alt="" coords="383,107,545,160"/>
+</map>

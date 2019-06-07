@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./AbstractSignatureTokenConnection.html" title="eu.europa.esig.dss.token.AbstractSignatureTokenConnection" alt="" coords="16,118,243,143"/>
+<area shape="rect" id="node1" href="./AbstractSignatureTokenConnection.html" title="&lt;TABLE&gt;" alt="" coords="5,107,253,155"/>
+<area shape="rect" id="node2_1" href="./AbstractKeyStoreTokenConnection.html" title="eu.europa.esig.dss.token.AbstractKeyStoreTokenConnection" alt="" coords="17,214,241,239"/>
+<area shape="rect" id="node2" href="./AbstractKeyStoreTokenConnection.html" title="&lt;TABLE&gt;" alt="" coords="7,203,252,251"/>
+<area shape="rect" id="node3_2" href="./SignatureTokenConnection.html" title="eu.europa.esig.dss.token.SignatureTokenConnection" alt="" coords="42,11,217,53"/>
+<area shape="rect" id="node3" href="./SignatureTokenConnection.html" title="&lt;TABLE&gt;" alt="" coords="31,5,227,59"/>
+</map>

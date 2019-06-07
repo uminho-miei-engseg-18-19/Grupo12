@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./XPathQueryHolder.html" title="eu.europa.esig.dss.xades.XPathQueryHolder" alt="" coords="16,19,141,45"/>
+<area shape="rect" id="node1" href="./XPathQueryHolder.html" title="&lt;TABLE&gt;" alt="" coords="5,8,152,56"/>
+<area shape="rect" id="node2_1" href="./XAdESSignatureParameters.html" title="eu.europa.esig.dss.xades.XAdESSignatureParameters" alt="" coords="187,19,370,45"/>
+<area shape="rect" id="node2" href="./XAdESSignatureParameters.html" title="&lt;TABLE&gt;" alt="" coords="177,8,381,56"/>
+<area shape="rect" id="node3_2" href="./SignatureProfile.html" title="eu.europa.esig.dss.xades.SignatureProfile" alt="" coords="415,11,526,53"/>
+<area shape="rect" id="node3" href="./SignatureProfile.html" title="&lt;TABLE&gt;" alt="" coords="405,5,537,59"/>
+<area shape="rect" id="node4_3" href="./SignatureBuilder.html" title="eu.europa.esig.dss.xades.SignatureBuilder" alt="" coords="572,11,687,53"/>
+<area shape="rect" id="node4" href="./SignatureBuilder.html" title="&lt;TABLE&gt;" alt="" coords="561,5,697,59"/>
+<area shape="rect" id="node5_4" href="./SantuarioInitializer.html" title="eu.europa.esig.dss.xades.SantuarioInitializer" alt="" coords="732,19,857,45"/>
+<area shape="rect" id="node5" href="./SantuarioInitializer.html" title="&lt;TABLE&gt;" alt="" coords="721,8,868,56"/>
+<area shape="rect" id="node6_5" href="./ProfileParameters.html" title="eu.europa.esig.dss.xades.ProfileParameters" alt="" coords="903,19,1025,45"/>
+<area shape="rect" id="node6" href="./ProfileParameters.html" title="&lt;TABLE&gt;" alt="" coords="892,8,1036,56"/>
+<area shape="rect" id="node7_6" href="./ProfileParameters.Operation.html" title="eu.europa.esig.dss.xades.ProfileParameters.Operation" alt="" coords="1071,11,1175,53"/>
+<area shape="rect" id="node7" href="./ProfileParameters.Operation.html" title="&lt;TABLE&gt;" alt="" coords="1060,5,1185,59"/>
+<area shape="rect" id="node8_7" href="./EnforcedResolverFragment.html" title="eu.europa.esig.dss.xades.EnforcedResolverFragment" alt="" coords="1221,19,1395,45"/>
+<area shape="rect" id="node8" href="./EnforcedResolverFragment.html" title="&lt;TABLE&gt;" alt="" coords="1210,8,1406,56"/>
+<area shape="rect" id="node9_8" href="./DSSXMLUtils.html" title="eu.europa.esig.dss.xades.DSSXMLUtils" alt="" coords="1441,19,1538,45"/>
+<area shape="rect" id="node9" href="./DSSXMLUtils.html" title="&lt;TABLE&gt;" alt="" coords="1430,8,1549,56"/>
+<area shape="rect" id="node10_9" href="./DSSTransform.html" title="eu.europa.esig.dss.xades.DSSTransform" alt="" coords="1584,19,1688,45"/>
+<area shape="rect" id="node10" href="./DSSTransform.html" title="&lt;TABLE&gt;" alt="" coords="1573,8,1699,56"/>
+<area shape="rect" id="node11_10" href="./DSSReference.html" title="eu.europa.esig.dss.xades.DSSReference" alt="" coords="1733,19,1837,45"/>
+<area shape="rect" id="node11" href="./DSSReference.html" title="&lt;TABLE&gt;" alt="" coords="1723,8,1848,56"/>
+</map>

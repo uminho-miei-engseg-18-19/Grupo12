@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SignaturePolicyValidator.html" title="eu.europa.esig.dss.validation.SignaturePolicyValidator" alt="" coords="171,11,333,53"/>
+<area shape="rect" id="node1" href="./SignaturePolicyValidator.html" title="&lt;TABLE&gt;" alt="" coords="161,5,343,59"/>
+<area shape="rect" id="node2_1" href="./NonASN1SignaturePolicyValidator.html" title="eu.europa.esig.dss.validation.NonASN1SignaturePolicyValidator" alt="" coords="16,214,235,239"/>
+<area shape="rect" id="node2" href="./NonASN1SignaturePolicyValidator.html" title="&lt;TABLE&gt;" alt="" coords="5,203,245,251"/>
+<area shape="rect" id="node5_2" href="./AbstractSignaturePolicyValidator.html" title="eu.europa.esig.dss.validation.AbstractSignaturePolicyValidator" alt="" coords="249,118,460,143"/>
+<area shape="rect" id="node5" href="./AbstractSignaturePolicyValidator.html" title="&lt;TABLE&gt;" alt="" coords="239,107,471,155"/>
+<area shape="rect" id="node3_3" href="./EmptySignaturePolicyValidator.html" title="eu.europa.esig.dss.validation.EmptySignaturePolicyValidator" alt="" coords="280,214,480,239"/>
+<area shape="rect" id="node3" href="./EmptySignaturePolicyValidator.html" title="&lt;TABLE&gt;" alt="" coords="269,203,491,251"/>
+<area shape="rect" id="node4_4" href="./BasicASNSignaturePolicyValidator.html" title="eu.europa.esig.dss.validation.BasicASNSignaturePolicyValidator" alt="" coords="525,214,747,239"/>
+<area shape="rect" id="node4" href="./BasicASNSignaturePolicyValidator.html" title="&lt;TABLE&gt;" alt="" coords="515,203,757,251"/>
+</map>

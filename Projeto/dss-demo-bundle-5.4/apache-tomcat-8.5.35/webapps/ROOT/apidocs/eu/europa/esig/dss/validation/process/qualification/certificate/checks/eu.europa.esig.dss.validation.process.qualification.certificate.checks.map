@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TrustedCertificateMatchTrustServiceCheck.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.checks.TrustedCertificateMatchTrustServiceCheck" alt="" coords="16,17,280,42"/>
+<area shape="rect" id="node1" href="./TrustedCertificateMatchTrustServiceCheck.html" title="&lt;TABLE&gt;" alt="" coords="5,5,291,53"/>
+<area shape="rect" id="node2_1" href="./ServiceConsistencyCheck.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.checks.ServiceConsistencyCheck" alt="" coords="325,17,496,42"/>
+<area shape="rect" id="node2" href="./ServiceConsistencyCheck.html" title="&lt;TABLE&gt;" alt="" coords="315,5,507,53"/>
+<area shape="rect" id="node3_2" href="./QualifiedCheck.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.checks.QualifiedCheck" alt="" coords="541,17,648,42"/>
+<area shape="rect" id="node3" href="./QualifiedCheck.html" title="&lt;TABLE&gt;" alt="" coords="531,5,659,53"/>
+<area shape="rect" id="node4_3" href="./QSCDCheck.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.checks.QSCDCheck" alt="" coords="693,17,787,42"/>
+<area shape="rect" id="node4" href="./QSCDCheck.html" title="&lt;TABLE&gt;" alt="" coords="683,5,797,53"/>
+<area shape="rect" id="node5_4" href="./QCTypeIdentifiers.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.checks.QCTypeIdentifiers" alt="" coords="833,17,954,42"/>
+<area shape="rect" id="node5" href="./QCTypeIdentifiers.html" title="&lt;TABLE&gt;" alt="" coords="822,5,965,53"/>
+<area shape="rect" id="node6_5" href="./IsAbleToSelectOneTrustService.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.checks.IsAbleToSelectOneTrustService" alt="" coords="999,17,1201,42"/>
+<area shape="rect" id="node6" href="./IsAbleToSelectOneTrustService.html" title="&lt;TABLE&gt;" alt="" coords="989,5,1211,53"/>
+<area shape="rect" id="node7_6" href="./GrantedStatusCheck.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.checks.GrantedStatusCheck" alt="" coords="1246,17,1386,42"/>
+<area shape="rect" id="node7" href="./GrantedStatusCheck.html" title="&lt;TABLE&gt;" alt="" coords="1235,5,1397,53"/>
+<area shape="rect" id="node8_7" href="./ForEsigCheck.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.checks.ForEsigCheck" alt="" coords="1432,17,1533,42"/>
+<area shape="rect" id="node8" href="./ForEsigCheck.html" title="&lt;TABLE&gt;" alt="" coords="1421,5,1544,53"/>
+<area shape="rect" id="node9_8" href="./CertificateTypeCoverageCheck.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.checks.CertificateTypeCoverageCheck" alt="" coords="1579,17,1775,42"/>
+<area shape="rect" id="node9" href="./CertificateTypeCoverageCheck.html" title="&lt;TABLE&gt;" alt="" coords="1569,5,1786,53"/>
+<area shape="rect" id="node10_9" href="./CertificateIssuedByConsistentTrustServiceCheck.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.checks.CertificateIssuedByConsistentTrustServiceCheck" alt="" coords="1821,17,2123,42"/>
+<area shape="rect" id="node10" href="./CertificateIssuedByConsistentTrustServiceCheck.html" title="&lt;TABLE&gt;" alt="" coords="1811,5,2133,53"/>
+<area shape="rect" id="node11_10" href="./CaQcCheck.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.checks.CaQcCheck" alt="" coords="2169,17,2258,42"/>
+<area shape="rect" id="node11" href="./CaQcCheck.html" title="&lt;TABLE&gt;" alt="" coords="2158,5,2269,53"/>
+</map>

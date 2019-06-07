@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./RevocationDataFreshCheckWithNullConstraint.html" title="eu.europa.esig.dss.validation.process.bbb.xcv.rfc.checks.RevocationDataFreshCheckWithNullConstraint" alt="" coords="16,17,304,42"/>
+<area shape="rect" id="node1" href="./RevocationDataFreshCheckWithNullConstraint.html" title="&lt;TABLE&gt;" alt="" coords="5,5,315,53"/>
+<area shape="rect" id="node2_1" href="./RevocationDataFreshCheck.html" title="eu.europa.esig.dss.validation.process.bbb.xcv.rfc.checks.RevocationDataFreshCheck" alt="" coords="350,17,530,42"/>
+<area shape="rect" id="node2" href="./RevocationDataFreshCheck.html" title="&lt;TABLE&gt;" alt="" coords="339,5,541,53"/>
+<area shape="rect" id="node3_2" href="./RevocationDataAvailableCheck.html" title="eu.europa.esig.dss.validation.process.bbb.xcv.rfc.checks.RevocationDataAvailableCheck" alt="" coords="576,17,773,42"/>
+<area shape="rect" id="node3" href="./RevocationDataAvailableCheck.html" title="&lt;TABLE&gt;" alt="" coords="565,5,784,53"/>
+<area shape="rect" id="node4_3" href="./NextUpdateCheck.html" title="eu.europa.esig.dss.validation.process.bbb.xcv.rfc.checks.NextUpdateCheck" alt="" coords="819,17,943,42"/>
+<area shape="rect" id="node4" href="./NextUpdateCheck.html" title="&lt;TABLE&gt;" alt="" coords="809,5,954,53"/>
+</map>

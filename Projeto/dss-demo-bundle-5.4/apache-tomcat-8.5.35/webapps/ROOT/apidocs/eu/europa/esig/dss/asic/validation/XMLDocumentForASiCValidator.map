@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../xades/validation/XMLDocumentValidator.html" title="eu.europa.esig.dss.xades.validation.XMLDocumentValidator" alt="" coords="16,19,171,45"/>
+<area shape="rect" id="node1" href="../../xades/validation/XMLDocumentValidator.html" title="&lt;TABLE&gt;" alt="" coords="5,8,181,56"/>
+<area shape="rect" id="node2_1" href="./XMLDocumentForASiCValidator.html" title="eu.europa.esig.dss.asic.validation.XMLDocumentForASiCValidator" alt="" coords="91,118,295,143"/>
+<area shape="rect" id="node2" href="./XMLDocumentForASiCValidator.html" title="&lt;TABLE&gt;" alt="" coords="81,107,306,155"/>
+<area shape="rect" id="node3_2" href="./ASiCSignatureValidator.html" title="eu.europa.esig.dss.asic.validation.ASiCSignatureValidator" alt="" coords="217,11,373,53"/>
+<area shape="rect" id="node3" href="./ASiCSignatureValidator.html" title="&lt;TABLE&gt;" alt="" coords="206,5,383,59"/>
+</map>

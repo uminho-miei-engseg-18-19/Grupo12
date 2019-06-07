@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./PseudoStrategy.html" title="eu.europa.esig.dss.validation.process.bbb.xcv.sub.checks.pseudo.PseudoStrategy" alt="" coords="252,11,364,53"/>
+<area shape="rect" id="node1" href="./PseudoStrategy.html" title="&lt;TABLE&gt;" alt="" coords="241,5,375,59"/>
+<area shape="rect" id="node2_1" href="./PseudoGermanyStrategy.html" title="eu.europa.esig.dss.validation.process.bbb.xcv.sub.checks.pseudo.PseudoGermanyStrategy" alt="" coords="16,118,181,143"/>
+<area shape="rect" id="node2" href="./PseudoGermanyStrategy.html" title="&lt;TABLE&gt;" alt="" coords="5,107,192,155"/>
+<area shape="rect" id="node3_2" href="./PseudoAttributeStrategy.html" title="eu.europa.esig.dss.validation.process.bbb.xcv.sub.checks.pseudo.PseudoAttributeStrategy" alt="" coords="227,118,389,143"/>
+<area shape="rect" id="node3" href="./PseudoAttributeStrategy.html" title="&lt;TABLE&gt;" alt="" coords="217,107,399,155"/>
+<area shape="rect" id="node4_3" href="./JoinedPseudoStrategy.html" title="eu.europa.esig.dss.validation.process.bbb.xcv.sub.checks.pseudo.JoinedPseudoStrategy" alt="" coords="435,118,584,143"/>
+<area shape="rect" id="node4" href="./JoinedPseudoStrategy.html" title="&lt;TABLE&gt;" alt="" coords="424,107,595,155"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../tsl/TSLServiceStatusAndInformationExtensions.html" title="eu.europa.esig.dss.tsl.TSLServiceStatusAndInformationExtensions" alt="" coords="16,214,289,239"/>
+<area shape="rect" id="node1" href="../tsl/TSLServiceStatusAndInformationExtensions.html" title="&lt;TABLE&gt;" alt="" coords="5,203,300,251"/>
+<area shape="rect" id="node2_1" href="../tsl/ServiceInfoStatus.html" title="eu.europa.esig.dss.tsl.ServiceInfoStatus" alt="" coords="335,214,455,239"/>
+<area shape="rect" id="node2" href="../tsl/ServiceInfoStatus.html" title="&lt;TABLE&gt;" alt="" coords="325,203,466,251"/>
+<area shape="rect" id="node3_2" href="./TimeDependent.html" title="eu.europa.esig.dss.util.TimeDependent" alt="" coords="219,11,329,53"/>
+<area shape="rect" id="node3" href="./TimeDependent.html" title="&lt;TABLE&gt;" alt="" coords="209,5,339,59"/>
+<area shape="rect" id="node4_3" href="./BaseTimeDependent.html" title="eu.europa.esig.dss.util.BaseTimeDependent" alt="" coords="204,118,344,143"/>
+<area shape="rect" id="node4" href="./BaseTimeDependent.html" title="&lt;TABLE&gt;" alt="" coords="193,107,355,155"/>
+</map>

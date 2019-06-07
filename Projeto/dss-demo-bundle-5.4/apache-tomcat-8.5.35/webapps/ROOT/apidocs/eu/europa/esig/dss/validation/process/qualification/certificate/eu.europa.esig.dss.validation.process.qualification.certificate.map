@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Type.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.Type" alt="" coords="16,11,120,53"/>
+<area shape="rect" id="node1" href="./Type.html" title="&lt;TABLE&gt;" alt="" coords="5,5,131,59"/>
+<area shape="rect" id="node2_1" href="./QualifiedStatus.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.QualifiedStatus" alt="" coords="166,11,274,53"/>
+<area shape="rect" id="node2" href="./QualifiedStatus.html" title="&lt;TABLE&gt;" alt="" coords="155,5,285,59"/>
+<area shape="rect" id="node3_2" href="./QSCDStatus.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.QSCDStatus" alt="" coords="320,11,424,53"/>
+<area shape="rect" id="node3" href="./QSCDStatus.html" title="&lt;TABLE&gt;" alt="" coords="309,5,435,59"/>
+<area shape="rect" id="node4_3" href="./CertQualificationMatrix.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.CertQualificationMatrix" alt="" coords="470,19,621,45"/>
+<area shape="rect" id="node4" href="./CertQualificationMatrix.html" title="&lt;TABLE&gt;" alt="" coords="459,8,631,56"/>
+<area shape="rect" id="node5_4" href="./CertQualificationAtTimeBlock.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.CertQualificationAtTimeBlock" alt="" coords="666,19,854,45"/>
+<area shape="rect" id="node5" href="./CertQualificationAtTimeBlock.html" title="&lt;TABLE&gt;" alt="" coords="655,8,865,56"/>
+<area shape="rect" id="node6_5" href="./CertificateQualificationBlock.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.CertificateQualificationBlock" alt="" coords="900,19,1081,45"/>
+<area shape="rect" id="node6" href="./CertificateQualificationBlock.html" title="&lt;TABLE&gt;" alt="" coords="889,8,1092,56"/>
+<area shape="rect" id="node7_6" href="./AcceptableBuildingBlockConclusionCheck.html" title="eu.europa.esig.dss.validation.process.qualification.certificate.AcceptableBuildingBlockConclusionCheck" alt="" coords="1127,19,1391,45"/>
+<area shape="rect" id="node7" href="./AcceptableBuildingBlockConclusionCheck.html" title="&lt;TABLE&gt;" alt="" coords="1116,8,1401,56"/>
+</map>

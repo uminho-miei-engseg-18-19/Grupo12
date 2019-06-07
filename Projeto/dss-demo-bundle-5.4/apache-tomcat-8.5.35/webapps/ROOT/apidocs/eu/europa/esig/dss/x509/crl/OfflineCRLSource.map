@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./OfflineCRLSource.html" title="eu.europa.esig.dss.x509.crl.OfflineCRLSource" alt="" coords="411,118,535,143"/>
+<area shape="rect" id="node1" href="./OfflineCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="401,107,546,155"/>
+<area shape="rect" id="node2_1" href="./ListCRLSource.html" title="eu.europa.esig.dss.x509.crl.ListCRLSource" alt="" coords="16,214,123,239"/>
+<area shape="rect" id="node2" href="./ListCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="5,203,133,251"/>
+<area shape="rect" id="node3_2" href="./ExternalResourcesCRLSource.html" title="eu.europa.esig.dss.x509.crl.ExternalResourcesCRLSource" alt="" coords="169,214,365,239"/>
+<area shape="rect" id="node3" href="./ExternalResourcesCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="158,203,375,251"/>
+<area shape="rect" id="node5_3" href="../../xades/validation/XAdESCRLSource.html" title="eu.europa.esig.dss.xades.validation.XAdESCRLSource" alt="" coords="410,214,537,239"/>
+<area shape="rect" id="node5" href="../../xades/validation/XAdESCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="399,203,547,251"/>
+<area shape="rect" id="node6_4" href="../../cades/validation/CAdESCRLSource.html" title="eu.europa.esig.dss.cades.validation.CAdESCRLSource" alt="" coords="583,214,711,239"/>
+<area shape="rect" id="node6" href="../../cades/validation/CAdESCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="572,203,721,251"/>
+<area shape="rect" id="node7_5" href="../../pades/validation/PAdESCRLSource.html" title="eu.europa.esig.dss.pades.validation.PAdESCRLSource" alt="" coords="756,214,884,239"/>
+<area shape="rect" id="node7" href="../../pades/validation/PAdESCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="745,203,895,251"/>
+<area shape="rect" id="node4_6" href="./CRLSource.html" title="eu.europa.esig.dss.x509.crl.CRLSource" alt="" coords="431,11,516,53"/>
+<area shape="rect" id="node4" href="./CRLSource.html" title="&lt;TABLE&gt;" alt="" coords="420,5,527,59"/>
+</map>

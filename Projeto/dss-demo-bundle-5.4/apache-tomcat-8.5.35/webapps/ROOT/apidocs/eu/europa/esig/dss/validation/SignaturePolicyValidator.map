@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SignaturePolicyValidator.html" title="eu.europa.esig.dss.validation.SignaturePolicyValidator" alt="" coords="45,11,206,53"/>
+<area shape="rect" id="node1" href="./SignaturePolicyValidator.html" title="&lt;TABLE&gt;" alt="" coords="34,5,217,59"/>
+<area shape="rect" id="node2_1" href="./NonASN1SignaturePolicyValidator.html" title="eu.europa.esig.dss.validation.NonASN1SignaturePolicyValidator" alt="" coords="16,214,235,239"/>
+<area shape="rect" id="node2" href="./NonASN1SignaturePolicyValidator.html" title="&lt;TABLE&gt;" alt="" coords="5,203,245,251"/>
+<area shape="rect" id="node3_2" href="./AbstractSignaturePolicyValidator.html" title="eu.europa.esig.dss.validation.AbstractSignaturePolicyValidator" alt="" coords="97,118,308,143"/>
+<area shape="rect" id="node3" href="./AbstractSignaturePolicyValidator.html" title="&lt;TABLE&gt;" alt="" coords="87,107,319,155"/>
+</map>

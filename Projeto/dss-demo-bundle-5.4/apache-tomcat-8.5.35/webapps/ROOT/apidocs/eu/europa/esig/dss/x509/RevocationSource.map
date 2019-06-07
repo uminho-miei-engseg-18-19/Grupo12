@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./RevocationSourceAlternateUrlsSupport.html" title="eu.europa.esig.dss.x509.RevocationSourceAlternateUrlsSupport" alt="" coords="16,213,435,256"/>
+<area shape="rect" id="node1" href="./RevocationSourceAlternateUrlsSupport.html" title="&lt;TABLE&gt;" alt="" coords="5,208,445,261"/>
+<area shape="rect" id="node2_1" href="./RevocationSource.html" title="eu.europa.esig.dss.x509.RevocationSource" alt="" coords="373,112,672,155"/>
+<area shape="rect" id="node2" href="./RevocationSource.html" title="&lt;TABLE&gt;" alt="" coords="363,107,683,160"/>
+<area shape="rect" id="node3_2" href="./crl/CRLSource.html" title="eu.europa.esig.dss.x509.crl.CRLSource" alt="" coords="480,213,565,256"/>
+<area shape="rect" id="node3" href="./crl/CRLSource.html" title="&lt;TABLE&gt;" alt="" coords="469,208,576,261"/>
+<area shape="rect" id="node4_3" href="./ocsp/OCSPSource.html" title="eu.europa.esig.dss.x509.ocsp.OCSPSource" alt="" coords="611,213,709,256"/>
+<area shape="rect" id="node4" href="./ocsp/OCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="601,208,719,261"/>
+<area shape="rect" id="node5_4" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="java.io.Serializable" alt="" coords="479,11,566,53"/>
+<area shape="rect" id="node5" href="http://java.sun.com/j2se/1.4.2/docs/api/java/io/Serializable.html" title="&lt;TABLE&gt;" alt="" coords="469,5,577,59"/>
+</map>

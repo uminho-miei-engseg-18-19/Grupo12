@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../../validation/SignatureScopeFinder.html" title="eu.europa.esig.dss.validation.SignatureScopeFinder" alt="" coords="16,11,352,53"/>
+<area shape="rect" id="node1" href="../../validation/SignatureScopeFinder.html" title="&lt;TABLE&gt;" alt="" coords="5,5,363,59"/>
+<area shape="rect" id="node2_1" href="./PAdESSignatureScopeFinder.html" title="eu.europa.esig.dss.pades.validation.PAdESSignatureScopeFinder" alt="" coords="89,118,279,143"/>
+<area shape="rect" id="node2" href="./PAdESSignatureScopeFinder.html" title="&lt;TABLE&gt;" alt="" coords="78,107,290,155"/>
+</map>

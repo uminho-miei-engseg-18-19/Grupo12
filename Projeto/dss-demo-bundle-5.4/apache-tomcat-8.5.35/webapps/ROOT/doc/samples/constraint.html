@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.7.1">
+<title>Untitled</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="./coderay-asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
+</div>
+<div id="content">
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;ConstraintsParameters</span> <span class="attribute-name">Name</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">QES AdESQC TL based</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">xmlns</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://dss.esig.europa.eu/validation/policy</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+        <span class="tag">&lt;Description&gt;</span>Validate electronic signatures and indicates whether they are Advanced electronic Signatures (AdES), AdES supported by a Qualified Certificate (AdES/QC) or a
+                Qualified electronic Signature (QES). All certificates and their related chains supporting the signatures are validated against the EU Member State Trusted Lists (this includes
+                signer's certificate and certificates used to validate certificate validity status services - CRLs, OCSP, and time-stamps).
+        <span class="tag">&lt;/Description&gt;</span>
+        <span class="tag">&lt;ContainerConstraints&gt;</span>
+                <span class="tag">&lt;AcceptableContainerTypes</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                        <span class="tag">&lt;Id&gt;</span>ASiC-S<span class="tag">&lt;/Id&gt;</span>
+                        <span class="tag">&lt;Id&gt;</span>ASiC-E<span class="tag">&lt;/Id&gt;</span>
+                <span class="tag">&lt;/AcceptableContainerTypes&gt;</span>
+<span class="comment">&lt;!--                 &lt;ZipCommentPresent Level=&quot;WARN&quot; /&gt; --&gt;</span>
+<span class="comment">&lt;!--                 &lt;AcceptableZipComment Level=&quot;WARN&quot;&gt; --&gt;</span>
+<span class="comment">&lt;!--                         &lt;Id&gt;mimetype=application/vnd.etsi.asic-s+zip&lt;/Id&gt; --&gt;</span>
+<span class="comment">&lt;!--                         &lt;Id&gt;mimetype=application/vnd.etsi.asic-e+zip&lt;/Id&gt; --&gt;</span>
+<span class="comment">&lt;!--                 &lt;/AcceptableZipComment&gt; --&gt;</span>
+                <span class="tag">&lt;MimeTypeFilePresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;AcceptableMimeTypeFileContent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                        <span class="tag">&lt;Id&gt;</span>application/vnd.etsi.asic-s+zip<span class="tag">&lt;/Id&gt;</span>
+                        <span class="tag">&lt;Id&gt;</span>application/vnd.etsi.asic-e+zip<span class="tag">&lt;/Id&gt;</span>
+                <span class="tag">&lt;/AcceptableMimeTypeFileContent&gt;</span>
+                <span class="tag">&lt;ManifestFilePresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;AllFilesSigned</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+        <span class="tag">&lt;/ContainerConstraints&gt;</span>
+        <span class="tag">&lt;SignatureConstraints&gt;</span>
+                <span class="tag">&lt;AcceptablePolicies</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                        <span class="tag">&lt;Id&gt;</span>ANY_POLICY<span class="tag">&lt;/Id&gt;</span>
+                        <span class="tag">&lt;Id&gt;</span>NO_POLICY<span class="tag">&lt;/Id&gt;</span>
+                <span class="tag">&lt;/AcceptablePolicies&gt;</span>
+                <span class="tag">&lt;PolicyAvailable</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;PolicyHashMatch</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;AcceptableFormats</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                        <span class="tag">&lt;Id&gt;</span>*<span class="tag">&lt;/Id&gt;</span>
+                <span class="tag">&lt;/AcceptableFormats&gt;</span>
+                <span class="tag">&lt;BasicSignatureConstraints&gt;</span>
+                        <span class="tag">&lt;ReferenceDataExistence</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;ReferenceDataIntact</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;SignatureIntact</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;ProspectiveCertificateChain</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+<span class="comment">&lt;!--                         &lt;TrustedServiceTypeIdentifier Level=&quot;WARN&quot;&gt; --&gt;</span>
+<span class="comment">&lt;!--                                 &lt;Id&gt;http://uri.etsi.org/TrstSvc/Svctype/CA/QC&lt;/Id&gt; --&gt;</span>
+<span class="comment">&lt;!--                         &lt;/TrustedServiceTypeIdentifier&gt; --&gt;</span>
+<span class="comment">&lt;!--                         &lt;TrustedServiceStatus Level=&quot;FAIL&quot;&gt; --&gt;</span>
+<span class="comment">&lt;!--                                 &lt;Id&gt;http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/undersupervision&lt;/Id&gt; --&gt;</span>
+<span class="comment">&lt;!--                                 &lt;Id&gt;http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/accredited&lt;/Id&gt; --&gt;</span>
+<span class="comment">&lt;!--                                 &lt;Id&gt;http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/supervisionincessation&lt;/Id&gt; --&gt;</span>
+<span class="comment">&lt;!--                                 &lt;Id&gt;http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted&lt;/Id&gt; --&gt;</span>
+<span class="comment">&lt;!--                                 &lt;Id&gt;http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn&lt;/Id&gt; --&gt;</span>
+<span class="comment">&lt;!--                         &lt;/TrustedServiceStatus&gt; --&gt;</span>
+                        <span class="tag">&lt;SigningCertificate&gt;</span>
+                                <span class="tag">&lt;Recognition</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;Signature</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotExpired</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;AuthorityInfoAccessPresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationInfoAccessPresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataAvailable</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataNextUpdatePresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataFreshness</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;KeyUsage</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                                        <span class="tag">&lt;Id&gt;</span>nonRepudiation<span class="tag">&lt;/Id&gt;</span>
+                                <span class="tag">&lt;/KeyUsage&gt;</span>
+                                <span class="tag">&lt;SerialNumberPresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotRevoked</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotOnHold</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotSelfSigned</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+<span class="comment">&lt;!--                                 &lt;Qualification Level=&quot;WARN&quot; /&gt; --&gt;</span>
+<span class="comment">&lt;!--                                 &lt;SupportedByQSCD Level=&quot;WARN&quot; /&gt; --&gt;</span>
+<span class="comment">&lt;!--                                 &lt;IssuedToNaturalPerson Level=&quot;INFORM&quot; /&gt; --&gt;</span>
+<span class="comment">&lt;!--                                 &lt;IssuedToLegalPerson Level=&quot;INFORM&quot; /&gt; --&gt;</span>
+                                <span class="tag">&lt;UsePseudonym</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">INFORM</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;Cryptographic</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                                        <span class="tag">&lt;AcceptableEncryptionAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableEncryptionAlgo&gt;</span>
+                                        <span class="tag">&lt;MiniPublicKeySize&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">128</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1024</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">192</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/MiniPublicKeySize&gt;</span>
+                                        <span class="tag">&lt;AcceptableDigestAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA1<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RIPEMD160<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableDigestAlgo&gt;</span>
+                                <span class="tag">&lt;/Cryptographic&gt;</span>
+                        <span class="tag">&lt;/SigningCertificate&gt;</span>
+                        <span class="tag">&lt;CACertificate&gt;</span>
+                                <span class="tag">&lt;Signature</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotExpired</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataAvailable</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataNextUpdatePresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataFreshness</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotRevoked</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotOnHold</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;Cryptographic</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                                        <span class="tag">&lt;AcceptableEncryptionAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableEncryptionAlgo&gt;</span>
+                                        <span class="tag">&lt;MiniPublicKeySize&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">128</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1024</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">192</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/MiniPublicKeySize&gt;</span>
+                                        <span class="tag">&lt;AcceptableDigestAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA1<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RIPEMD160<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableDigestAlgo&gt;</span>
+                                <span class="tag">&lt;/Cryptographic&gt;</span>
+                        <span class="tag">&lt;/CACertificate&gt;</span>
+                        <span class="tag">&lt;Cryptographic</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                                <span class="tag">&lt;AcceptableEncryptionAlgo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                <span class="tag">&lt;/AcceptableEncryptionAlgo&gt;</span>
+                                <span class="tag">&lt;MiniPublicKeySize&gt;</span>
+                                        <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">128</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1024</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">192</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                <span class="tag">&lt;/MiniPublicKeySize&gt;</span>
+                                <span class="tag">&lt;AcceptableDigestAlgo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA1<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA224<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA256<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA384<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-512<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>RIPEMD160<span class="tag">&lt;/Algo&gt;</span>
+                                <span class="tag">&lt;/AcceptableDigestAlgo&gt;</span>
+                        <span class="tag">&lt;/Cryptographic&gt;</span>
+                <span class="tag">&lt;/BasicSignatureConstraints&gt;</span>
+                <span class="tag">&lt;SignedAttributes&gt;</span>
+                        <span class="tag">&lt;SigningCertificatePresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;SigningCertificateSigned</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;CertDigestPresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;CertDigestMatch</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;IssuerSerialMatch</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;SigningTime</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+<span class="comment">&lt;!--                &lt;ContentType Level=&quot;FAIL&quot; value=&quot;1.2.840.113549.1.7.1&quot; /&gt;
+                        &lt;ContentHints Level=&quot;FAIL&quot; value=&quot;*&quot; /&gt;
+                        &lt;CommitmentTypeIndication Level=&quot;FAIL&quot;&gt;
+                                &lt;Id&gt;1.2.840.113549.1.9.16.6.1&lt;/Id&gt;
+                                &lt;Id&gt;1.2.840.113549.1.9.16.6.4&lt;/Id&gt;
+                                &lt;Id&gt;1.2.840.113549.1.9.16.6.5&lt;/Id&gt;
+                                &lt;Id&gt;1.2.840.113549.1.9.16.6.6&lt;/Id&gt;
+                        &lt;/CommitmentTypeIndication&gt;
+                        &lt;SignerLocation Level=&quot;FAIL&quot; /&gt;
+                        &lt;ContentTimeStamp Level=&quot;FAIL&quot; /&gt; --&gt;</span>
+                <span class="tag">&lt;/SignedAttributes&gt;</span>
+                <span class="tag">&lt;UnsignedAttributes&gt;</span>
+<span class="comment">&lt;!--                &lt;CounterSignature Level=&quot;IGNORE&quot; /&gt; check presence --&gt;</span>
+                <span class="tag">&lt;/UnsignedAttributes&gt;</span>
+        <span class="tag">&lt;/SignatureConstraints&gt;</span>
+        <span class="tag">&lt;Timestamp&gt;</span>
+                <span class="tag">&lt;TimestampDelay</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">Unit</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">DAYS</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">Value</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">0</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;MessageImprintDataFound</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;MessageImprintDataIntact</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;RevocationTimeAgainstBestSignatureTime</span>        <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;BestSignatureTimeBeforeIssuanceDateOfSigningCertificate</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;SigningCertificateValidityAtBestSignatureTime</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;AlgorithmReliableAtBestSignatureTime</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;Coherence</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;BasicSignatureConstraints&gt;</span>
+                        <span class="tag">&lt;ReferenceDataExistence</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;ReferenceDataIntact</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;SignatureIntact</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;ProspectiveCertificateChain</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;SigningCertificate&gt;</span>
+                                <span class="tag">&lt;Recognition</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;Signature</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotExpired</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataAvailable</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataNextUpdatePresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataFreshness</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotRevoked</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotOnHold</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotSelfSigned</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;Cryptographic</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                                        <span class="tag">&lt;AcceptableEncryptionAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableEncryptionAlgo&gt;</span>
+                                        <span class="tag">&lt;MiniPublicKeySize&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">128</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1024</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">192</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/MiniPublicKeySize&gt;</span>
+                                        <span class="tag">&lt;AcceptableDigestAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA1<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RIPEMD160<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableDigestAlgo&gt;</span>
+                                <span class="tag">&lt;/Cryptographic&gt;</span>
+                        <span class="tag">&lt;/SigningCertificate&gt;</span>
+                        <span class="tag">&lt;CACertificate&gt;</span>
+                                <span class="tag">&lt;Signature</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotExpired</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataAvailable</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataNextUpdatePresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataFreshness</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotRevoked</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotOnHold</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;Cryptographic</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                                        <span class="tag">&lt;AcceptableEncryptionAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableEncryptionAlgo&gt;</span>
+                                        <span class="tag">&lt;MiniPublicKeySize&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">128</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1024</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">192</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/MiniPublicKeySize&gt;</span>
+                                        <span class="tag">&lt;AcceptableDigestAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA1<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RIPEMD160<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableDigestAlgo&gt;</span>
+                                <span class="tag">&lt;/Cryptographic&gt;</span>
+                        <span class="tag">&lt;/CACertificate&gt;</span>
+                        <span class="tag">&lt;Cryptographic</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                                <span class="tag">&lt;AcceptableEncryptionAlgo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                <span class="tag">&lt;/AcceptableEncryptionAlgo&gt;</span>
+                                <span class="tag">&lt;MiniPublicKeySize&gt;</span>
+                                        <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">128</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1024</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">192</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                <span class="tag">&lt;/MiniPublicKeySize&gt;</span>
+                                <span class="tag">&lt;AcceptableDigestAlgo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA1<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA224<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA256<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA384<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA512<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA3-224<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA3-256<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA3-384<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA3-512<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>RIPEMD160<span class="tag">&lt;/Algo&gt;</span>
+                                <span class="tag">&lt;/AcceptableDigestAlgo&gt;</span>
+                        <span class="tag">&lt;/Cryptographic&gt;</span>
+                <span class="tag">&lt;/BasicSignatureConstraints&gt;</span>
+        <span class="tag">&lt;/Timestamp&gt;</span>
+        <span class="tag">&lt;Revocation&gt;</span>
+                <span class="tag">&lt;RevocationFreshness</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">Unit</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">DAYS</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">Value</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">0</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;BasicSignatureConstraints&gt;</span>
+                        <span class="tag">&lt;ReferenceDataExistence</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;ReferenceDataIntact</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;SignatureIntact</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;ProspectiveCertificateChain</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                        <span class="tag">&lt;SigningCertificate&gt;</span>
+                                <span class="tag">&lt;Recognition</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;Signature</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotExpired</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataAvailable</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataNextUpdatePresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataFreshness</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotRevoked</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotOnHold</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;Cryptographic</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                                        <span class="tag">&lt;AcceptableEncryptionAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableEncryptionAlgo&gt;</span>
+                                        <span class="tag">&lt;MiniPublicKeySize&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">128</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1024</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">192</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/MiniPublicKeySize&gt;</span>
+                                        <span class="tag">&lt;AcceptableDigestAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA1<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RIPEMD160<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableDigestAlgo&gt;</span>
+                                <span class="tag">&lt;/Cryptographic&gt;</span>
+                        <span class="tag">&lt;/SigningCertificate&gt;</span>
+                        <span class="tag">&lt;CACertificate&gt;</span>
+                                <span class="tag">&lt;Signature</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotExpired</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataAvailable</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataNextUpdatePresent</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;RevocationDataFreshness</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotRevoked</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;NotOnHold</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                                <span class="tag">&lt;Cryptographic</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                                        <span class="tag">&lt;AcceptableEncryptionAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableEncryptionAlgo&gt;</span>
+                                        <span class="tag">&lt;MiniPublicKeySize&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">128</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1024</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">192</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/MiniPublicKeySize&gt;</span>
+                                        <span class="tag">&lt;AcceptableDigestAlgo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA1<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-224<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-256<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-384<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>SHA3-512<span class="tag">&lt;/Algo&gt;</span>
+                                                <span class="tag">&lt;Algo&gt;</span>RIPEMD160<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;/AcceptableDigestAlgo&gt;</span>
+                                <span class="tag">&lt;/Cryptographic&gt;</span>
+                        <span class="tag">&lt;/CACertificate&gt;</span>
+                        <span class="tag">&lt;Cryptographic</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+                                <span class="tag">&lt;AcceptableEncryptionAlgo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                <span class="tag">&lt;/AcceptableEncryptionAlgo&gt;</span>
+                                <span class="tag">&lt;MiniPublicKeySize&gt;</span>
+                                        <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">128</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>DSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1024</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>RSA<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo</span> <span class="attribute-name">Size</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">192</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>ECDSA<span class="tag">&lt;/Algo&gt;</span>
+                                <span class="tag">&lt;/MiniPublicKeySize&gt;</span>
+                                <span class="tag">&lt;AcceptableDigestAlgo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA1<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA224<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA256<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA384<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA512<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA3-224<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA3-256<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA3-384<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>SHA3-512<span class="tag">&lt;/Algo&gt;</span>
+                                        <span class="tag">&lt;Algo&gt;</span>RIPEMD160<span class="tag">&lt;/Algo&gt;</span>
+                                <span class="tag">&lt;/AcceptableDigestAlgo&gt;</span>
+                        <span class="tag">&lt;/Cryptographic&gt;</span>
+                <span class="tag">&lt;/BasicSignatureConstraints&gt;</span>
+        <span class="tag">&lt;/Revocation&gt;</span>
+        <span class="tag">&lt;Cryptographic</span> <span class="tag">/&gt;</span>
+        <span class="comment">&lt;!-- &lt;Cryptographic&gt; &lt;AlgoExpirationDate Format=&quot;yyyy-MM-dd&quot;&gt; &lt;Algo Date=&quot;2017-02-24&quot;&gt;SHA1&lt;/Algo&gt; &lt;Algo Date=&quot;2035-02-24&quot;&gt;SHA224&lt;/Algo&gt; &lt;Algo Date=&quot;2035-02-24&quot;&gt;SHA256&lt;/Algo&gt; &lt;Algo
+                Date=&quot;2035-02-24&quot;&gt;SHA384&lt;/Algo&gt; &lt;Algo Date=&quot;2035-02-24&quot;&gt;SHA512&lt;/Algo&gt; &lt;Algo Date=&quot;2017-02-24&quot;&gt;RIPEMD160&lt;/Algo&gt; &lt;Algo Date=&quot;2017-02-24&quot;&gt;DSA128&lt;/Algo&gt; &lt;Algo Date=&quot;2015-02-24&quot;&gt;RSA1024&lt;/Algo&gt;
+                &lt;Algo Date=&quot;2015-02-24&quot;&gt;RSA1536&lt;/Algo&gt; &lt;Algo Date=&quot;2020-02-24&quot;&gt;RSA2048&lt;/Algo&gt; &lt;Algo Date=&quot;2020-02-24&quot;&gt;RSA3072&lt;/Algo&gt; &lt;Algo Date=&quot;2035-02-24&quot;&gt;RSA4096&lt;/Algo&gt; &lt;Algo Date=&quot;2035-02-24&quot;&gt;ECDSA192&lt;/Algo&gt;
+                &lt;Algo Date=&quot;2035-02-24&quot;&gt;ECDSA256&lt;/Algo&gt; &lt;/AlgoExpirationDate&gt; &lt;/Cryptographic&gt; --&gt;</span>
+
+        <span class="comment">&lt;!-- eIDAS REGL 910/EU/2014 --&gt;</span>
+        <span class="tag">&lt;eIDAS&gt;</span>
+                <span class="tag">&lt;TLFreshness</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">Unit</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">HOURS</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">Value</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">6</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;TLNotExpired</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;TLWellSigned</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">WARN</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;TLVersion</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">value</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">5</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+                <span class="tag">&lt;TLConsistency</span> <span class="attribute-name">Level</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">FAIL</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
+        <span class="tag">&lt;/eIDAS&gt;</span>
+<span class="tag">&lt;/ConstraintsParameters&gt;</span></code></pre>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2018-10-25 13:24:33 CEST
+</div>
+</div>
+</body>
+</html>

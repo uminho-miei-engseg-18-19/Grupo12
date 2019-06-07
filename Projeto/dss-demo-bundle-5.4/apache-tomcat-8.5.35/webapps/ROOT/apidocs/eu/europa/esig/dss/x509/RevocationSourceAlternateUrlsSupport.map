@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./RevocationSourceAlternateUrlsSupport.html" title="eu.europa.esig.dss.x509.RevocationSourceAlternateUrlsSupport" alt="" coords="270,112,689,155"/>
+<area shape="rect" id="node1" href="./RevocationSourceAlternateUrlsSupport.html" title="&lt;TABLE&gt;" alt="" coords="259,107,699,160"/>
+<area shape="rect" id="node3_1" href="./AlternateUrlsSourceAdapter.html" title="eu.europa.esig.dss.x509.AlternateUrlsSourceAdapter" alt="" coords="16,219,372,245"/>
+<area shape="rect" id="node3" href="./AlternateUrlsSourceAdapter.html" title="&lt;TABLE&gt;" alt="" coords="5,208,383,256"/>
+<area shape="rect" id="node4_2" href="../client/crl/OnlineCRLSource.html" title="eu.europa.esig.dss.client.crl.OnlineCRLSource" alt="" coords="418,219,541,245"/>
+<area shape="rect" id="node4" href="../client/crl/OnlineCRLSource.html" title="&lt;TABLE&gt;" alt="" coords="407,208,551,256"/>
+<area shape="rect" id="node5_3" href="../client/ocsp/OnlineOCSPSource.html" title="eu.europa.esig.dss.client.ocsp.OnlineOCSPSource" alt="" coords="587,219,721,245"/>
+<area shape="rect" id="node5" href="../client/ocsp/OnlineOCSPSource.html" title="&lt;TABLE&gt;" alt="" coords="576,208,732,256"/>
+<area shape="rect" id="node2_4" href="./RevocationSource.html" title="eu.europa.esig.dss.x509.RevocationSource" alt="" coords="330,11,629,53"/>
+<area shape="rect" id="node2" href="./RevocationSource.html" title="&lt;TABLE&gt;" alt="" coords="319,5,639,59"/>
+</map>

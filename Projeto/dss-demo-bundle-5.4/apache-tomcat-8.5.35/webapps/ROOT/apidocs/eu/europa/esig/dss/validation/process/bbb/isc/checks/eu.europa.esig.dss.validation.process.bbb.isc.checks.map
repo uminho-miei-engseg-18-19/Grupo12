@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SigningCertificateRecognitionCheck.html" title="eu.europa.esig.dss.validation.process.bbb.isc.checks.SigningCertificateRecognitionCheck" alt="" coords="16,17,241,42"/>
+<area shape="rect" id="node1" href="./SigningCertificateRecognitionCheck.html" title="&lt;TABLE&gt;" alt="" coords="5,5,252,53"/>
+<area shape="rect" id="node2_1" href="./SigningCertificateAttributePresentCheck.html" title="eu.europa.esig.dss.validation.process.bbb.isc.checks.SigningCertificateAttributePresentCheck" alt="" coords="287,17,539,42"/>
+<area shape="rect" id="node2" href="./SigningCertificateAttributePresentCheck.html" title="&lt;TABLE&gt;" alt="" coords="276,5,549,53"/>
+<area shape="rect" id="node3_2" href="./IssuerSerialMatchCheck.html" title="eu.europa.esig.dss.validation.process.bbb.isc.checks.IssuerSerialMatchCheck" alt="" coords="585,17,745,42"/>
+<area shape="rect" id="node3" href="./IssuerSerialMatchCheck.html" title="&lt;TABLE&gt;" alt="" coords="574,5,755,53"/>
+<area shape="rect" id="node4_3" href="./DigestValuePresentCheck.html" title="eu.europa.esig.dss.validation.process.bbb.isc.checks.DigestValuePresentCheck" alt="" coords="791,17,963,42"/>
+<area shape="rect" id="node4" href="./DigestValuePresentCheck.html" title="&lt;TABLE&gt;" alt="" coords="780,5,973,53"/>
+<area shape="rect" id="node5_4" href="./DigestValueMatchCheck.html" title="eu.europa.esig.dss.validation.process.bbb.isc.checks.DigestValueMatchCheck" alt="" coords="1009,17,1171,42"/>
+<area shape="rect" id="node5" href="./DigestValueMatchCheck.html" title="&lt;TABLE&gt;" alt="" coords="998,5,1182,53"/>
+</map>

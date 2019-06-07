@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SignatureScopeFinder.html" title="eu.europa.esig.dss.validation.SignatureScopeFinder" alt="" coords="177,11,513,53"/>
+<area shape="rect" id="node1" href="./SignatureScopeFinder.html" title="&lt;TABLE&gt;" alt="" coords="166,5,523,59"/>
+<area shape="rect" id="node2_1" href="../xades/validation/XAdESSignatureScopeFinder.html" title="eu.europa.esig.dss.xades.validation.XAdESSignatureScopeFinder" alt="" coords="16,118,204,143"/>
+<area shape="rect" id="node2" href="../xades/validation/XAdESSignatureScopeFinder.html" title="&lt;TABLE&gt;" alt="" coords="5,107,215,155"/>
+<area shape="rect" id="node3_2" href="../cades/validation/CAdESSignatureScopeFinder.html" title="eu.europa.esig.dss.cades.validation.CAdESSignatureScopeFinder" alt="" coords="249,118,440,143"/>
+<area shape="rect" id="node3" href="../cades/validation/CAdESSignatureScopeFinder.html" title="&lt;TABLE&gt;" alt="" coords="239,107,451,155"/>
+<area shape="rect" id="node4_3" href="../pades/validation/PAdESSignatureScopeFinder.html" title="eu.europa.esig.dss.pades.validation.PAdESSignatureScopeFinder" alt="" coords="485,118,676,143"/>
+<area shape="rect" id="node4" href="../pades/validation/PAdESSignatureScopeFinder.html" title="&lt;TABLE&gt;" alt="" coords="475,107,687,155"/>
+</map>

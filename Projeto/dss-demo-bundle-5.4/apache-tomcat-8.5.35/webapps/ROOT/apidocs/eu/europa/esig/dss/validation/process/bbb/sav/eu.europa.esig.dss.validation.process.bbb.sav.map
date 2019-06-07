@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./TimestampAcceptanceValidation.html" title="eu.europa.esig.dss.validation.process.bbb.sav.TimestampAcceptanceValidation" alt="" coords="16,113,225,138"/>
+<area shape="rect" id="node1" href="./TimestampAcceptanceValidation.html" title="&lt;TABLE&gt;" alt="" coords="5,101,236,149"/>
+<area shape="rect" id="node2_1" href="./SignatureAcceptanceValidation.html" title="eu.europa.esig.dss.validation.process.bbb.sav.SignatureAcceptanceValidation" alt="" coords="271,113,471,138"/>
+<area shape="rect" id="node2" href="./SignatureAcceptanceValidation.html" title="&lt;TABLE&gt;" alt="" coords="261,101,482,149"/>
+<area shape="rect" id="node3_2" href="./RevocationAcceptanceValidation.html" title="eu.europa.esig.dss.validation.process.bbb.sav.RevocationAcceptanceValidation" alt="" coords="517,113,725,138"/>
+<area shape="rect" id="node3" href="./RevocationAcceptanceValidation.html" title="&lt;TABLE&gt;" alt="" coords="506,101,735,149"/>
+<area shape="rect" id="node4_3" href="./AbstractAcceptanceValidation.html" title="eu.europa.esig.dss.validation.process.bbb.sav.AbstractAcceptanceValidation" alt="" coords="175,17,567,42"/>
+<area shape="rect" id="node4" href="./AbstractAcceptanceValidation.html" title="&lt;TABLE&gt;" alt="" coords="165,5,578,53"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SoapSignatureTokenConnection.html" title="eu.europa.esig.dss.token.SoapSignatureTokenConnection" alt="" coords="16,112,220,155"/>
+<area shape="rect" id="node1" href="./SoapSignatureTokenConnection.html" title="&lt;TABLE&gt;" alt="" coords="5,107,231,160"/>
+<area shape="rect" id="node2_1" href="./RestSignatureTokenConnection.html" title="eu.europa.esig.dss.token.RestSignatureTokenConnection" alt="" coords="265,112,467,155"/>
+<area shape="rect" id="node2" href="./RestSignatureTokenConnection.html" title="&lt;TABLE&gt;" alt="" coords="255,107,477,160"/>
+<area shape="rect" id="node3_2" href="./RemoteSignatureTokenConnectionImpl.html" title="eu.europa.esig.dss.token.RemoteSignatureTokenConnectionImpl" alt="" coords="512,121,756,146"/>
+<area shape="rect" id="node3" href="./RemoteSignatureTokenConnectionImpl.html" title="&lt;TABLE&gt;" alt="" coords="501,109,767,157"/>
+<area shape="rect" id="node4_3" href="./RemoteSignatureTokenConnection.html" title="eu.europa.esig.dss.token.RemoteSignatureTokenConnection" alt="" coords="256,11,476,53"/>
+<area shape="rect" id="node4" href="./RemoteSignatureTokenConnection.html" title="&lt;TABLE&gt;" alt="" coords="245,5,487,59"/>
+</map>

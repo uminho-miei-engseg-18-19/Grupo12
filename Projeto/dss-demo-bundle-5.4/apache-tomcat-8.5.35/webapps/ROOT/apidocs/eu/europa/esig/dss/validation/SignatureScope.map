@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./SignatureScope.html" title="eu.europa.esig.dss.validation.SignatureScope" alt="" coords="315,17,427,42"/>
+<area shape="rect" id="node1" href="./SignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="305,5,438,53"/>
+<area shape="rect" id="node2_1" href="./PartialSignatureScope.html" title="eu.europa.esig.dss.validation.PartialSignatureScope" alt="" coords="16,113,164,138"/>
+<area shape="rect" id="node2" href="./PartialSignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="5,101,175,149"/>
+<area shape="rect" id="node3_2" href="./FullSignatureScope.html" title="eu.europa.esig.dss.validation.FullSignatureScope" alt="" coords="209,113,341,138"/>
+<area shape="rect" id="node3" href="./FullSignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="199,101,352,149"/>
+<area shape="rect" id="node4_3" href="../xades/validation/XPointerSignatureScope.html" title="eu.europa.esig.dss.xades.validation.XPointerSignatureScope" alt="" coords="387,113,547,138"/>
+<area shape="rect" id="node4" href="../xades/validation/XPointerSignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="377,101,558,149"/>
+<area shape="rect" id="node5_4" href="../xades/validation/XmlElementSignatureScope.html" title="eu.europa.esig.dss.xades.validation.XmlElementSignatureScope" alt="" coords="593,113,773,138"/>
+<area shape="rect" id="node5" href="../xades/validation/XmlElementSignatureScope.html" title="&lt;TABLE&gt;" alt="" coords="583,101,784,149"/>
+</map>
