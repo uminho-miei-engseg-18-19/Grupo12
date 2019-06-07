@@ -49,7 +49,7 @@ def getDataToSign():
     resp = requests.post('http://localhost:8080/services/rest/signature/one-document/getDataToSign', json=PARAMS)
     print(resp)
 
-def signDocument(docpath):
+def signDocument(docpath, container, packaging, digest, allow_expired_certificate, add_timestamp):
     PARAMS = {
         "signWithExpiredCertificate" : "false",
         "generateTBSWithoutCertificate" : "false",
@@ -93,7 +93,7 @@ def signDocument(docpath):
         "toSignDocument" : {
             "bytes" : "SGVsbG8=",
             "digestAlgorithm" : "null",
-            "name" : "RemoteDocument",
+            "name" : str(docpath),
             "mimeType" : "null"
         }
     }
@@ -150,31 +150,43 @@ def validateSignature():
     resp = requests.post('http://localhost:8080/services/rest/validation/validateSignature')
     print(resp)
 
-def main(service, doc):
-    if service is None:
+def main(args):
+    if args.service is None:
         options = [("Sign a document",      signDocument),
                    ("Extend a signature",   extendDocument),
                    ("Validate a signature", validateSignature),
                    ("Close",                menu.Menu.CLOSE)]
         mainMenu = menu.Menu(title="DSS : Digital Signature Service", options=options)
         mainMenu.open()
-    elif service == 'signDocument':
-        signDocument(doc)
-    elif service == 'extendDocument':
+    elif args.service == 'signDocument':
+        signDocument(args.doc, args.container, args.packaging, args.digest, args.allow_expired_certificate, args.add_timestamp)
+    elif args.service == 'extendDocument':
         extendDocument()
-    elif service == 'validateSignature':
+    elif args.service == 'validateSignature':
         validateSignature()
         
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='DSS : Digital Signature Service')
     subparsers = parser.add_subparsers(title='service', dest='service', help='rest web service')
-    signDocument_parser         = subparsers.add_parser('signDocument',
+    
+    signDocument_parser = subparsers.add_parser('signDocument',
                                                     help='the method allows to generate the signed document with the received signature value')
     signDocument_parser.add_argument('--doc', metavar='document', required=True, help='path to the document')
-    extendDocument_parser       = subparsers.add_parser('extendDocument',
+    signDocument_parser.add_argument('--container', '-c', choices=['CAdES', 'PAdES', 'XAdES'], default='null', metavar='container', help='container type')
+    signDocument_parser.add_argument('--packaging', '-p', choices=['EVELOPED', 'ENVELOPING', 'DETACHED', 'INTERNALLY DETATCHED'], default='ENVELOPING', metavar='packaging')
+    #Maybe level argument
+    signDocument_parser.add_argument('--digest', '-d', choices=['SHA1', 'SHA224', 'SHA256', 'SHA384', 'SHA512'], default='SHA256', metavar='digest', help='digest algorithm')
+    signDocument_parser.add_argument('--allow-expired-certificate', choices=['false', 'true'], default='false', help='allow expired certificate')
+    signDocument_parser.add_argument('--add-timestamp', choices=['false', 'true'], default='false', help='add a content timestamp')
+    
+    extendDocument_parser = subparsers.add_parser('extendDocument',
                                                     help='the method allows to extend an existing signature to a stronger level')
-    validateSignature_parser    = subparsers.add_parser('validateSignature',
+    #extendDocument arguments go here
+    
+    validateSignature_parser = subparsers.add_parser('validateSignature',
                                                     help='this service allows to validate signature (all formats/types) against a validation policy.')
+    #validateSignature arguments go here
+    
     args = parser.parse_args()
-    main(**args.__dict__)
+    main(args)
