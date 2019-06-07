@@ -147,10 +147,10 @@ def extendDocument():
     print(resp)
 
 def validateSignature():
-    resp = requests.post('http://localhost:8080/services/rest/validation?_wadl')
-    print('Validade Signature: ' + resp)
+    resp = requests.post('http://localhost:8080/services/rest/validation/validateSignature')
+    print(resp)
 
-def main(service):
+def main(service, doc):
     if service is None:
         options = [("Sign a document",      signDocument),
                    ("Extend a signature",   extendDocument),
@@ -158,10 +158,23 @@ def main(service):
                    ("Close",                menu.Menu.CLOSE)]
         mainMenu = menu.Menu(title="DSS : Digital Signature Service", options=options)
         mainMenu.open()
-    getDataToSign()
+    elif service == 'signDocument':
+        signDocument(doc)
+    elif service == 'extendDocument':
+        extendDocument()
+    elif service == 'validateSignature':
+        validateSignature()
+        
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='DSS : Digital Signature Service')
-    parser.add_argument('--service', help='Functionality: signDocument, extendDocument, validateSignature')
+    subparsers = parser.add_subparsers(title='service', dest='service', help='rest web service')
+    signDocument_parser         = subparsers.add_parser('signDocument',
+                                                    help='the method allows to generate the signed document with the received signature value')
+    signDocument_parser.add_argument('--doc', metavar='document', required=True, help='path to the document')
+    extendDocument_parser       = subparsers.add_parser('extendDocument',
+                                                    help='the method allows to extend an existing signature to a stronger level')
+    validateSignature_parser    = subparsers.add_parser('validateSignature',
+                                                    help='this service allows to validate signature (all formats/types) against a validation policy.')
     args = parser.parse_args()
     main(**args.__dict__)
