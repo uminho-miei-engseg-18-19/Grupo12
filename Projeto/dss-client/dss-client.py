@@ -51,25 +51,25 @@ def getDataToSign():
 
 def signDocument(docpath, container, packaging, digest, allow_expired_certificate, add_timestamp):
     PARAMS = {
-        "signWithExpiredCertificate" : "false",
+        "signWithExpiredCertificate" : str(allow_expired_certificate),
         "generateTBSWithoutCertificate" : "false",
         "signatureLevel" : "CAdES_BASELINE_B",
-        "signaturePackaging" : "ENVELOPING",
+        "signaturePackaging" : str(packaging),
         "signatureAlgorithm" : "RSA_SHA256",
         "encryptionAlgorithm" : "RSA",
-        "digestAlgorithm" : "SHA256",
+        "digestAlgorithm" : str(digest),
         "referenceDigestAlgorithm" : "null",
         "maskGenerationFunction" : "null",
         "contentTimestampParameters" : {
-            "digestAlgorithm" : "SHA256",
+            "digestAlgorithm" : str(digest),
             "canonicalizationMethod" : "http://www.w3.org/2001/10/xml-exc-c14n#"
         },
         "signatureTimestampParameters" : {
-            "digestAlgorithm" : "SHA256",
+            "digestAlgorithm" : str(digest),
             "canonicalizationMethod" : "http://www.w3.org/2001/10/xml-exc-c14n#"
             },
         "archiveTimestampParameters" : {
-            "digestAlgorithm" : "SHA256",
+            "digestAlgorithm" : str(digest),
             "canonicalizationMethod" : "http://www.w3.org/2001/10/xml-exc-c14n#"
         },
         "signingCertificate" : {
@@ -77,7 +77,7 @@ def signDocument(docpath, container, packaging, digest, allow_expired_certificat
         },
         "certificateChain" : [ ],
         "detachedContents" : "null",
-        "asicContainerType" : "null",
+        "asicContainerType" : str(container),
         "blevelParams" : {
             "trustAnchorBPPolicy" : "true",
             "signingDate" : "1542794106964",
