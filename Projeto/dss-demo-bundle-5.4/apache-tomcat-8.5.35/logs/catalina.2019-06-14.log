@@ -1,4 +1,3 @@
-NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 14-Jun-2019 20:46:28.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.35
 14-Jun-2019 20:46:28.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 3 2018 17:39:20 UTC
 14-Jun-2019 20:46:28.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.35.0
@@ -33,56 +32,6 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 14-Jun-2019 20:46:28.612 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.35
 14-Jun-2019 20:46:28.660 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/nunol/Desktop/Universidade/2ºsemestre/EngSeg/Grupo12/Projeto/dss-demo-bundle-5.4/apache-tomcat-8.5.35/webapps/ROOT.war]
 14-Jun-2019 20:46:34.547 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-06-14 20:46:34,552  INFO | localhost-startStop-1 | org.springframework.web.context.ContextLoader           | Root WebApplicationContext: initialization started 
-2019-06-14 20:46:34,576  INFO | localhost-startStop-1 | o.s.w.c.support.AnnotationConfigWebApplicationContext   | Refreshing Root WebApplicationContext: startup date [Fri Jun 14 20:46:34 WEST 2019]; root of context hierarchy 
-2019-06-14 20:46:34,664  INFO | localhost-startStop-1 | o.s.w.c.support.AnnotationConfigWebApplicationContext   | Registering annotated classes: [class eu.europa.esig.dss.web.config.DSSBeanConfig] 
-2019-06-14 20:46:35,083  WARN | localhost-startStop-1 | o.s.w.c.support.AnnotationConfigWebApplicationContext   | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [eu.europa.esig.dss.web.config.DSSBeanConfig]; nested exception is java.lang.IllegalStateException: Failed to introspect annotated methods on class eu.europa.esig.dss.web.config.CXFConfig 
-2019-06-14 20:46:35,102 ERROR | localhost-startStop-1 | org.springframework.web.context.ContextLoader           | Context initialization failed 
-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [eu.europa.esig.dss.web.config.DSSBeanConfig]; nested exception is java.lang.IllegalStateException: Failed to introspect annotated methods on class eu.europa.esig.dss.web.config.CXFConfig
-	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:621)
-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:304)
-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:247)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:200)
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:169)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:308)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:272)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:92)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
-	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
-	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
-	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
-	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4790)
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5256)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
-	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
-	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
-	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
-	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:985)
-	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1857)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: java.lang.IllegalStateException: Failed to introspect annotated methods on class eu.europa.esig.dss.web.config.CXFConfig
-	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotatedMethods(StandardAnnotationMetadata.java:163)
-	at org.springframework.context.annotation.ConfigurationClassParser.retrieveBeanMethodMetadata(ConfigurationClassParser.java:385)
-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:319)
-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:247)
-	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:611)
-	... 26 common frames omitted
-Caused by: java.lang.NoClassDefFoundError: javax/xml/ws/Endpoint
-	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
-	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
-	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotatedMethods(StandardAnnotationMetadata.java:152)
-	... 30 common frames omitted
-Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Endpoint
-	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1328)
-	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1156)
-	... 34 common frames omitted
 14-Jun-2019 20:46:35.104 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
 14-Jun-2019 20:46:35.115 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
 14-Jun-2019 20:46:35.176 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/nunol/Desktop/Universidade/2ºsemestre/EngSeg/Grupo12/Projeto/dss-demo-bundle-5.4/apache-tomcat-8.5.35/webapps/ROOT.war] has finished in [6,515] ms
