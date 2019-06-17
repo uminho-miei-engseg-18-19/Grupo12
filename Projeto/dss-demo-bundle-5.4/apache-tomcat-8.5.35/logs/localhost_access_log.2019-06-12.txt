@@ -1,6 +1,0 @@
-0:0:0:0:0:0:0:1 - - [12/Jun/2019:00:34:56 +0100] "POST /services/rest/signature/one-document/extendDocument HTTP/1.1" 500 -
-0:0:0:0:0:0:0:1 - - [12/Jun/2019:00:36:33 +0100] "POST /services/rest/signature/one-document/extendDocument HTTP/1.1" 500 -
-0:0:0:0:0:0:0:1 - - [12/Jun/2019:00:36:48 +0100] "POST /services/rest/signature/one-document/extendDocument HTTP/1.1" 500 -
-0:0:0:0:0:0:0:1 - - [12/Jun/2019:00:37:46 +0100] "POST /services/rest/signature/one-document/extendDocument HTTP/1.1" 500 -
-0:0:0:0:0:0:0:1 - - [12/Jun/2019:00:38:17 +0100] "POST /services/rest/signature/one-document/extendDocument HTTP/1.1" 500 -
-0:0:0:0:0:0:0:1 - - [12/Jun/2019:00:39:27 +0100] "POST /services/rest/signature/one-document/extendDocument HTTP/1.1" 500 -
