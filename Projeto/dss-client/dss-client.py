@@ -49,10 +49,14 @@ def extendDocument(signed_file, original_file, container, sig_format, level):
         else:
             params['parameters']['asicContainerType'] = container
         params['parameters']['signatureLevel'] = level
-
-    #print(params)
+        file_name_parts = signed_file.split('/')
+        file_name = file_name_parts[len(file_name_parts) - 1]
+        params['toExtendDocument']['name'] = file_name
     
     resp = requests.post('http://10.0.0.101:8080/services/rest/signature/one-document/extendDocument', json=params)
+
+    with open('application/extend_resp.json','w') as json_ex:
+        json_ex.write(json.dumps(resp.json(), indent=4, sort_keys=True))
 
     print(resp.status_code)
 
@@ -73,11 +77,41 @@ def validateSignature(signed_file, original_file):
     with open('application/json/validateSignatureRequest.json', 'r') as json_file:
         params = json.load(json_file)
         params['signedDocument']['bytes'] = base64.encodebytes(file_bytes).decode('ascii')
+        file_name_parts = signed_file.split('/')
+        file_name = file_name_parts[len(file_name_parts) - 1]
+        params['signedDocument']['name'] = file_name
 
     resp = requests.post('http://10.0.0.101:8080/services/rest/validation/validateSignature', json=params)
+    resp = resp.json()
+    signature_simple_report = resp["simpleReport"]
+    signature_details = signature_simple_report["signature"][0]
+    print("--------------------------------------------------------------------------------------------------")
+    print("\t Validation results for signature " + signature_simple_report["documentName"] + ":")
+    print("\t Validation status: " + signature_details["indication"])
+    print("\t Validation status description: " + signature_details["signatureLevel"]["description"])
+    print("\t File signed by: " + signature_details["signedBy"])
+    print("\n")
+    print("\t CERTIFICATE CHAIN:")
+    certificates = signature_details["certificateChain"]["certificate"]
+    i = 1
+    for cert in certificates:
+        print("\t\t Certificate " + str(i) + ":")
+        print("\t\t\t ID: " + cert["id"])
+        print("\t\t\t Entity Name: " + cert["qualifiedName"])
+        i += 1
+    warnings = signature_details["warnings"]
+    if warnings:
+        print("\n")
+        print("\t WARNINGS: ")
+        i = 1
+        for w in warnings:
+            print("\t\t Warning " + str(i))
+            print("\t\t\t" + w)
+            i += 1
 
-    print(resp.status_code())
-    #print(json.dumps(resp.json(), indent=4, sort_keys=True))
+
+
+    print("--------------------------------------------------------------------------------------------------")
 
 def main(args):
     if args.service is None:
