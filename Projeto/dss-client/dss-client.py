@@ -14,11 +14,22 @@ def extendDocumentMenu():
     signed_file = input('Signed file: ')
     original_file = input('Original file: ')
     container = input('Container (No, ASiC-S, ASiC-E): ')
-    sig_format = input('Signature format (CAdES, PAdES, XAdES): ')
+    while True:
+        sig_format = input('Signature format (CAdES, PAdES, XAdES): ')
+        if verify(container,sig_format):
+            break
+        else:
+            print("If you choose the container ASiC-S or ASiC-E, you can't choose the PAdES signature format.")
     level = input('Level {}:'.format(sig_levels[sig_format]))
     extendDocument(signed_file, original_file, container, sig_format, level)
     print("press enter to continue")
     input()
+
+def verify(container,sig_format):
+    if (container == 'ASiC-S' or container == 'ASiC-E') and sig_format == 'PAdES':
+        return False
+    else:
+         return True
     
 def extendDocument(signed_file, original_file, container, sig_format, level):
 
@@ -41,7 +52,7 @@ def extendDocument(signed_file, original_file, container, sig_format, level):
 
     #print(params)
     
-    resp = requests.post('http://localhost:8080/services/rest/signature/one-document/extendDocument', json=params)
+    resp = requests.post('http://10.0.0.101:8080/services/rest/signature/one-document/extendDocument', json=params)
 
     print(resp.status_code)
 
@@ -63,7 +74,7 @@ def validateSignature(signed_file, original_file):
         params = json.load(json_file)
         params['signedDocument']['bytes'] = base64.encodebytes(file_bytes).decode('ascii')
 
-    resp = requests.post('http://localhost:8080/services/rest/validation/validateSignature', json=params)
+    resp = requests.post('http://10.0.0.101:8080/services/rest/validation/validateSignature', json=params)
 
     print(resp.status_code())
     #print(json.dumps(resp.json(), indent=4, sort_keys=True))
