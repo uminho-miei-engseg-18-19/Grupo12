@@ -181,7 +181,6 @@ if __name__ == "__main__":
     extendDocument_parser = subparsers.add_parser('extendDocument',
                                                     help='the method allows to extend an existing signature to a stronger level')
     extendDocument_parser.add_argument('--signed-file', '-f', required=True, metavar='signed-file', help='signed file')
-    extendDocument_parser.add_argument('--original-file', '-o', required=False, metavar='original-file', help='original file(s)')
     extendDocument_parser.add_argument('--container', '-c', choices=['No', 'ASiC-S', 'ASiC-E'], default='No', metavar='container', help='container')
     extendDocument_parser.add_argument('--sig-format', choices=['CAdES', 'PAdES', 'XAdES'], required=True, metavar='sig-format', help='signature format')
     extendDocument_parser.add_argument('--level', '-l', required=True, metavar='level', help='level')
